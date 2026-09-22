@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026 행정사무감사 준비 | 경기도의회 문화체육관광위원회</title>
+<style>
+:root{
+  --navy:#0b3a63; --gd:#185FA5; --gm:#2e8fbf; --gl:#eef5fb; --gb:#cfe2f0;
+  --ink:#1f2937; --mut:#6b7280; --line:#e5e7eb; --bg:#f6f8fb;
+  --amber:#d97706; --red:#dc2626; --green:#16a34a;
+  --shadow:0 1px 2px rgba(11,58,99,.06),0 6px 18px -8px rgba(11,58,99,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Pretendard','Noto Sans KR','Malgun Gothic',system-ui,sans-serif;color:var(--ink);
+  background:var(--bg);line-height:1.6;font-size:14.5px;-webkit-text-size-adjust:100%}
+a{color:var(--gd);text-decoration:none} a:hover{text-decoration:underline}
+button{font:inherit}
+
+.top{background:linear-gradient(135deg,#0b3a63 0%,#14538c 55%,#1b6fa8 100%);color:#fff;position:sticky;top:0;z-index:50;
+  box-shadow:0 2px 12px rgba(6,32,58,.28)}
+.top-in{max-width:1280px;margin:0 auto;padding:12px 20px 0}
+.brand{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.crest{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:18px;
+  font-weight:800;background:linear-gradient(145deg,#4aa3de,#0e5c99);flex-shrink:0}
+.brand b{display:block;font-size:17px;font-weight:800;letter-spacing:-.3px;line-height:1.25}
+.brand span{font-size:11.5px;opacity:.8}
+.brand .upd{margin-left:auto;font-size:11.5px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);
+  border-radius:8px;padding:5px 10px;opacity:1}
+.tabs{display:flex;gap:2px;margin-top:10px;overflow-x:auto}
+.tabs button{background:none;border:0;color:#cfe3f5;font-weight:700;font-size:13.5px;padding:9px 14px;cursor:pointer;
+  border-radius:9px 9px 0 0;white-space:nowrap}
+.tabs button:hover{color:#fff;background:rgba(255,255,255,.08)}
+.tabs button.on{background:var(--bg);color:var(--navy)}
+
+.wrap{max-width:1280px;margin:0 auto;padding:22px 20px 70px}
+h2.sec{font-size:18px;font-weight:800;color:var(--navy);margin:32px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--navy)}
+h2.sec small{font-weight:400;font-size:12.5px;color:var(--mut);margin-left:8px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.stat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);border-top:3px solid var(--gd)}
+.stat .k{font-size:11.5px;font-weight:700;color:var(--mut)}
+.stat .v{font-size:25px;font-weight:800;color:var(--navy);letter-spacing:-1px;line-height:1.2;margin-top:3px}
+.stat .v small{font-size:13.5px;margin-left:2px}
+.stat .d{font-size:11.5px;color:var(--mut);margin-top:4px}
+.stat.dn{border-top-color:var(--red)} .stat.up{border-top-color:var(--green)}
+.up-t{color:var(--green);font-weight:700} .dn-t{color:var(--red);font-weight:700}
+.muted{color:var(--mut);font-size:12.3px}
+.btn{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;border:1px solid var(--gb);background:#fff;
+  color:var(--gd);border-radius:8px;padding:6px 12px;cursor:pointer}
+.btn:hover{background:var(--gl);text-decoration:none}
+.tag{display:inline-block;font-size:10.5px;font-weight:700;border-radius:4px;padding:1px 6px;white-space:nowrap;line-height:1.6}
+.tag.b{background:var(--gd);color:#fff} .tag.g{background:#e5e7eb;color:#374151} .tag.i{background:#e0e7ff;color:#3730a3}
+.tag.t-쟁점{background:#fee2e2;color:#b91c1c} .tag.t-의회{background:#dbeafe;color:#1e40af} .tag.t-예산{background:#fef3c7;color:#92400e}
+.tag.new{background:#dcfce7;color:#166534}
+
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+table.tbl{border-collapse:collapse;width:100%;font-size:12.8px;min-width:560px}
+table.tbl th{background:#f1f5f9;color:#334155;font-weight:700;font-size:11.8px;text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+table.tbl td{padding:8px 10px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+table.tbl tr:last-child td{border-bottom:0}
+table.tbl td.n,table.tbl th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+table.tbl td.c,table.tbl th.c{text-align:center;white-space:nowrap}
+table.tbl tr.total td{background:var(--gl);font-weight:800;color:var(--navy)}
+table.click tbody tr{cursor:pointer} table.click tbody tr:hover{background:#f8fafc}
+.kv{width:100%;border-collapse:collapse;font-size:13px}
+.kv th{width:120px;text-align:left;color:#475569;font-weight:700;background:#f8fafc;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.kv td{padding:8px 10px;border-bottom:1px solid var(--line)}
+.kv tr:last-child th,.kv tr:last-child td{border-bottom:0}
+
+.bars{display:flex;flex-direction:column;gap:6px}
+.bar-row{display:grid;grid-template-columns:150px 1fr 60px;gap:10px;align-items:center;font-size:12.3px;cursor:pointer}
+.bar-row:hover .lb{color:var(--gd)}
+.bar-row .lb{text-align:right;font-weight:600;color:#334155;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{background:#eef2f7;border-radius:5px;height:18px;overflow:hidden}
+.bar-fill{height:100%;border-radius:5px;background:linear-gradient(90deg,var(--gm),var(--gd))}
+.bar-fill.hot{background:linear-gradient(90deg,#f87171,var(--red))}
+.bar-row .vl{font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
+
+/* 기관 화면 */
+.ax{display:grid;grid-template-columns:240px minmax(0,1fr);gap:20px;align-items:start}
+.side{position:sticky;top:120px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);
+  padding:10px;max-height:calc(100vh - 140px);overflow-y:auto}
+.side h4{font-size:11px;font-weight:800;color:var(--mut);letter-spacing:.06em;margin:12px 8px 5px}
+.side h4:first-child{margin-top:4px}
+.side button{display:flex;width:100%;align-items:center;gap:6px;text-align:left;font-size:13px;font-weight:600;color:#334155;
+  background:none;border:0;border-radius:7px;padding:7px 9px;cursor:pointer}
+.side button:hover{background:var(--gl)}
+.side button.on{background:var(--gd);color:#fff}
+.side .nw{margin-left:auto;font-size:10.5px;font-weight:800;border-radius:9px;padding:0 7px;background:#dcfce7;color:#166534}
+.side button.on .nw{background:rgba(255,255,255,.25);color:#fff}
+.uhead{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.uhead h2{font-size:23px;font-weight:800;color:var(--navy);letter-spacing:-.5px}
+.uhead .who{color:var(--mut);font-size:13px}
+.subtabs{display:flex;gap:4px;margin:14px 0 4px;border-bottom:1px solid var(--line);overflow-x:auto}
+.subtabs button{border:0;background:none;padding:8px 13px;font-weight:700;font-size:13px;color:#475569;cursor:pointer;
+  border-bottom:3px solid transparent;white-space:nowrap}
+.subtabs button.on{color:var(--gd);border-bottom-color:var(--gd)}
+.subtabs .c{font-size:11px;color:var(--mut);margin-left:3px}
+
+.iss{border:1px solid var(--line);border-left:4px solid var(--gb);border-radius:9px;padding:11px 14px;background:#fff}
+.iss.high{border-left-color:var(--red)} .iss.mid{border-left-color:var(--amber)} .iss.low{border-left-color:#94a3b8}
+.iss b{font-size:13.5px} .iss p{font-size:12.6px;color:#475569;margin-top:4px} .iss .src{font-size:11px;color:var(--mut);margin-top:4px}
+.lv{font-size:10.5px;font-weight:800;border-radius:4px;padding:1px 6px;margin-right:6px}
+.lv.high{background:#fee2e2;color:#b91c1c} .lv.mid{background:#fef3c7;color:#92400e} .lv.low{background:#f1f5f9;color:#475569}
+.pt li{list-style:none;display:flex;gap:9px;align-items:flex-start;padding:6px 0;font-size:13px;border-bottom:1px solid #f1f5f9}
+.pt li:last-child{border-bottom:0}
+.pt input{margin-top:4px;width:15px;height:15px;accent-color:var(--gd);flex-shrink:0}
+.pt li.done label{color:var(--mut);text-decoration:line-through}
+
+/* 뉴스 */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:4px 0 12px}
+.filters input,.filters select{font:inherit;font-size:13px;border:1px solid var(--gb);border-radius:9px;padding:7px 11px;background:#fff}
+.filters input{flex:1;min-width:200px}
+.seg{display:inline-flex;border:1px solid var(--gb);border-radius:8px;overflow:hidden}
+.seg button{font-size:12px;font-weight:700;border:0;background:#fff;color:var(--gd);padding:6px 11px;cursor:pointer}
+.seg button.on{background:var(--gd);color:#fff}
+.day{font-size:12.5px;font-weight:800;color:var(--navy);margin:16px 0 6px;display:flex;gap:8px;align-items:center}
+.day:first-child{margin-top:0}
+.day span{font-weight:600;color:var(--mut);font-size:11.5px}
+.nl{list-style:none;background:#fff;border:1px solid var(--line);border-radius:10px}
+.nl li{padding:9px 13px;border-bottom:1px solid #f1f5f9;font-size:13.3px}
+.nl li:last-child{border-bottom:0}
+.nl .ttl{font-weight:600;color:var(--ink)}
+.nl .ttl:hover{color:var(--gd)}
+.nl .meta{font-size:11.5px;color:var(--mut);margin-top:2px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.nl .dup{font-size:11.5px;color:var(--mut)}
+.nl .dup summary{cursor:pointer;display:inline}
+.nl .dup a{color:#475569}
+.chipu{font-size:10.5px;font-weight:700;border-radius:4px;padding:0 6px;background:#f1f5f9;color:#334155;cursor:pointer;border:1px solid var(--line)}
+.chipu:hover{border-color:var(--gd);color:var(--gd)}
+.pin li{padding:8px 0;border-bottom:1px dashed var(--line);list-style:none;font-size:13px}
+.pin li:last-child{border-bottom:0}
+
+details.fd{border:1px solid var(--line);border-radius:9px;background:#fff;margin-bottom:7px}
+details.fd summary{cursor:pointer;padding:10px 13px;font-size:13px;display:flex;gap:8px;align-items:flex-start;list-style:none}
+details.fd summary::-webkit-details-marker{display:none}
+details.fd summary .t{flex:1;font-weight:600}
+details.fd[open] summary{border-bottom:1px solid var(--line);background:#f8fafc}
+details.fd .body{padding:10px 14px;font-size:12.6px;white-space:pre-wrap;color:#334155}
+details.fd .body h5{font-size:12px;color:var(--gd);margin:8px 0 3px} details.fd .body h5:first-child{margin-top:0}
+.st{font-size:10.5px;font-weight:800;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.st.ing{background:#fee2e2;color:#b91c1c} .st.ok{background:#dcfce7;color:#166534}
+.ty{font-size:10.5px;font-weight:800;border-radius:4px;padding:2px 6px;background:#e0e7ff;color:#3730a3;white-space:nowrap}
+.ty.시정{background:#fce7f3;color:#9d174d}
+.files li{list-style:none;font-size:12.6px;padding:5px 0;border-bottom:1px solid #f1f5f9;display:flex;gap:8px}
+.files li span{margin-left:auto;color:var(--mut);white-space:nowrap;font-size:11.5px}
+.files a{word-break:break-all}
+.hm{cursor:pointer;font-variant-numeric:tabular-nums} .hm:hover,.hm.sel{outline:2px solid var(--navy);outline-offset:-2px}
+ul.il{list-style:none;margin-top:6px;font-size:12px} ul.il li{padding:2px 0 2px 12px;position:relative}
+ul.il li:before{content:'›';position:absolute;left:2px;color:var(--mut)} ul.il span{color:var(--mut);font-size:11px}
+details.il-more summary{cursor:pointer;font-size:11.5px;color:var(--gd);margin-top:3px}
+.lead{background:var(--gl);border-left:4px solid var(--gd);border-radius:0 9px 9px 0;padding:11px 15px;font-size:13.3px;color:#1e3a5f;margin-top:12px}
+.qc{background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 14px;margin-bottom:8px}
+.qc.picked{border-color:var(--gd);box-shadow:0 0 0 2px var(--gb)}
+.qh{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-size:13px}
+.qh .qt{font-weight:700;color:var(--navy)} .qh input{width:15px;height:15px;accent-color:var(--gd)}
+.qq{font-size:13.6px;margin:6px 0 4px;line-height:1.65}
+.qb{font-size:12px;color:var(--mut)}
+.qrefs{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.ri{font-size:12.3px;color:#334155;padding-left:10px}
+.ag,.bc{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px;box-shadow:var(--shadow)}
+.ag p,.bc p{font-size:13px;margin-top:5px}
+.agh{display:flex;align-items:center;gap:10px;font-size:15px;color:var(--navy)}
+.rk{display:inline-flex;align-items:center;justify-content:center;min-width:28px;height:28px;border-radius:8px;background:var(--red);color:#fff;font-weight:800;font-size:13px;padding:0 6px}
+.rk.b{background:var(--gd)}
+.g3b{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:8px}
+.g3b h5{font-size:12px;color:var(--gd);margin-bottom:2px}
+.impl{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:8px 12px;font-size:12.8px;margin-top:10px;color:#78350f}
+ol.top5{padding-left:20px;font-size:13.3px} ol.top5 li{padding:5px 0}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:9px;padding:10px 14px;font-size:12.3px;color:#92400e;margin:10px 0}
+mark{background:#fef08a;border-radius:2px}
+footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40px}
+
+@media (max-width:860px){
+  .ax{grid-template-columns:1fr}
+  .side{position:static;max-height:none;display:flex;gap:4px;overflow-x:auto;padding:6px}
+  .side h4{display:none}
+  .side button{width:auto;white-space:nowrap;flex-shrink:0}
+  .bar-row{grid-template-columns:100px 1fr 44px}
+  .brand .upd{margin-left:0}
+}
+@media print{.top,.side,.subtabs,.filters,.no-print{display:none!important}.ax{display:block}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="brand">
+      <div class="crest">道</div>
+      <div><b>2026 행정사무감사 준비</b><span>경기도의회 문화체육관광위원회 · 문화체육관광국 및 산하기관</span></div>
+      <span class="upd" id="upd"></span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-v="home">📊 대시보드</button>
+      <button data-v="agenda">🎯 행감 의제</button>
+      <button data-v="unit">🏢 기관·부서별</button>
+      <button data-v="qa">📝 질의·자료요구</button>
+      <button data-v="bench">⚖ 정부·타 시도</button>
+      <button data-v="field">🏛 분야 정책·보도자료</button>
+      <button data-v="issue">🔥 쟁점 보도</button>
+      <button data-v="news">📰 언론보도 모아보기</button>
+      <button data-v="find">📋 2025 지적사항</button>
+      <button data-v="files">📁 참고자료</button>
+    </nav>
+  </div>
+</header>
+<div class="wrap" id="app"></div>
+<footer>경기도의회 문화체육관광위원회 정책지원 · 언론보도는 매일 자동 수집(구글 뉴스 검색) — 원문 확인 후 활용하세요.<br>
+  기본자료: 2026.7 업무보고(국·10개 기관), 2025 행정사무감사 지적사항 조치결과, 언론보도</footer>
+
+<script src="data/units_data.js"></script>
+<script src="data/news_data.js"></script>
+<script src="data/issue_log.js"></script>
+<script src="data/qa_data.js"></script>
+<script>
+/* ───────── 공통 ───────── */
+const esc = s => String(s??'').replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const fmt = n => Number(n).toLocaleString('ko-KR');
+const eokS = n => (n/100000).toLocaleString('ko-KR',{maximumFractionDigits:0});
+const kb = n => n>=1073741824?(n/1073741824).toFixed(1)+'GB':n>=1048576?(n/1048576).toFixed(0)+'MB':Math.max(1,Math.round(n/1024))+'KB';
+const lvName = {high:'중요', mid:'주의', low:'참고'};
+const DATA = window.UNITS, UL = DATA.units, U = {}; UL.forEach(u=>U[u.id]=u);
+const NEWS = window.NEWS || {updated:null, items:[], runs:[]};
+const SHORT = id => (window.FIELD && FIELD[id]) ? FIELD[id] : (U[id]?.name||id).replace(' (총괄)','').replace('경기도수원월드컵경기장관리재단','월드컵재단')
+  .replace('경기도남한산성세계유산센터','남한산성센터').replace('DMZ국제다큐멘터리영화제','DMZ영화제');
+const ingCnt = u => u.findings.filter(f=>f.status!=='완료').length;
+const today = (NEWS.updated||'').slice(0,10);
+const dAgo = n => { const d = new Date(today||Date.now()); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); };
+const isNew = it => it.first_seen===today && NEWS.runs.length>1;   // 첫 수집(소급) 때는 '새 기사' 표시 안 함
+const newsOf = id => NEWS.items.filter(i=>i.units.includes(id));
+function store(k,v){ try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)||'null'); localStorage.setItem(k,JSON.stringify(v)); }catch(e){ return null; } }
+
+document.getElementById('upd').textContent = NEWS.updated ? `언론보도 최종 수집 ${NEWS.updated}` : '언론보도 미수집 — 뉴스수집.bat 실행';
+
+/* 같은 보도자료를 여러 매체가 받아쓴 기사 묶기 (제목 글자쌍 유사도) */
+function bigr(t){ const s=t.replace(/[\s\W_]+/g,''); const b=new Set(); for(let i=0;i<s.length-1;i++) b.add(s.slice(i,i+2)); return b; }
+function cluster(list){
+  const out=[];
+  list.forEach(it=>{
+    it._b = it._b || bigr(it.title);
+    const g = out.find(g => Math.abs(new Date(g.lead.date)-new Date(it.date))<=2*864e5 && sim(g.lead._b,it._b)>=.45);
+    if(g) g.more.push(it); else out.push({lead:it, more:[]});
+  });
+  return out;
+}
+function sim(a,b){ let n=0; a.forEach(x=>{ if(b.has(x)) n++; }); return n/Math.min(a.size,b.size||1); }
+function hl(t,q){ const s=esc(t); return q? s.replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),'<mark>$1</mark>') : s; }
+
+function newsList(list, opt={}){
+  if(!list.length) return `<p class="muted">해당 기사가 없습니다.</p>`;
+  const groups = cluster(list);
+  const byDay = {};
+  groups.forEach(g=>(byDay[g.lead.date] = byDay[g.lead.date]||[]).push(g));
+  return Object.keys(byDay).sort().reverse().map(day=>{
+    const gs = byDay[day];
+    return `<div class="day">${day.replace(/-/g,'. ')}. <span>${gs.reduce((a,g)=>a+1+g.more.length,0)}건</span></div><ul class="nl">` +
+      gs.map(g=>{
+        const it=g.lead;
+        const units = opt.showUnits ? it.units.map(u=>`<span class="chipu" onclick="go('unit','${u}','news')">${esc(SHORT(u))}</span>`).join(' ') : '';
+        const dup = g.more.length ? `<details class="dup"><summary>같은 내용 ${g.more.length}건 더</summary> ` +
+          g.more.map(m=>`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.source)}</a>`).join(' · ') + `</details>` : '';
+        return `<li><a class="ttl" href="${esc(it.url)}" target="_blank" rel="noopener">${hl(it.title,opt.q)}</a>
+          <div class="meta">${esc(it.source)} · ${it.time}
+          ${isNew(it)?'<span class="tag new">NEW</span>':''}${it.tags.map(t=>`<span class="tag t-${t}">${t}</span>`).join('')} ${units}</div>${dup}</li>`;
+      }).join('') + `</ul>`;
+  }).join('');
+}
+
+/* ───────── 라우팅 ───────── */
+let V = {v:'home', id:'guk', sub:'info'};
+function go(v,id,sub){ location.hash = [v, id||'', sub||''].join('/'); }
+function route(){
+  const [v,id,sub] = location.hash.slice(1).split('/');
+  const prevUnit = U[V.id] ? V.id : 'guk';
+  V = {v: v||'home', id: id||'', sub: sub||'info'};
+  if(V.v==='unit' && !U[V.id]) V.id = prevUnit;
+  if(V.v==='qa' && V.id!=='common' && !U[V.id]) V.id = prevUnit;
+  document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on', b.dataset.v===V.v));
+  const app = document.getElementById('app');
+  after = ()=>{};
+  app.innerHTML = ({home:viewHome, agenda:viewAgenda, qa:viewQA, bench:viewBench, field:viewFieldTab, unit:viewUnit, issue:viewIssue, news:viewNews, find:viewFind, files:viewFiles}[V.v]||viewHome)();
+  after();
+  window.scrollTo({top:0});
+}
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>go(b.dataset.v, (b.dataset.v==='unit'||b.dataset.v==='qa') ? (U[V.id]?V.id:'guk') : ''));
+window.addEventListener('hashchange', route);
+let after = ()=>{};
+
+/* ───────── 대시보드 ───────── */
+function viewHome(){
+  const w7 = dAgo(7), w14 = dAgo(14);
+  const recent = NEWS.items.filter(i=>i.date>=w7);
+  const hot = NEWS.items.filter(i=>i.date>=w14 && (i.tags.includes('쟁점')||i.tags.includes('의회')));
+  const fAll = UL.filter(u=>u.kind!=='dept').reduce((a,u)=>a+u.findings.length,0);
+  let h = `<div class="grid g4">
+    <div class="stat"><div class="k">언론보도 최종 수집</div><div class="v" style="font-size:19px">${NEWS.updated||'-'}</div><div class="d">매일 자동 수집 · 누적 ${fmt(NEWS.items.length)}건</div></div>
+    <div class="stat up"><div class="k">오늘 새로 수집</div><div class="v">${NEWS.runs.length>1?fmt(NEWS.items.filter(isNew).length):'-'}<small>건</small></div><div class="d">${NEWS.runs.length>1?'직전 수집 이후 새 기사':'첫 수집(최근 60일 소급)'}</div></div>
+    <div class="stat"><div class="k">최근 7일 보도</div><div class="v">${fmt(recent.length)}<small>건</small></div><div class="d">쟁점 ${recent.filter(i=>i.tags.includes('쟁점')).length} · 의회 ${recent.filter(i=>i.tags.includes('의회')).length}</div></div>
+    <div class="stat dn"><div class="k">2025 행감 지적 (위원회)</div><div class="v">167<small>건</small></div><div class="d">추진 중 111 · 완료 56</div></div>
+  </div>`;
+
+  // 기관별 7일 기사 수
+  const cnt = UL.map(u=>({u, n:recent.filter(i=>i.units.includes(u.id)).length, hot:recent.filter(i=>i.units.includes(u.id)&&i.tags.includes('쟁점')).length}))
+    .filter(x=>x.n).sort((a,b)=>b.n-a.n);
+  const m = Math.max(1,...cnt.map(x=>x.n));
+  h += `<div class="grid g2" style="margin-top:14px">
+    <div><h2 class="sec" style="margin-top:14px">최근 7일 기관·부서별 보도량 <small>누르면 해당 기사</small></h2><div class="card"><div class="bars">` +
+    (cnt.map(x=>`<div class="bar-row" onclick="go('unit','${x.u.id}','news')"><div class="lb">${esc(SHORT(x.u.id))}</div>
+      <div class="bar-track"><div class="bar-fill ${x.hot?'hot':''}" style="width:${(x.n/m*100).toFixed(1)}%"></div></div><div class="vl">${x.n}${x.hot?` <span class="dn-t">(${x.hot})</span>`:''}</div></div>`).join('') || '<p class="muted">최근 7일 기사가 없습니다.</p>') +
+    `</div><p class="muted" style="margin-top:8px">빨간 막대·괄호 = 쟁점 키워드(삭감·논란·농성 등) 기사 수</p></div></div>
+    <div><h2 class="sec" style="margin-top:14px">최근 2주 쟁점·의회 보도 <small>${hot.length}건</small></h2>
+      <div style="max-height:520px;overflow-y:auto">${newsList(hot.slice(0,60),{showUnits:true})}</div></div></div>`;
+
+  // 한눈에 보기
+  const rows = UL.filter(u=>u.kind!=='guk');
+  h += `<h2 class="sec">기관·부서 한눈에 보기 <small>행을 누르면 상세</small></h2>
+   <div class="tbl-wrap"><table class="tbl click"><thead><tr><th>구분</th><th>기관·부서</th><th class="n">예산</th><th class="c">정원/현원</th>
+   <th class="c">’25 지적(추진 중)</th><th class="c">보도 7일/30일</th><th>핵심 이슈</th></tr></thead><tbody>` +
+   rows.map(x=>{
+     const b = x.kind==='dept' ? `${fmt(x.bud[0])}억` : x.budget.total;
+     const s = x.kind==='dept' ? `${x.staff[0]} / ${x.staff[1]}` : x.basic['정원/현원'].split(' (')[0];
+     const top = (x.issues.find(i=>i.level==='high')||x.issues[0]||{}).title||'';
+     const n7 = recent.filter(i=>i.units.includes(x.id)).length, n30 = NEWS.items.filter(i=>i.date>=dAgo(30)&&i.units.includes(x.id)).length;
+     return `<tr onclick="go('unit','${x.id}')"><td class="c"><span class="tag ${x.kind==='dept'?'b':'g'}">${x.kind==='dept'?'부서':x.cat.split('(')[0]}</span></td>
+       <td><b>${esc(x.name)}</b></td><td class="n">${esc(b)}</td><td class="c">${esc(s)}</td>
+       <td class="c">${x.findings.length} (<span class="dn-t">${ingCnt(x)}</span>)</td><td class="c">${n7} / ${n30}</td><td class="muted">${esc(top)}</td></tr>`;
+   }).join('') + `</tbody></table></div>`;
+
+  const fld = NEWS.items.filter(i=>i.units.some(u=>u.startsWith('f-')) && i.date>=dAgo(7));
+  h += `<p class="muted" style="margin-top:10px">분야 정책·보도자료 최근 7일 ${fld.length}건 (문체부 보도자료 포함) → <a href="#field">분야 탭 보기</a></p>`;
+  h += `<h2 class="sec">행감 추천 의제 TOP 5 <small><a href="#agenda">전체 ${(QA.agenda||[]).length}건 →</a> · <a href="#bench">정부·타 시도 비교 →</a></small></h2><div class="card"><ol class="top5">` +
+    (QA.agenda||[]).slice(0,5).map(a=>`<li><a href="#agenda"><b>${esc(a.title)}</b></a><div class="muted">${esc(a.why)}</div></li>`).join('') + `</ol></div>`;
+  h += `<h2 class="sec">최근 이슈 업데이트 <small>매일 쟁점 보도를 반영 · <a href="#issue">쟁점 보도 전체 →</a></small></h2>` + issueLog(8);
+  h += `<h2 class="sec">국 공통 주요 이슈</h2>` + issues(U.guk);
+  return h;
+}
+
+/* ───────── 기관·부서별 ───────── */
+function viewUnit(){
+  const u = U[V.id];
+  const g = k => UL.filter(x=>x.kind===k);
+  const btn = x => { const n = newsOf(x.id).filter(isNew).length;
+    return `<button class="${x.id===u.id?'on':''}" onclick="go('unit','${x.id}','${V.sub}')">${esc(SHORT(x.id))}${n?`<span class="nw" title="오늘 새 기사">+${n}</span>`:''}</button>`; };
+  const nNews = newsOf(u.id).length;
+  const subs = [['info','개요·이슈',''],['qa','질의·자료요구',qaOf(u.id).questions.length],['news','언론보도',nNews],['find','2025 지적사항',u.findings.length],['files','참고자료',(u.kind==='dept'?U.guk:u).files.length]];
+  let h = `<div class="ax"><nav class="side"><h4>총괄</h4>${g('guk').map(btn).join('')}<h4>문화체육관광국 부서</h4>${g('dept').map(btn).join('')}
+    <h4>산하기관</h4>${g('agency').map(btn).join('')}</nav><main>`;
+  const tags = u.kind==='agency' ? `<span class="tag g">${esc(u.cat)}</span> <span class="tag i">소관 ${esc(u.dept)}</span>` : u.kind==='dept'?`<span class="tag b">문화체육관광국</span>`:'';
+  h += `<div class="uhead"><h2>${esc(u.name)}</h2>${tags}<span class="who">${esc(u.head||u.basic?.['기관장']||'')}</span>
+    ${u.home?`<a class="btn" style="margin-left:auto" href="${u.home}" target="_blank" rel="noopener">🌐 ${esc(u.home_lb)}</a>`:''}</div>
+    <div class="subtabs">${subs.map(([k,t,c])=>`<button class="${V.sub===k?'on':''}" onclick="go('unit','${u.id}','${k}')">${t}${c!==''?`<span class="c">${c}</span>`:''}</button>`).join('')}</div>`;
+  h += ({info:unitInfo, qa:unitQA, news:unitNews, find:unitFind, files:unitFiles}[V.sub]||unitInfo)(u);
+  return h + `</main></div>`;
+}
+
+function statRow(cells){ return `<div class="grid g4" style="margin:14px 0 4px">`+cells.map(c=>`<div class="stat ${c.cls||''}"><div class="k">${c.k}</div><div class="v">${c.v}</div><div class="d">${c.d||''}</div></div>`).join('')+`</div>`; }
+function kvTable(o){ return `<div class="card" style="padding:0"><table class="kv">`+Object.entries(o).map(([k,v])=>`<tr><th>${esc(k)}</th><td>${v}</td></tr>`).join('')+`</table></div>`; }
+const fStat = u => ({k:'2025 행감 지적', v:`${u.findings.length}<small>건</small>`, d:`추진 중 ${ingCnt(u)} · 완료 ${u.findings.length-ingCnt(u)}`, cls:ingCnt(u)?'dn':''});
+const nStat = u => { const l=newsOf(u.id); return {k:'언론보도 (7일 / 30일)', v:`${l.filter(i=>i.date>=dAgo(7)).length} / ${l.filter(i=>i.date>=dAgo(30)).length}`, d:`쟁점 기사 30일 ${l.filter(i=>i.date>=dAgo(30)&&i.tags.includes('쟁점')).length}건`}; };
+const projTable = ps => `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>사업명</th><th class="n">예산</th><th>비고</th></tr></thead><tbody>`+
+  ps.map(p=>`<tr><td>${esc(p.name)}</td><td class="n">${esc(p.budget)}</td><td class="muted">${esc(p.note)}</td></tr>`).join('')+`</tbody></table></div>`;
+
+function unitInfo(u){
+  let h='';
+  if(u.kind==='guk'){
+    h += statRow([{k:'2026 예산(1회 추경)',v:'6,085<small>억</small>',d:'’25 최종 대비 △666억',cls:'dn'},{k:'제2회 추경(안)',v:'5,549<small>억</small>',d:'△536억(△8.8%)',cls:'dn'},
+      {k:'정원 / 현원',v:'159 / 146',d:'국 144/135 · 센터 15/11'}, nStat(u)]);
+    h += `<h2 class="sec">기본현황</h2>` + kvTable(Object.fromEntries(Object.entries(u.basic).map(([k,v])=>[k,esc(v)])));
+    const dp = UL.filter(x=>x.kind==='dept'), m=Math.max(...dp.map(d=>d.bud[0]));
+    h += `<h2 class="sec">부서별 세출예산 <small>’26 1회 추경(억원), 괄호는 ’25 최종 대비</small></h2><div class="card"><div class="bars">` +
+      dp.map(d=>`<div class="bar-row" onclick="go('unit','${d.id}')"><div class="lb">${d.name}</div><div class="bar-track"><div class="bar-fill" style="width:${(d.bud[0]/m*100).toFixed(1)}%"></div></div>
+        <div class="vl">${fmt(d.bud[0])}</div></div>`).join('') + `</div></div>`;
+  } else if(u.kind==='dept'){
+    const d=u.bud[0]-u.bud[1];
+    h += statRow([{k:'2026 세출(1회 추경)',v:`${fmt(u.bud[0])}<small>억</small>`,d:`’25 최종 ${fmt(u.bud[1])}억 · ${d>=0?'+':'△'}${fmt(Math.abs(d))}억`,cls:d>=0?'up':'dn'},
+      {k:'정원 / 현원',v:`${u.staff[0]} / ${u.staff[1]}`,d:u.staff[0]>u.staff[1]?`결원 ${u.staff[0]-u.staff[1]}명`:'결원 없음'}, fStat(u), nStat(u)]);
+    h += `<h2 class="sec">기본현황</h2>` + kvTable({'부서장':esc(u.head),'팀 구성':esc(u.teams.map(t=>t+'팀').join(' · ')),'주요 업무':esc(u.role.join(' / ')),
+      '2026 본예산':`${eokS(u.bud_bon[0])}억 · 세출사업 ${u.bud_bon[2]}개`,
+      '소관 산하기관': u.agencies.length? u.agencies.map(a=>{const x=UL.find(y=>y.name.includes(a)); return x?`<a href="#unit/${x.id}">${esc(a)}</a>`:esc(a);}).join(' · ') : '없음'});
+    h += `<h2 class="sec">주요사업 <small>2026.7 업무보고</small></h2>` + projTable(u.projects);
+  } else {
+    const [jw,hw] = u.basic['정원/현원'].split(' (')[0].split(' / ').map(Number);
+    h += statRow([{k:'예산',v:esc(u.budget.total.replace(/억.*/,''))+'<small>억</small>',d:esc(u.budget.base)},
+      {k:'정원 / 현원',v:`${jw} / ${hw}`,d:jw>hw?`결원 ${jw-hw}명`:jw<hw?`정원 초과 ${hw-jw}명(기간제 등)`:'결원 없음',cls:jw>hw?'dn':''}, fStat(u), nStat(u)]);
+    h += `<h2 class="sec">기본현황</h2>` + kvTable(Object.fromEntries(Object.entries(u.basic).map(([k,v])=>[k,esc(v)])));
+    h += `<h2 class="sec">예산 <small>${esc(u.budget.base)}</small></h2><div class="tbl-wrap"><table class="tbl"><thead><tr><th>구분</th><th class="n">금액</th><th>비고</th></tr></thead><tbody>
+      <tr class="total"><td>총계</td><td class="n">${esc(u.budget.total)}</td><td></td></tr>` +
+      u.budget.rows.map(r=>`<tr><td>${esc(r.k)}</td><td class="n">${esc(r.v)}</td><td class="muted">${esc(r.note)}</td></tr>`).join('') + `</tbody></table></div>`;
+    h += `<h2 class="sec">주요사업</h2>` + projTable(u.projects);
+  }
+  h += `<h2 class="sec">주요 이슈 <small>업무보고·언론·추경심사에서 추출</small></h2>` + issues(u);
+  h += `<h2 class="sec">질의 착안점 <small>초안 · 체크는 이 PC 브라우저에 저장</small></h2><div class="card"><ul class="pt" id="pts">` +
+    u.points.map((p,i)=>`<li><input type="checkbox" id="pt${i}" data-i="${i}"><label for="pt${i}">${esc(p)}</label></li>`).join('') + `</ul></div>`;
+  const recent = newsOf(u.id).slice(0,8);
+  if(recent.length) h += `<h2 class="sec">최근 언론보도 <small><a href="#unit/${u.id}/news">전체 ${newsOf(u.id).length}건 보기 →</a></small></h2>` + newsList(recent);
+  after = () => {
+    const key='audit-pt-'+u.id, saved=store(key)||{};
+    document.querySelectorAll('#pts input').forEach(cb=>{ const li=cb.parentNode; cb.checked=!!saved[cb.dataset.i]; li.classList.toggle('done',cb.checked);
+      cb.onchange=()=>{ saved[cb.dataset.i]=cb.checked; li.classList.toggle('done',cb.checked); store(key,saved); }; });
+  };
+  return h;
+}
+const recentUpd = i => i.updated && today && i.updated >= dAgo(3);
+function issLinks(i){
+  const L = i.links||[]; if(!L.length) return '';
+  const row = l => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a> <span>${esc(l.source)} · ${esc(l.date)}</span></li>`;
+  return `<ul class="il">${L.slice(0,3).map(row).join('')}</ul>` +
+    (L.length>3 ? `<details class="il-more"><summary>관련 보도 ${L.length-3}건 더</summary><ul class="il">${L.slice(3).map(row).join('')}</ul></details>` : '');
+}
+function issues(u){
+  return `<div class="grid g2">` + u.issues.map(i=>`<div class="iss ${i.level}"><b><span class="lv ${i.level}">${lvName[i.level]}</span>${esc(i.title)}</b>
+    ${recentUpd(i)?`<span class="tag new" style="margin-left:6px">${i.added===i.updated?'신규':'업데이트'} ${esc(i.updated.slice(5).replace('-','.'))}</span>`:''}
+    ${i.detail?`<p>${esc(i.detail)}</p>`:''}${issLinks(i)}${i.src?`<div class="src">출처: ${esc(i.src)}${i.updated?` · 최종 갱신 ${esc(i.updated)}`:''}</div>`:''}</div>`).join('') + `</div>`;
+}
+function issueLog(n){
+  const L = (window.ISSUE_LOG||[]).slice(0,n);
+  if(!L.length) return `<p class="muted">아직 자동 반영 이력이 없습니다.</p>`;
+  return `<div class="tbl-wrap"><table class="tbl click"><thead><tr><th class="c">날짜</th><th class="c">구분</th><th>기관·부서</th><th>이슈</th><th class="c">추가 보도</th></tr></thead><tbody>` +
+    L.map(l=>`<tr onclick="go('unit','${l.unit}')"><td class="c">${esc(l.date)}</td><td class="c"><span class="tag ${l.action==='신규'?'t-쟁점':'t-의회'}">${esc(l.action)}</span></td>
+      <td>${esc(SHORT(l.unit))}</td><td>${esc(l.title)}</td><td class="c">${l.n_links}건</td></tr>`).join('') + `</tbody></table></div>`;
+}
+
+function unitNews(u){
+  let h = '';
+  if(u.news?.length) h += `<h2 class="sec">주요 보도 (선별) <small>행감 쟁점과 직접 관련된 기사</small></h2><div class="card"><ul class="pin">` +
+    [...u.news].sort((a,b)=>b.date.localeCompare(a.date)).map(n=>`<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+      <div class="muted">${esc(n.outlet)} · ${esc(n.date)}${n.note?` — ${esc(n.note)}`:''}</div></li>`).join('') + `</ul></div>`;
+  h += `<h2 class="sec">자동 수집 보도 <small>매일 갱신 · 같은 보도자료 기사는 묶어서 표시</small></h2>` + newsFilters(false) + `<div id="nres"></div>`;
+  after = () => bindNews(()=>newsOf(u.id), false);
+  return h;
+}
+
+/* ───────── 행감 의제 · 질의·자료요구 · 정부·타 시도 ───────── */
+const QA = window.QA || {units:{}, common:[], bench:[], agenda:[], log:[]};
+const BENCH = {}; (QA.bench||[]).forEach(b=>BENCH[b.id]=b);
+const priTag = p => `<span class="tag ${p==='상'?'t-쟁점':'g'}">${p==='상'?'중점':'일반'}</span>`;
+const qaOf = id => QA.units[id] || {summary:'', questions:[], requests:[], prefix:''};
+const findReq = no => QA.common.find(r=>r.no===no) || Object.values(QA.units).flatMap(u=>u.requests).find(r=>r.no===no);
+const reqUnit = no => Object.entries(QA.units).find(([k,u])=>u.requests.some(r=>r.no===no))?.[0];
+
+function qCard(uid, q, opt={}){
+  const u = U[uid];
+  const iss = (q.issues||[]).map(id=>u.issues.find(i=>i.id===id)).filter(Boolean);
+  const fds = (q.findings||[]).map(k=>u.findings.find(f=>`${f.type}-${f.no}`===k)).filter(Boolean);
+  const chips = [
+    ...iss.map(i=>`<span class="chipu" title="${esc(i.detail)}" onclick="go('unit','${uid}','info')">이슈: ${esc(i.title.slice(0,24))}${(i.links||[]).length?` · 보도 ${i.links.length}`:''}</span>`),
+    ...fds.map(f=>`<span class="chipu" title="${esc(f.title)}" onclick="go('unit','${uid}','find')">’25 ${f.type}-${f.no} <b class="${f.status==='완료'?'up-t':'dn-t'}">${f.status==='완료'?'완료':'추진중'}</b></span>`),
+    ...(q.bench||[]).map(b=>`<span class="chipu" onclick="go('bench','${b}')">비교 ${b}: ${esc(BENCH[b]?.topic.slice(0,18)||'')}</span>`),
+    ...(q.reqs||[]).map(r=>`<span class="chipu" onclick="go('qa','${reqUnit(r)||'common'}','req')">자료 ${esc(r)}</span>`),
+  ].join(' ');
+  const key = `qa-pick-${uid}-${q.no}`;
+  return `<div class="qc"><div class="qh">${opt.noCheck?'':`<input type="checkbox" class="qpick" data-k="${key}" title="채택(복사·인쇄 대상)">`}
+      <b>${opt.label||('질의 '+q.no)}</b> ${priTag(q.pri)} <span class="qt">${esc(q.topic)}</span>${q.auto?` <span class="tag new">자동추가 ${esc((q.added||'').slice(5).replace('-','.'))}</span>`:''}</div>
+    <p class="qq">${esc(q.q)}</p>${q.bg?`<p class="qb">배경: ${esc(q.bg)}</p>`:''}<div class="qrefs">${chips}</div></div>`;
+}
+
+function reqTable(list, showQ){
+  if(!list.length) return '<p class="muted">없음</p>';
+  return `<div class="tbl-wrap"><table class="tbl"><thead><tr><th class="c">번호</th><th>자료명 및 세부 항목</th>${showQ?'<th class="c">관련 질의</th>':''}</tr></thead><tbody>` +
+    list.map(r=>`<tr id="req-${esc(r.no)}"><td class="c"><b>${esc(r.no)}</b></td><td><b>∘ ${esc(r.title)}</b>${r.items.map(x=>`<div class="ri">- ${esc(x)}</div>`).join('')}
+      ${r.why?`<div class="muted" style="margin-top:3px">요구 사유: ${esc(r.why)}</div>`:''}</td>${showQ?`<td class="c">${(r.qs||[]).map(n=>'질의 '+n).join('<br>')}</td>`:''}</tr>`).join('') + `</tbody></table></div>`;
+}
+
+function qaBody(uid){
+  const a = qaOf(uid);
+  const ag = (QA.agenda||[]).filter(x=>x.units.includes(uid));
+  let h = `<div class="lead">${esc(a.summary)}</div>`;
+  if(ag.length) h += `<p class="muted" style="margin:6px 0 0">관련 행감 추천 의제: ${ag.map(x=>`<a href="#agenda">${x.rank}. ${esc(x.title)}</a>`).join(' · ')}</p>`;
+  h += `<h2 class="sec">질의 목록 <small>${a.questions.length}건 · 중점 ${a.questions.filter(q=>q.pri==='상').length}건 · 체크하면 ‘채택 질의 복사’ 대상</small></h2>
+    <div class="filters no-print"><button class="btn" onclick="copyQA('${uid}',true)">📋 채택 질의 복사</button><button class="btn" onclick="copyQA('${uid}',false)">📋 전체 복사(질의+자료요구)</button>
+    <a class="btn" href="문서/기관별/질의서_${encodeURIComponent(U[uid].name.replace(' (총괄)','_총괄'))}.docx">📄 이 기관 질의서(.docx)</a>
+    <a class="btn" href="문서/2026_행감_질의서_전체.docx">📄 전체 질의서</a><a class="btn" href="문서/2026_행감_자료요구목록.docx">📄 자료요구 목록</a>
+    <span class="muted">.docx는 한글·워드에서 바로 열립니다(매일 자동 갱신, 수동은 <b>질의서_문서만들기.bat</b>)</span></div>` +
+    a.questions.map(q=>qCard(uid,q)).join('');
+  h += `<h2 class="sec">자료요구 목록 <small>${a.requests.length}건 · 공통 자료요구 ${QA.common.length}건은 별도</small></h2>` + reqTable(a.requests, true);
+  return h;
+}
+function bindPicks(){
+  document.querySelectorAll('.qpick').forEach(cb=>{ cb.checked=!!store(cb.dataset.k); cb.closest('.qc').classList.toggle('picked',cb.checked);
+    cb.onchange=()=>{ store(cb.dataset.k, cb.checked); cb.closest('.qc').classList.toggle('picked',cb.checked); }; });
+}
+function copyQA(uid, onlyPicked){
+  const a = qaOf(uid), u = U[uid];
+  const qs = a.questions.filter(q=>!onlyPicked || store(`qa-pick-${uid}-${q.no}`));
+  if(!qs.length){ alert('체크한 질의가 없습니다.'); return; }
+  let t = `【${u.name}】 2026 행정사무감사 질의\n\n□ 쟁점 요약\n${a.summary}\n\n□ 질의\n` +
+    qs.map((q,i)=>`${i+1}. ${q.topic}\n   ${q.q}${q.bg?`\n   (배경) ${q.bg}`:''}${q.reqs.length?`\n   (관련 자료) ${q.reqs.join(', ')}`:''}`).join('\n\n');
+  if(!onlyPicked) t += `\n\n□ 자료요구\n` + a.requests.map(r=>`[${r.no}] ∘ ${r.title}\n` + r.items.map(x=>`   - ${x}`).join('\n')).join('\n');
+  navigator.clipboard.writeText(t).then(()=>alert(`${qs.length}건 복사했습니다. 한글·워드에 붙여넣으세요.`), ()=>{
+    const ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); alert('복사했습니다.'); });
+}
+
+function viewQA(){
+  const id = V.id;
+  const g = k => UL.filter(x=>x.kind===k);
+  const btn = x => { const a=qaOf(x.id); return `<button class="${x.id===id?'on':''}" onclick="go('qa','${x.id}')">${esc(SHORT(x.id))}<span class="nw" style="background:#fee2e2;color:#b91c1c">${a.questions.length}</span></button>`; };
+  let h = `<div class="ax"><nav class="side"><h4>자료요구</h4><button class="${id==='common'?'on':''}" onclick="go('qa','common')">공통 자료요구<span class="nw">${QA.common.length}</span></button>
+    <h4>총괄</h4>${g('guk').map(btn).join('')}<h4>문화체육관광국 부서</h4>${g('dept').map(btn).join('')}<h4>산하기관</h4>${g('agency').map(btn).join('')}</nav><main>`;
+  if(id==='common'){
+    h += `<div class="uhead"><h2>공통 자료요구</h2><span class="who">문화체육관광국 및 전 산하기관 공통 · 2025 요구자료(공통) 형식 기준, 2026 쟁점 반영</span></div>
+      <div class="note">2025년에는 공통 34건·문체국 54건이 요구됐습니다. 아래 공통 항목은 올해 쟁점(추경 감액, 인건비, 수사·감사, 유료관람 실적)을 반영해 새로 정리한 초안입니다.
+      기관별 자료요구는 왼쪽에서 기관을 선택하세요.</div>` + reqTable(QA.common, false);
+  } else {
+    const u = U[id] || U.guk;
+    h += `<div class="uhead"><h2>${esc(u.name)}</h2><span class="who">질의·쟁점·자료요구 초안 · 최종 갱신 ${esc(QA.updated)}</span>
+      <a class="btn" style="margin-left:auto" href="#unit/${u.id}">🏢 기관 기본자료</a></div>` + qaBody(u.id);
+  }
+  after = () => { bindPicks(); if(V.sub==='req'){ document.querySelector('.tbl')?.scrollIntoView({block:'start'}); } };
+  return h + `</main></div>`;
+}
+function unitQA(u){ after = bindPicks; return qaBody(u.id); }
+
+function viewAgenda(){
+  after = ()=>{};
+  const log = (QA.log||[]).slice(0,5).map(l=>`${esc(l.date)} ${esc(l.note)}`).join(' · ');
+  return `<h2 class="sec" style="margin-top:0">2026 행정사무감사 추천 의제 <small>${(QA.agenda||[]).length}건 · 올해 쟁점·2025 지적 이행·정부/타 시도 비교를 종합한 우선순위 초안</small></h2>
+    <div class="note">순위는 사안의 중대성(감사·수사·예산심의권), 도민 영향, 전년 지적 반복 여부, 정부·타 시도와의 차이를 기준으로 매겼습니다. 각 의제의 ‘관련 질의’를 펼치면 바로 쓸 수 있는 질의문이 나옵니다.
+      <br><span class="muted">갱신 이력: ${log}</span></div>` +
+    (QA.agenda||[]).map(a=>{
+      const qs = a.qrefs.map(r=>{ const [uid,n]=r.split(':'); const q=qaOf(uid).questions[+n-1]; return q?qCard(uid,q,{noCheck:true,label:`${SHORT(uid)} 질의 ${n}`}):''; }).join('');
+      return `<div class="ag"><div class="agh"><span class="rk">${a.rank}</span><b>${esc(a.title)}</b></div>
+        <p>${esc(a.why)}</p>
+        <div class="qrefs">${a.units.map(u=>`<span class="chipu" onclick="go('qa','${u}')">${esc(SHORT(u))}</span>`).join(' ')}
+          ${a.bench.map(b=>`<span class="chipu" onclick="go('bench','${b}')">비교 ${b}</span>`).join(' ')}</div>
+        <p class="muted" style="margin-top:4px">진행 방법: ${esc(a.how)}</p>
+        <details class="il-more"><summary>관련 질의 ${a.qrefs.length}건 펼치기</summary>${qs}</details></div>`;
+    }).join('');
+}
+
+function viewBench(){
+  after = () => { if(V.id && BENCH[V.id]) document.getElementById('b-'+V.id)?.scrollIntoView({block:'start'}); };
+  return `<h2 class="sec" style="margin-top:0">정부·타 시도 관련 자료 <small>${(QA.bench||[]).length}개 주제 · 경기도 현황과 비교한 시사점</small></h2>
+    <div class="note">중앙정부(문체부 2027 예산안 등)와 타 시·도 사례를 행감 쟁점별로 모았습니다. 수치는 보도·공개자료 기준이므로 질의 전 원문을 확인하세요.</div>` +
+    (QA.bench||[]).map(b=>{
+      const qs = Object.entries(QA.units).flatMap(([uid,a])=>a.questions.filter(q=>(q.bench||[]).includes(b.id)).map(q=>`<a href="#qa/${uid}">${esc(SHORT(uid))} 질의 ${q.no}</a>`));
+      return `<div class="bc" id="b-${b.id}" style="scroll-margin-top:120px"><div class="agh"><span class="rk b">${b.id}</span><b>${esc(b.topic)}</b></div>
+        <div class="grid g3b">
+          <div><h5>🏛 정부</h5>${b.gov.length?b.gov.map(x=>`<p>${esc(x)}</p>`).join(''):'<p class="muted">-</p>'}</div>
+          <div><h5>🗺 타 시·도</h5>${b.other.length?b.other.map(x=>`<p><span class="tag i">${esc(x.r)}</span> ${esc(x.t)}</p>`).join(''):'<p class="muted">-</p>'}</div>
+          <div><h5>📍 경기도</h5><p>${esc(b.gg)}</p></div></div>
+        <div class="impl"><b>시사점</b> ${esc(b.impl)}</div>
+        <div class="muted" style="margin-top:6px">관련: ${b.units.map(u=>`<a href="#qa/${u}">${esc(SHORT(u))}</a>`).join(' · ')}${qs.length?` | 질의 ${qs.join(', ')}`:''}</div>
+        <ul class="il">${b.src.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.t)}</a> <span>${esc(s.src)}</span></li>`).join('')}</ul></div>`;
+    }).join('');
+}
+
+/* ───────── 분야 정책·보도자료 ───────── */
+const FIELD = {'f-policy':'정부 정책·보도자료','f-arts':'예술정책','f-sports':'체육정책','f-tour':'관광정책',
+  'f-contents':'콘텐츠·영화','f-heritage':'국가유산','f-local':'지자체 문화재정'};
+const FIDS = Object.keys(FIELD);
+const isField = i => i.units.some(u=>u.startsWith('f-'));
+function viewFieldTab(){
+  const all = NEWS.items.filter(isField);
+  const d7 = all.filter(i=>i.date>=dAgo(7)), pr = all.filter(i=>i.tags.includes('보도자료'));
+  let h = `<h2 class="sec" style="margin-top:0">문화체육관광 분야 정책·보도자료 <small>기관과 무관한 분야 전반 쟁점 · 누적 ${fmt(all.length)}건 · 매일 자동 수집</small></h2>
+    <div class="note">문화체육관광부 보도자료(누리집 직접 수집)와 분야별 정책·쟁점 기사를 모읍니다. 경기도 현안과 견줄 만한 정부 방침·타 시도 사례를 찾는 용도이며,
+      <a href="#bench">정부·타 시도</a> 탭의 비교 자료와 <a href="#qa">질의·자료요구</a>에 반영됩니다.</div>
+    <div class="grid g4">
+      <div class="stat"><div class="k">최근 7일</div><div class="v">${d7.length}<small>건</small></div><div class="d">쟁점 ${d7.filter(i=>i.tags.includes('쟁점')).length}건</div></div>
+      <div class="stat"><div class="k">문체부 보도자료</div><div class="v">${pr.length}<small>건</small></div><div class="d">최신 ${pr[0]?esc(pr[0].date):'-'}</div></div>
+      <div class="stat"><div class="k">분야 구분</div><div class="v">${FIDS.length}<small>개</small></div><div class="d">정책·예술·체육·관광·콘텐츠·유산·지자체</div></div>
+      <div class="stat"><div class="k">전체 누적</div><div class="v">${fmt(all.length)}<small>건</small></div><div class="d">기관 기사와 별도 집계</div></div>
+    </div>`;
+  const opts = FIDS.map(f=>`<option value="${f}">${FIELD[f]} (${all.filter(i=>i.units.includes(f)).length})</option>`).join('');
+  h += newsFilters(true, `<select id="nu"><option value="">전체 분야</option>${opts}</select>`) + `<div id="nres"></div>`;
+  after = () => bindNews(()=>{ const v=document.getElementById('nu').value; return v?NEWS.items.filter(i=>i.units.includes(v)):all; }, true);
+  return h;
+}
+
+/* ───────── 쟁점 보도 (연도별 전수) ───────── */
+function viewIssue(){
+  const yr = (today||'2026').slice(0,4);
+  const all = NEWS.items.filter(i=>i.date.startsWith(yr) && i.tags.includes('쟁점'));
+  const lastM = all.length ? Math.max(...all.map(i=>+i.date.slice(5,7))) : 0;
+  const ms = Array.from({length:lastM},(_,k)=>k+1);
+  const mOf = i => +i.date.slice(5,7);
+  const rows = UL.map(u=>({u, l:all.filter(i=>i.units.includes(u.id))})).filter(r=>r.l.length).sort((a,b)=>b.l.length-a.l.length);
+  const fieldIssue = all.filter(i=>isField(i));
+  const mx = Math.max(1,...rows.flatMap(r=>ms.map(m=>r.l.filter(i=>mOf(i)===m).length)));
+  const cell = (n,uid,m) => `<td class="c hm" data-u="${uid}" data-m="${m}" style="background:${n?`rgba(220,38,38,${(.1+.7*n/mx).toFixed(2)})`:'#fff'};color:${n/mx>.55?'#fff':'inherit'}">${n||''}</td>`;
+  after = () => {
+    const st={u:'',m:0};
+    const run=()=>{
+      let l=all; if(st.u) l=l.filter(i=>i.units.includes(st.u)); if(st.m) l=l.filter(i=>mOf(i)===st.m);
+      document.getElementById('icap').textContent = `${st.u?SHORT(st.u):'전체 기관'} · ${st.m?st.m+'월':yr+'년 전체'} — ${l.length}건`;
+      document.getElementById('ires').innerHTML = newsList(l,{showUnits:true});
+      document.querySelectorAll('.hm').forEach(td=>td.classList.toggle('sel', (td.dataset.u||'')===st.u && +(td.dataset.m||0)===st.m && !!(st.u||st.m)));
+    };
+    document.querySelectorAll('.hm').forEach(td=>td.onclick=()=>{ st.u=td.dataset.u||''; st.m=+(td.dataset.m||0); run();
+      document.getElementById('icap').scrollIntoView({behavior:'smooth',block:'start'}); });
+    document.getElementById('ireset').onclick=()=>{ st.u='';st.m=0;run(); };
+    document.getElementById('icsv').onclick=()=>toCSV(['날짜','기관·부서','제목','언론사','링크'],
+      all.map(i=>[i.date,i.units.map(SHORT).join(', '),i.title,i.source,i.url]), `${yr}_쟁점보도_전체.csv`);
+    run();
+  };
+  return `<h2 class="sec" style="margin-top:0">${yr}년 쟁점 보도 <small>삭감·논란·비위·의원 지적 등 쟁점 키워드가 제목에 있는 기사 · ${all.length}건</small></h2>
+    <div class="note">${yr}년 1월부터 월별로 기관·부서 검색어와 쟁점어(논란·삭감·의혹·비위·갑질·징계·감사·지적·농성·노조 등)로 전수 검색해 모았고, 이후 매일 자동으로 더해집니다.
+      표의 숫자를 누르면 해당 기관·월 기사만 아래에 표시됩니다(월 제목 = 그 달 전체, ‘계’ = 그 기관 전체). 같은 보도자료를 받아쓴 기사는 묶어서 보여줍니다.</div>
+    <h3 style="font-size:14.5px;color:var(--navy);margin:14px 0 8px">기관별 「주요 이슈」 반영 이력 <span class="muted">매일 새 쟁점 기사를 검토해 기관 화면의 이슈·질의 착안점에 신규 추가 또는 관련 보도 보강</span></h3>
+    ${issueLog(15)}
+    <p class="muted" style="margin:10px 0 0">분야(기관 무관) 쟁점 기사 ${fieldIssue.length}건은 <a href="#field">분야 정책·보도자료</a> 탭에서 볼 수 있습니다.</p>
+    <h3 style="font-size:14.5px;color:var(--navy);margin:20px 0 8px">기관·부서 × 월별 쟁점 보도</h3>
+    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>기관·부서</th><th class="c">계</th>${ms.map(m=>`<th class="c hm" data-m="${m}">${m}월</th>`).join('')}</tr></thead><tbody>` +
+    rows.map(r=>`<tr><td><a href="#unit/${r.u.id}/news">${esc(SHORT(r.u.id))}</a></td><td class="c hm" data-u="${r.u.id}" style="font-weight:800">${r.l.length}</td>` +
+      ms.map(m=>cell(r.l.filter(i=>mOf(i)===m).length, r.u.id, m)).join('') + `</tr>`).join('') +
+    `</tbody></table></div>
+    <h2 class="sec" id="icap" style="scroll-margin-top:120px"></h2>
+    <div class="filters"><button class="btn" id="ireset">전체 보기</button><button class="btn" id="icsv">⬇ ${yr} 쟁점 보도 전체 CSV</button></div>
+    <div id="ires"></div>`;
+}
+
+/* ───────── 언론보도 모아보기 ───────── */
+function viewNews(){
+  const opts = UL.map(u=>`<option value="${u.id}">${esc(SHORT(u.id))}</option>`).join('');
+  after = () => bindNews(()=>{ const s=document.getElementById('nu').value; return s? newsOf(s) : NEWS.items; }, true);
+  return `<h2 class="sec" style="margin-top:0">언론보도 모아보기 <small>기관·부서 키워드로 매일 자동 수집 · 제목을 누르면 원문</small></h2>
+    <div class="note">수집 방법: 구글 뉴스 검색(최근 7일)을 기관·부서별 검색어로 매일 조회해 누적합니다. 동명 기관·유사 키워드 기사가 섞일 수 있으니 원문을 확인하세요.
+      수동 갱신은 <b>행정사무감사\\뉴스수집.bat</b> 실행 후 이 페이지를 새로고침.</div>` +
+    newsFilters(true, `<select id="nu"><option value="">전체 기관·부서</option>${opts}</select>`) + `<div id="nres"></div>`;
+}
+function newsFilters(showUnits, extra=''){
+  return `<div class="filters">${extra}<div class="seg" id="nper"><button data-d="7">7일</button><button data-d="30" class="on">30일</button><button data-d="0">전체</button></div>
+    <div class="seg" id="ntag"><button data-t="" class="on">전체</button><button data-t="쟁점">쟁점</button><button data-t="의회">의회</button><button data-t="예산">예산</button><button data-t="NEW">NEW</button></div>
+    <input type="search" id="nq" placeholder="제목·언론사 검색"><span class="muted" id="ncnt"></span>
+    <button class="btn" id="ncsv">⬇ CSV</button></div>`;
+}
+function bindNews(src, showUnits){
+  const st = {d:'30', t:'', q:''};
+  const run = () => {
+    let l = src();
+    if(st.d!=='0') l = l.filter(i=>i.date>=dAgo(+st.d));
+    if(st.t==='NEW') l = l.filter(isNew); else if(st.t) l = l.filter(i=>i.tags.includes(st.t));
+    if(st.q) l = l.filter(i=>(i.title+' '+i.source).toLowerCase().includes(st.q.toLowerCase()));
+    document.getElementById('ncnt').textContent = `${l.length}건`;
+    document.getElementById('nres').innerHTML = newsList(l,{showUnits:showUnits, q:st.q});
+    document.getElementById('ncsv').onclick = () => toCSV(['날짜','시각','기관·부서','제목','언론사','태그','링크'],
+      l.map(i=>[i.date,i.time,i.units.map(SHORT).join(', '),i.title,i.source,i.tags.join(' '),i.url]), `행감_언론보도_${today}.csv`);
+  };
+  const seg = (id,k,attr) => document.querySelectorAll(`#${id} button`).forEach(b=>b.onclick=()=>{
+    st[k]=b.dataset[attr]; document.querySelectorAll(`#${id} button`).forEach(x=>x.classList.toggle('on',x===b)); run(); });
+  seg('nper','d','d'); seg('ntag','t','t');
+  document.getElementById('nq').oninput = e => { st.q=e.target.value.trim(); run(); };
+  const nu = document.getElementById('nu'); if(nu) nu.onchange = run;
+  run();
+}
+function toCSV(head, rows, fn){
+  const q=v=>`"${String(v??'').replace(/"/g,'""')}"`;
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob(['\ufeff'+[head,...rows].map(r=>r.map(q).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'}));
+  a.download=fn; document.body.appendChild(a); a.click(); a.remove();
+}
+
+/* ───────── 2025 지적사항 ───────── */
+function fItems(list, showDept){
+  return list.map(f=>`<details class="fd"><summary><span class="ty ${f.type}">${f.type}-${f.no}</span>
+    <span class="t">${esc(f.title)}${showDept&&f.dept?` <span class="muted">【${esc(f.dept)}】</span>`:''}</span>
+    <span class="st ${f.status==='완료'?'ok':'ing'}">${f.status==='완료'?'완료':'추진 중'}</span></summary>
+    <div class="body"><h5>지적 내용</h5>${esc(f.content)}<h5>처리결과</h5>${esc(f.result)}</div></details>`).join('') || '<p class="muted">해당 없음</p>';
+}
+function unitFind(u){
+  after = () => bindFind(()=>u.findings.map(f=>({...f,_u:u.id})), u.kind!=='agency');
+  return `<h2 class="sec">${u.kind==='guk'?'국 공통 지적사항':'2025 행감 지적사항 및 처리결과'} <small>${u.findings.length}건 · 추진 중 ${ingCnt(u)}건</small></h2>` + findFilters() + `<div id="fres"></div>`;
+}
+function viewFind(){
+  const src = () => { const s=document.getElementById('fu').value;
+    const us = UL.filter(u=>u.kind!=='dept' && (!s||u.id===s)).concat(s&&U[s].kind==='dept'?[U[s]]:[]);
+    return us.flatMap(u=>u.findings.map(f=>({...f,_u:u.id}))); };
+  after = () => bindFind(src, true, true);
+  return `<h2 class="sec" style="margin-top:0">2025 행정사무감사 지적사항 및 처리결과 <small>문화체육관광위원회 167건 (시정 10 · 처리 144 · 건의 13)</small></h2>
+    ${findFilters(`<select id="fu"><option value="">전체 기관</option>${UL.map(u=>`<option value="${u.id}">${esc(SHORT(u.id))}</option>`).join('')}</select>`)}<div id="fres"></div>`;
+}
+function findFilters(extra=''){
+  return `<div class="filters">${extra}<div class="seg" id="fst"><button data-s="" class="on">전체</button><button data-s="ing">추진 중</button><button data-s="ok">완료</button></div>
+    <input type="search" id="fq" placeholder="제목·내용 검색"><span class="muted" id="fcnt"></span>
+    <button class="btn" onclick="document.querySelectorAll('details.fd').forEach(d=>d.open=true)">모두 펼치기</button></div>`;
+}
+function bindFind(src, showDept, grouped){
+  const st={s:'',q:''};
+  const run=()=>{
+    let l=src();
+    if(st.s) l=l.filter(f=>(st.s==='ok')===(f.status==='완료'));
+    if(st.q) l=l.filter(f=>(f.title+f.content+f.result).includes(st.q));
+    document.getElementById('fcnt').textContent=`${l.length}건`;
+    if(grouped){
+      const by={}; l.forEach(f=>(by[f._u]=by[f._u]||[]).push(f));
+      document.getElementById('fres').innerHTML = Object.entries(by).map(([id,fs])=>`<h3 style="font-size:14.5px;margin:18px 0 8px;color:var(--navy)">
+        <a href="#unit/${id}/find">${esc(U[id].name)}</a> <span class="muted">${fs.length}건</span></h3>`+fItems(fs,showDept)).join('') || '<p class="muted">해당 없음</p>';
+    } else document.getElementById('fres').innerHTML=fItems(l,showDept);
+  };
+  document.querySelectorAll('#fst button').forEach(b=>b.onclick=()=>{st.s=b.dataset.s;document.querySelectorAll('#fst button').forEach(x=>x.classList.toggle('on',x===b));run();});
+  document.getElementById('fq').oninput=e=>{st.q=e.target.value.trim();run();};
+  const fu=document.getElementById('fu'); if(fu) fu.onchange=run;
+  run();
+}
+
+/* ───────── 참고자료 ───────── */
+function fileList(list){
+  return `<div class="card"><ul class="files">` + list.map(f=>`<li><a href="참고자료/${f.path.split('/').map(encodeURIComponent).join('/')}" target="_blank">${esc(f.path)}</a><span>${kb(f.size)}</span></li>`).join('') + `</ul></div>`;
+}
+function unitFiles(u){
+  after=()=>{};
+  const list = (u.kind==='dept'?U.guk:u).files;
+  return `<h2 class="sec">참고자료 원본 <small>행정사무감사\\참고자료 · ${list.length}건</small></h2>` +
+    (u.kind==='dept'?'<p class="muted" style="margin-bottom:6px">부서별 원본은 국 단위로 제출되어 국 공통 자료를 표시합니다.</p>':'') + fileList(list);
+}
+function viewFiles(){
+  after=()=>{};
+  return `<h2 class="sec" style="margin-top:0">참고자료 원본 <small>행정사무감사\\참고자료 폴더 — 파일을 추가하면 목록 갱신 필요</small></h2>` +
+    UL.filter(u=>u.kind!=='dept' && u.files.length).map(u=>`<h3 style="font-size:14.5px;margin:18px 0 8px;color:var(--navy)">${esc(u.name)} <span class="muted">${u.files.length}건</span></h3>`+fileList(u.files)).join('');
+}
+
+route();
+</script>
+</body>
+</html>

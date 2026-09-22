@@ -1,0 +1,9 @@
+# 참고자료(2025 행감·업무보고 원본 파일) — 용량이 커서 GitHub에 올리지 않음
+참고자료/
+
+# 임시·중간 파일
+__pycache__/
+*.pyc
+data/backup/
+data/_issue_patch.json
+*.lnk
