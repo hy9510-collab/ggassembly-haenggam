@@ -801,6 +801,42 @@ window.UNITS = {
    ],
    "issues": [
     {
+     "id": "d-contents-5",
+     "level": "low",
+     "title": "경기국제웹툰페어 역대 최대 수출성과",
+     "detail": "2026 경기국제웹툰페어가 B2B 전환 첫해 2,280만 달러 수출상담을 달성(전년대비 430만 달러 증가), 역대 최대 실적으로 다수 보도.",
+     "src": "2026.9.22~23 보도",
+     "links": [
+      {
+       "title": "올 ‘경기국제웹툰페어’, 역대 최대 2,280만 달러 수출 상담 성과 거둬",
+       "source": "중앙신문",
+       "date": "2026-09-23",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKQ0p6T3pGODhPek9SV1AwdTZKX2M5TVhocWhTTzNPUFIxSGZYZ3hUaFpKU2c3WGJiVGNlLVlONVkwYURsVXJYTjNDaW9UeXFtYjJvOFB0c21DS0thbmhSa3NYa3lTVEQ2?oc=5"
+      },
+      {
+       "title": "경기도, `2026 경기국제웹툰페어`서 역대 최대 2,280만 달러 수출 상담 달성",
+       "source": "서남투데이",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPbmU4SGlGTjItRHduNzgtRF80TzdxeEdZOU9DelktWVFDTGsxZVFNME92TGgwdm04VHdNaTMxV2RCMHhKTVd3clZLNEFsYVVCMERiS09aNE81Zw?oc=5"
+      },
+      {
+       "title": "경기국제웹툰페어, 2280만 달러 수출 상담…\"역대 최대\"",
+       "source": "newsis.com",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nLTRoczlnQkQ2OW9lbXlsUzYwdUFQYmpqT1dwZ3BEcmcwQWFtcGJqV21OWDZXTWlNZDNiU3pQcHB2UWhZcVNSeUdBMUFveFNBRW0ybUIwUUFUdE1VaW9BcdIBeEFVX3lxTFBXbkRkMGJwZHZQY2JyUW9sdV9yN2R6NnRMeS1tUUNFeGFoWUV6SDlfS2dFc2M1b2ZrU0RZb0dVaXZheEJkeG9kblJNcUxyRHFaVWJ2QWxSZFptejc0VWl1N0UzVGhvOE9hOEc0Zjl5U05teGNxeVptOA?oc=5"
+      },
+      {
+       "title": "작년보다 430만달러 늘었다…경기 웹툰페어 역대 최대 기록",
+       "source": "핀포인트뉴스",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kNHVMNUJmTjBHaWNYZEp1YlVJZXZXdkgzaGR0N3Yxbzlhb0s1NGJPNWFBNkRseWE5SVp2SDA5N1ZSa2FhTFczOU9tMFhlRzhmUXpIMlNCY1dRTEV0MXVidkNuV2RPcDlqNDhKRkx1U29QUm_SAXdBVV95cUxNUWNXQ3ZmV1ZqazRIRGVYWXhaV3BRaGVFa280SEFaX1pCMmZyU25icWN4VUNmNzdGMkQ0OGtMWkE2bEc0d0NOOXlMSFg1WUZpbjJILUpERW9WUm1RU2FNcXdJdkZELW10MmJpMXE0SlR6Yl9Rb3Jtbw?oc=5"
+      }
+     ],
+     "added": "2026-09-23",
+     "updated": "2026-09-23",
+     "auto": true
+    },
+    {
      "level": "high",
      "title": "경기콘텐츠진흥원 인건비 결손",
      "detail": "미래산업본부 직원 30명 기본급이 본예산에 8개월분만 편성, 2차 추경안(8.19)에도 미반영 → 노조 도청앞 기자회견(9.15). 미래과학협력위가 증액 의결.",
@@ -833,7 +869,8 @@ window.UNITS = {
     "콘진원 인건비 과소편성 경위(본예산 편성 단계 책임)와 2027년 재발방지책",
     "DMZ영화제 감액을 의결 전 통보·집행한 절차의 적법성, 국비 매칭(영진위·문체부) 영향",
     "게임산업 이관 협의 진척(조직개편안 반영 여부)",
-    "IP 클러스터 공정 12% — 준공 일정 지연 리스크와 운영주체·운영비 계획"
+    "IP 클러스터 공정 12% — 준공 일정 지연 리스크와 운영주체·운영비 계획",
+    "경기국제웹툰페어 역대 최대 수출성과(2,280만 달러, 전년대비 430만 달러↑) — 성과 요인과 내년도 확대 계획 확인"
    ],
    "news": [
     {
@@ -3222,6 +3259,36 @@ window.UNITS = {
    ],
    "issues": [
     {
+     "id": "a-gcon-4",
+     "level": "low",
+     "title": "경콘진 창작자 저작권·IP 지원 확대",
+     "detail": "경콘진이 스타트업·창작자 대상 IP·저작권 실무 지원사업을 확대해 4개월간 50여 명이 참여했다고 보도.",
+     "src": "2026.9.22~23 보도",
+     "links": [
+      {
+       "title": "경콘진, 스타트업·창작자 IP·저작권 지원 확대",
+       "source": "지디넷코리아",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KY0w3b1ZiZ2xObW5SblhycGQ5Ty1JUkRtZHpodFUweGMtQnBOMnFRQjZOanhqa1liLUlvT215UVFlQjFWVUVITS1nc1N5MkNJTnZxQkd3?oc=5"
+      },
+      {
+       "title": "경콘진, 콘텐츠 기업·창작자 저작권 지원 강화…4개월간 50여 명 참여",
+       "source": "뉴스아이이에스",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zMndrbXpqQ3ZHOGdmRHpqNFRKSUczQ3J5MDdMMDNYdExVOE1zc3o3ZXVvY05JSC11aFJhNUNKY09PNGxsQktzRkQwOEVWMmlDdDFQTHZLQnkxQ3ZRR29NbXNmcTdudmpqbFdHTDRn0gFyQVVfeXFMUGRZdEVqZkw5RURqMlc0SjFJMno3ZHlHaXJ2RTZmdVJsYm5DMDAyRjh2WkZSeF9IQkEyUWlIM2trbG0wak1pajctTGlOZWpXODRLT1BtQ3F2dzBaYkNJSk1tbHVSSE96a2U1VmxPZ21uSHV3?oc=5"
+      },
+      {
+       "title": "경콘진, 스타트업·창작자 50여 명에 저작권·IP 실무 지원",
+       "source": "비즈월드",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZU05wSm5QNkhDUzh1dWQ0TG5IeFZGSGxiRWw1ZV8zOHhYZlRlQnFCNkkxVTJRa3l3VWNyeERfbldDUGtsbzBUeTd3Z1cwUngwdG1oMTU4aFpCUFA0TUlnVkh0STViNzZVSHc?oc=5"
+      }
+     ],
+     "added": "2026-09-23",
+     "updated": "2026-09-23",
+     "auto": true
+    },
+    {
      "level": "high",
      "title": "미래산업본부 30명 인건비 8개월분만 편성",
      "detail": "노조 “9월부터 월급 못 받아”(9.15). 미래과학협력위 증액 의결, 예결위 최종 확인 필요.",
@@ -3321,7 +3388,8 @@ window.UNITS = {
     "인건비 과소편성 경위와 임금체불 방지 조치",
     "투자유치 누적 856억·펀드 2,187억 — 도내 기업 투자 비율",
     "4개 권역 허브 성과 편차",
-    "플레이엑스포 수출계약 “추진액” 2.1억 달러의 실제 체결액"
+    "플레이엑스포 수출계약 “추진액” 2.1억 달러의 실제 체결액",
+    "경콘진 저작권·IP 실무 지원 확대(4개월간 50여 명) — 지원 성과와 대상·예산 확대 계획 확인"
    ],
    "findings": [
     {

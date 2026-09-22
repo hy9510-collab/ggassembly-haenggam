@@ -1,6 +1,6 @@
 /* 행감 질의·쟁점·자료요구 — 매일 예약작업이 질의반영.py 로 갱신 */
 window.QA = {
- "updated": "2026-09-18",
+ "updated": "2026-09-23",
  "basis": "2026.7 업무보고, 2025 행감 지적사항 조치결과, 언론보도(2026.1.~9.18.), 2026 2차 추경 심사",
  "common": [
   {
@@ -769,6 +769,21 @@ window.QA = {
      "reqs": [],
      "no": 5,
      "bench": []
+    },
+    {
+     "no": 6,
+     "pri": "중",
+     "topic": "웹툰페어 성과 확대",
+     "q": "2026 경기국제웹툰페어가 B2B 전환 첫해 2,280만 달러 수출상담(전년대비 430만 달러 증가)이라는 역대 최대 성과를 냈습니다. 성과를 이끈 요인은 무엇이며, 이를 내년도에 어떻게 확대·발전시킬 계획입니까?",
+     "bg": "2026.9.22~23 다수 보도(역대 최대 실적)",
+     "issues": [
+      "d-contents-5"
+     ],
+     "findings": [],
+     "reqs": [],
+     "bench": [],
+     "auto": true,
+     "added": "2026-09-23"
     }
    ],
    "requests": [
@@ -1318,6 +1333,23 @@ window.QA = {
      ],
      "no": 5,
      "bench": []
+    },
+    {
+     "no": 6,
+     "pri": "중",
+     "topic": "관광 성과지표 전환",
+     "q": "한경협과 국회(김석기 의원)에서 외국인 관광객의 서울 편중을 지적하며 지역관광은 방문객 수가 아닌 체류일수·소비액 중심으로 성과지표를 바꿔야 한다는 주장이 나왔습니다. 경기도 관광정책의 현재 성과지표는 무엇이며, 체류·소비 중심 지표 도입을 검토하고 있습니까?",
+     "bg": "한경협·김석기 의원(국회 문체위) 2026.9.22 보도",
+     "issues": [],
+     "findings": [],
+     "reqs": [
+      "관광산업-4"
+     ],
+     "bench": [
+      "B13"
+     ],
+     "auto": true,
+     "added": "2026-09-23"
     }
    ],
    "requests": [
@@ -1356,6 +1388,20 @@ window.QA = {
       4
      ],
      "no": "관광산업-3"
+    },
+    {
+     "no": "관광산업-4",
+     "title": "경기도 관광 성과지표 현황 및 개편 검토",
+     "items": [
+      "최근 3년 관광정책 성과지표(방문객수·체류일수·소비액 등) 관리 현황",
+      "체류·소비 중심 지표 도입 검토 여부"
+     ],
+     "why": "한경협·국회에서 지역관광 성과지표를 방문객수 대신 체류·소비 중심으로 전환해야 한다는 지적이 나와 도의 대응 확인 필요",
+     "qs": [
+      6
+     ],
+     "auto": true,
+     "added": "2026-09-23"
     }
    ],
    "prefix": "관광산업"
@@ -1890,6 +1936,36 @@ window.QA = {
      "reqs": [],
      "no": 4,
      "bench": []
+    },
+    {
+     "no": 5,
+     "pri": "중",
+     "topic": "해외 불법유통 대응",
+     "q": "국회 문화체육관광위원회에서 해외 불법 유통 K-콘텐츠가 1년 새 8천만 건 늘어 4억 9천만 건에 달한다는 지적이 나왔습니다. 경콘진이 지원하는 도내 창작자·기업의 해외 불법유통 피해 현황과 저작권 보호·구제 지원 실적은 어떻습니까?",
+     "bg": "임오경 의원(국회 문체위) 발표, 2026.9.22 보도",
+     "issues": [],
+     "findings": [],
+     "reqs": [
+      "콘진원-3"
+     ],
+     "bench": [],
+     "auto": true,
+     "added": "2026-09-23"
+    },
+    {
+     "no": 6,
+     "pri": "중",
+     "topic": "저작권 지원 확대 성과",
+     "q": "경콘진이 스타트업·창작자 대상 저작권·IP 실무 지원을 확대해 4개월간 50여 명이 참여했습니다. 구체적 지원 성과(계약·분쟁 해결 등)는 무엇이며, 내년도 지원 대상·예산을 확대할 계획입니까?",
+     "bg": "2026.9.22~23 보도",
+     "issues": [
+      "a-gcon-4"
+     ],
+     "findings": [],
+     "reqs": [],
+     "bench": [],
+     "auto": true,
+     "added": "2026-09-23"
     }
    ],
    "requests": [
@@ -1916,6 +1992,20 @@ window.QA = {
       3
      ],
      "no": "콘진원-2"
+    },
+    {
+     "no": "콘진원-3",
+     "title": "도내 창작자·기업 해외 콘텐츠 불법유통 대응 현황",
+     "items": [
+      "최근 3년 해외 불법유통 모니터링·신고 건수(연도별)",
+      "저작권 침해 법률자문·소송 지원 등 구제 실적"
+     ],
+     "why": "국회 문체위에서 해외 불법유통 K-콘텐츠 급증(4.9억 건)이 지적되어 도내 대응 실태 확인 필요",
+     "qs": [
+      5
+     ],
+     "auto": true,
+     "added": "2026-09-23"
     }
    ],
    "prefix": "콘진원"
@@ -2479,6 +2569,14 @@ window.QA = {
  },
  "log": [
   {
+   "date": "2026-09-23",
+   "note": "자동 반영: d-contents 질의 6 웹툰페어 성과 확대; a-gcon 질의 6 저작권 지원 확대 성과"
+  },
+  {
+   "date": "2026-09-23",
+   "note": "자동 반영: a-gcon 자료요구 콘진원-3 도내 창작자·기업 해외 콘텐츠 불법유통 대응 현황; a-gcon 질의 5 해외 불법유통 대응; d-tour 자료요구 관광산업-4 경기도 관광 성과지표 현황 및 개편 검토; d-tour 질의 6 관광 성과지표 전환; 정부·타시도 B7 보강; 정부·타시도 B13 보강"
+  },
+  {
    "date": "2026-09-18",
    "note": "정부·타 시도 비교 13개 주제, 행감 추천 의제 13개 추가"
   },
@@ -2656,6 +2754,10 @@ window.QA = {
     {
      "r": "인천",
      "t": "인천시체육회 행정 실수로 선수 전국체전 출전 무산, 징계무효 결정 후 직위해제 대응 논란"
+    },
+    {
+     "r": "경북",
+     "t": "경북체육회, 태권도협회장 등 징계무효 판결에 항소 방침(2026.9.16). 경북태권도협회는 경북체육회에 공식사과·회장 사퇴 촉구"
     }
    ],
    "gg": "경기도체육회 격투대회 중상자 발생에도 ‘사고 없음’ 기록 의혹(8월), 선수단 관리·감독 시정요구 추진 중.",
@@ -2675,8 +2777,19 @@ window.QA = {
      "t": "인천시체육회 나사 빠진 일 처리로 선수 전국체전 출전 무산",
      "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1330440",
      "src": "인천일보"
+    },
+    {
+     "t": "경북체육회, 태권도협회장 등 징계무효 판결에 항소 방침",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mVFQ0NHB0VTJRaFhqZG1obkFlRFBjTVluQ185LXNiRXZkaGlWTk9oTy1IY3VHcUxubUVKVlJDWFVPdVFNWVRKYnh6c01CNXlGRHMwTEkwUXRPQ2w5NW9kcV8wekd6Y1JqbFM4c3poWQ?oc=5",
+     "src": "kyongbuk.co.kr 2026.9.16"
+    },
+    {
+     "t": "\"경북태권도協, 징계무효 판결에 경북체육회 공식사과·회장 사퇴 촉구",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PX0x4cHF5N0dQTEc0Wm5JcXg0NTdtTXoxWTdWeV9ZM041N0pMUGM4b0FvVmtMYnJPY0x1ZEhMMXljOElndmJEeVV2Q0JmcHBldDBpSmZlaXBrdHI5bFI3TTFSX19YUkprNFIzNE53?oc=5",
+     "src": "gukjenews.com 2026.9.16"
     }
-   ]
+   ],
+   "updated": "2026-09-23"
   },
   {
    "id": "B8",
@@ -2829,7 +2942,8 @@ window.QA = {
    ],
    "gov": [
     "2027 지방공항 거점 관광권 5곳(김해·대구·청주·무안·양양) 935억(국 659) 신규 — 수도권 제외",
-    "글로벌 관광특구 육성 사업은 서울 등 수도권과 자체 관광기금을 가진 제주를 제외하고 선정"
+    "글로벌 관광특구 육성 사업은 서울 등 수도권과 자체 관광기금을 가진 제주를 제외하고 선정",
+    "한경협·국회(김석기 의원)는 외국인 관광객이 서울에 편중되어 있다며 지역관광을 방문객 수가 아닌 체류·소비 중심으로 전환할 법·제도 개선이 필요하다고 지적(2026.9.22)"
    ],
    "other": [
     {
@@ -2853,8 +2967,19 @@ window.QA = {
      "t": "부산광역시 관광 진흥 조례",
      "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1581389",
      "src": "국가법령정보센터"
+    },
+    {
+     "t": "한경협 \"외국인 관광객 서울에 편중…지역관광 법·제도 손봐야\"",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPWnI2R0k5ZU14SnFQNzVmOXBQMnJmX0JIRXZudzlmZ3cxdUI0S0l5dmROTUx5MjlXdjY0aENPejB0V0lpQjQxbzdBT2RrS0tCaEJKQnRlekdZOTF6NmYtYXR4dFhWWGFOaGZDNXk0QTJhQWpvQjhvWFFfNmc3cng4eE83azBMeEpfSmtlSzcxcUNWc19JYkRHSDA4UXRGQmNVaUh1UjNpM1BWRVJGYzRGZ3cwWTJmY3V1dWpiMklZai1CNy1VTTdXVUNDU1NHZ19YY1ZKYlhJeFhFbTZlVklNendacE8zUlRhbTVNc0V4S2Juanp3RGc1NGFNTzBPVVFpOUVncnBuQ3RISlRoaFdGcXM5WUVWdFZ1OURxU3BrVkNQTEE?oc=5",
+     "src": "데일리안 2026.9.22"
+    },
+    {
+     "t": "김석기 의원, 지역관광, 방문객 수보다 체류·소비·민간투자 중심 전환해야",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBldmVJdU5IWE5oY3JpcXpXY01RdXJsdVk5UlFJVEJfRVBZNlZldFZSYkVTUnpZOGRGblZsV1M4aVFVcGItV0JTSmNMZktxd0tKX2hvbmJ5QWc5aVJQT3JuM1dIeEtEdWc5SEp2UmZ0M1M?oc=5",
+     "src": "세명일보 2026.9.22"
     }
-   ]
+   ],
+   "updated": "2026-09-23"
   }
  ],
  "agenda": [
