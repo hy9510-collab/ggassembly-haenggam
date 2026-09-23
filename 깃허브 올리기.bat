@@ -2,7 +2,7 @@
 chcp 65001 >nul
 cd /d "%~dp0"
 for /f %%d in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set D=%%d
-echo [%D%] 행감 자료를 깃허브(비공개 저장소)에 올립니다...
+echo [%D%] 행감 자료를 깃허브에 올립니다...
 echo.
 git add -A
 git diff --cached --quiet
