@@ -25,9 +25,34 @@ window.UNITS = {
     {
      "level": "high",
      "title": "제2회 추경 536억 감액 — 문화·체육·관광 우선 삭감",
-     "detail": "예술인·체육인 기회소득, 장애인 생활체육, 컬처패스, 공공기관 출연금, 국제문화행사 등. 위원장 “사전 소통 부족”.",
+     "detail": "예술인·체육인 기회소득, 장애인 생활체육, 컬처패스, 공공기관 출연금, 국제문화행사 등. 위원장 “사전 소통 부족”. 국은주 의원(예결특위)도 경기문화재단·한국도자재단 등 출연기관 예산 감액과 박물관 건립 도비매칭·고양 콘텐츠클러스터 조성사업 등 계속사업 영향을 점검, “재정난을 이유로 한 기계적 삭감이 타당한지 살펴야” 지적(9.26).",
      "src": "2026.9.7 문체위",
-     "id": "guk-1"
+     "id": "guk-1",
+     "links": [
+      {
+       "title": "경기도의회 국은주 의원 문화 예술 분야 예산 삭감 점검 > 뉴스",
+       "source": "더코리아",
+       "date": "2026-09-26",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15MjNoYU9qLWVnZkdNZ3NHcGhPVXN1OGdSSFpVNXpQSFhUdlpRMG5qM0FUempDNlZ4Q1VoUXdiSEFuMmt3WFJHb3hHaHRPR19yQ1B1WmhhNlhKLWxESlJCN0JRMGRtY0FqMEM2aWM1djA?oc=5"
+      }
+     ],
+     "updated": "2026-09-28"
+    },
+    {
+     "level": "high",
+     "title": "산하기관 인건비 과부족",
+     "detail": "콘진원 8개월분 편성(임금체불 우려, 부족액 4억4,600만원 확인) vs 도자재단 12억·아트센터 9.14억·장애인체육회 6억·체육회 3.5억 감액. 예결특위 유경현 의원 “임금 지급 책임을 기관에 떠넘긴 것” 지적(9.16).",
+     "src": "2026.9.11~15",
+     "id": "guk-3",
+     "links": [
+      {
+       "title": "경기콘텐츠진흥원 인건비 4억4,600만원 부족…“임금체불 막아야”",
+       "source": "부천신문",
+       "date": "2026-09-27",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44S2NON0xtM0ExcmxYNkw0cEFQTkVjVGs5WnpZUTA1R2tvLTFwLTM2QVdpQ3VKbDIwT19mVHl3WXpyZmNKdGJ1aFZPY3hHR2VHa2V1MjBZYmxYbm1FWVI2ODJGM1N3c2JOclIwN3lB?oc=5"
+      }
+     ],
+     "updated": "2026-09-28"
     },
     {
      "level": "high",
@@ -35,13 +60,6 @@ window.UNITS = {
      "detail": "도 기조실장 “현금성 지원과 창작·체육활동 상관성 검증 없음”. 예술인 150→75만원.",
      "src": "2026.8.19",
      "id": "guk-2"
-    },
-    {
-     "level": "high",
-     "title": "산하기관 인건비 과부족",
-     "detail": "콘진원 8개월분 편성(임금체불 우려) vs 도자재단 12억·아트센터 9.14억·장애인체육회 6억·체육회 3.5억 감액.",
-     "src": "2026.9.11~15",
-     "id": "guk-3"
     },
     {
      "level": "mid",
@@ -801,6 +819,38 @@ window.UNITS = {
    ],
    "issues": [
     {
+     "level": "high",
+     "title": "DMZ영화제 도비 6.53억(21.1%) 감액",
+     "detail": "영화제 폐막(9.16) 이후 추경 의결(9.18) 일정 → 의회 의결 전 사업 선축소. 개막식 축소·다큐로드/다큐콘서트 취소. 의결 전 감액안 선적용 논란 확산(최규진 의원, 9.26) — 정당 대표 비판·지사 반박, 관객 수 집계 기준 이견도 쟁점.",
+     "src": "2026.9.14",
+     "id": "d-contents-2",
+     "links": [
+      {
+       "title": "DMZ영화제 예산 논란…최규진 경기도의원, 숫자 대신 감액 절차부터 설명 요구",
+       "source": "전자신문",
+       "date": "2026-09-26",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BcEs0UlRwV2hWYjZtb1hxVU1SYlIzRjVHZGxyanZYUnBuRjR4WC1va1FBUGJQb19CMUtkQ2JsMG1VS19vdFZjQnNlY2N2UQ?oc=5"
+      }
+     ],
+     "updated": "2026-09-28"
+    },
+    {
+     "level": "high",
+     "title": "경기콘텐츠진흥원 인건비 결손",
+     "detail": "미래산업본부 직원 30명 기본급이 본예산에 8개월분만 편성(부족액 4억4,600만원), 2차 추경안(8.19)에도 미반영 → 노조 도청앞 기자회견(9.15). 미래과학협력위가 증액 의결. 예결특위 유경현 의원 “임금 지급 책임을 기관에 떠넘긴 것” 지적(9.16).",
+     "src": "2026.9.15",
+     "id": "d-contents-1",
+     "links": [
+      {
+       "title": "경기콘텐츠진흥원 인건비 4억4,600만원 부족…“임금체불 막아야”",
+       "source": "부천신문",
+       "date": "2026-09-27",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44S2NON0xtM0ExcmxYNkw0cEFQTkVjVGs5WnpZUTA1R2tvLTFwLTM2QVdpQ3VKbDIwT19mVHl3WXpyZmNKdGJ1aFZPY3hHR2VHa2V1MjBZYmxYbm1FWVI2ODJGM1N3c2JOclIwN3lB?oc=5"
+      }
+     ],
+     "updated": "2026-09-28"
+    },
+    {
      "id": "d-contents-5",
      "level": "low",
      "title": "경기국제웹툰페어 역대 최대 수출성과",
@@ -835,20 +885,6 @@ window.UNITS = {
      "added": "2026-09-23",
      "updated": "2026-09-23",
      "auto": true
-    },
-    {
-     "level": "high",
-     "title": "경기콘텐츠진흥원 인건비 결손",
-     "detail": "미래산업본부 직원 30명 기본급이 본예산에 8개월분만 편성, 2차 추경안(8.19)에도 미반영 → 노조 도청앞 기자회견(9.15). 미래과학협력위가 증액 의결.",
-     "src": "2026.9.15",
-     "id": "d-contents-1"
-    },
-    {
-     "level": "high",
-     "title": "DMZ영화제 도비 6.53억(21.1%) 감액",
-     "detail": "영화제 폐막(9.16) 이후 추경 의결(9.18) 일정 → 의회 의결 전 사업 선축소. 개막식 축소·다큐로드/다큐콘서트 취소.",
-     "src": "2026.9.14",
-     "id": "d-contents-2"
     },
     {
      "level": "mid",
@@ -1335,6 +1371,22 @@ window.UNITS = {
    ],
    "issues": [
     {
+     "level": "mid",
+     "title": "도 직장운동경기부 예산 8억여 감액",
+     "detail": "전국체전 앞두고 제2선수숙소 연구용역비 전액, 정기훈련비·인건비 감액(송규근 의원 9.11). 국장이 “과다 편성분 조정”이라 답변하자 송 의원은 “훈련비가 남는다는 논리는 애초에 예산을 부풀려 요구했다는 자인”이라며 재반박(9.26).",
+     "src": "2026.9.11",
+     "id": "d-sports-3",
+     "links": [
+      {
+       "title": "송규근 경기도의원 전국체전 앞두고 도 직장운동경기부 예산 삭감 웬 말 > 뉴스",
+       "source": "더코리아",
+       "date": "2026-09-26",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QV29PalZoSmM1QTI5X05vYXlJSmhraFFDZ0pEMWhaYlNQcGJUUlBsU2c0YWhjSjBSWE1SbmNEWUxRS1dtNnh1aU9hM0VmM0FfYk5TQ2l0cXpHYlgzaENYRHcxYWduZUVRazhrUTdRQ1U?oc=5"
+      }
+     ],
+     "updated": "2026-09-28"
+    },
+    {
      "level": "high",
      "title": "2025 행감 지적 9건 모두 “추진 중”",
      "detail": "체육인 기회소득 재설계, 팀업캠퍼스 직영 전환, 선수촌 장애인체육 기능 등 완료 0건 — 국 내 이행률 최저.",
@@ -1347,13 +1399,6 @@ window.UNITS = {
      "detail": "1,600~2,300명 대상 2차분 75만원 미지급, 잔액 반납. 2025 처리-27 “2026년 전면 재설계” 요구와 상반.",
      "src": "2026.8.19",
      "id": "d-sports-2"
-    },
-    {
-     "level": "mid",
-     "title": "도 직장운동경기부 예산 8억여 감액",
-     "detail": "전국체전 앞두고 제2선수숙소 연구용역비 전액, 정기훈련비·인건비 감액(송규근 의원 9.11).",
-     "src": "2026.9.11",
-     "id": "d-sports-3"
     },
     {
      "level": "mid",
@@ -3259,42 +3304,18 @@ window.UNITS = {
    ],
    "issues": [
     {
-     "id": "a-gcon-4",
-     "level": "low",
-     "title": "경콘진 창작자 저작권·IP 지원 확대",
-     "detail": "경콘진이 스타트업·창작자 대상 IP·저작권 실무 지원사업을 확대해 4개월간 50여 명이 참여했다고 보도.",
-     "src": "2026.9.22~23 보도",
-     "links": [
-      {
-       "title": "경콘진, 스타트업·창작자 IP·저작권 지원 확대",
-       "source": "지디넷코리아",
-       "date": "2026-09-22",
-       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KY0w3b1ZiZ2xObW5SblhycGQ5Ty1JUkRtZHpodFUweGMtQnBOMnFRQjZOanhqa1liLUlvT215UVFlQjFWVUVITS1nc1N5MkNJTnZxQkd3?oc=5"
-      },
-      {
-       "title": "경콘진, 콘텐츠 기업·창작자 저작권 지원 강화…4개월간 50여 명 참여",
-       "source": "뉴스아이이에스",
-       "date": "2026-09-22",
-       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zMndrbXpqQ3ZHOGdmRHpqNFRKSUczQ3J5MDdMMDNYdExVOE1zc3o3ZXVvY05JSC11aFJhNUNKY09PNGxsQktzRkQwOEVWMmlDdDFQTHZLQnkxQ3ZRR29NbXNmcTdudmpqbFdHTDRn0gFyQVVfeXFMUGRZdEVqZkw5RURqMlc0SjFJMno3ZHlHaXJ2RTZmdVJsYm5DMDAyRjh2WkZSeF9IQkEyUWlIM2trbG0wak1pajctTGlOZWpXODRLT1BtQ3F2dzBaYkNJSk1tbHVSSE96a2U1VmxPZ21uSHV3?oc=5"
-      },
-      {
-       "title": "경콘진, 스타트업·창작자 50여 명에 저작권·IP 실무 지원",
-       "source": "비즈월드",
-       "date": "2026-09-22",
-       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZU05wSm5QNkhDUzh1dWQ0TG5IeFZGSGxiRWw1ZV8zOHhYZlRlQnFCNkkxVTJRa3l3VWNyeERfbldDUGtsbzBUeTd3Z1cwUngwdG1oMTU4aFpCUFA0TUlnVkh0STViNzZVSHc?oc=5"
-      }
-     ],
-     "added": "2026-09-23",
-     "updated": "2026-09-23",
-     "auto": true
-    },
-    {
      "level": "high",
      "title": "미래산업본부 30명 인건비 8개월분만 편성",
-     "detail": "노조 “9월부터 월급 못 받아”(9.15). 미래과학협력위 증액 의결, 예결위 최종 확인 필요.",
+     "detail": "노조 “9월부터 월급 못 받아”(9.15). 미래과학협력위 증액 의결, 예결위 최종 확인 필요. 예결특위 심사(9.16)에서 부족액 4억4,600만원으로 확인 — 유경현 의원 “12개월 사업 맡기고 인건비는 8개월분만 편성, 임금 지급 책임을 기관에 떠넘긴 것” 지적.",
      "src": "2026.9.15",
      "id": "a-gcon-1",
      "links": [
+      {
+       "title": "경기콘텐츠진흥원 인건비 4억4,600만원 부족…“임금체불 막아야”",
+       "source": "부천신문",
+       "date": "2026-09-27",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44S2NON0xtM0ExcmxYNkw0cEFQTkVjVGs5WnpZUTA1R2tvLTFwLTM2QVdpQ3VKbDIwT19mVHl3WXpyZmNKdGJ1aFZPY3hHR2VHa2V1MjBZYmxYbm1FWVI2ODJGM1N3c2JOclIwN3lB?oc=5"
+      },
       {
        "title": "경기콘텐츠진흥원 노조 \"인건비 8개월분만 편성… 임금체불 위기\"",
        "source": "아시아타임즈",
@@ -3344,7 +3365,37 @@ window.UNITS = {
        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zaUFrRS1vVGVtSHp3TXpwUzB5LXNZQUJZWGpfNzhndENLT05acGJqSU8taHJwUk1RWTByNXRYUWhzVGRQRGMtU1h5MHM5SlVkWkVkMmtrMWdFd0FWcHoyQzQ2YTVQc1c5bmsxdWNOTU1NUQ?oc=5"
       }
      ],
-     "updated": "2026-09-18"
+     "updated": "2026-09-28"
+    },
+    {
+     "id": "a-gcon-4",
+     "level": "low",
+     "title": "경콘진 창작자 저작권·IP 지원 확대",
+     "detail": "경콘진이 스타트업·창작자 대상 IP·저작권 실무 지원사업을 확대해 4개월간 50여 명이 참여했다고 보도.",
+     "src": "2026.9.22~23 보도",
+     "links": [
+      {
+       "title": "경콘진, 스타트업·창작자 IP·저작권 지원 확대",
+       "source": "지디넷코리아",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KY0w3b1ZiZ2xObW5SblhycGQ5Ty1JUkRtZHpodFUweGMtQnBOMnFRQjZOanhqa1liLUlvT215UVFlQjFWVUVITS1nc1N5MkNJTnZxQkd3?oc=5"
+      },
+      {
+       "title": "경콘진, 콘텐츠 기업·창작자 저작권 지원 강화…4개월간 50여 명 참여",
+       "source": "뉴스아이이에스",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zMndrbXpqQ3ZHOGdmRHpqNFRKSUczQ3J5MDdMMDNYdExVOE1zc3o3ZXVvY05JSC11aFJhNUNKY09PNGxsQktzRkQwOEVWMmlDdDFQTHZLQnkxQ3ZRR29NbXNmcTdudmpqbFdHTDRn0gFyQVVfeXFMUGRZdEVqZkw5RURqMlc0SjFJMno3ZHlHaXJ2RTZmdVJsYm5DMDAyRjh2WkZSeF9IQkEyUWlIM2trbG0wak1pajctTGlOZWpXODRLT1BtQ3F2dzBaYkNJSk1tbHVSSE96a2U1VmxPZ21uSHV3?oc=5"
+      },
+      {
+       "title": "경콘진, 스타트업·창작자 50여 명에 저작권·IP 실무 지원",
+       "source": "비즈월드",
+       "date": "2026-09-22",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZU05wSm5QNkhDUzh1dWQ0TG5IeFZGSGxiRWw1ZV8zOHhYZlRlQnFCNkkxVTJRa3l3VWNyeERfbldDUGtsbzBUeTd3Z1cwUngwdG1oMTU4aFpCUFA0TUlnVkh0STViNzZVSHc?oc=5"
+      }
+     ],
+     "added": "2026-09-23",
+     "updated": "2026-09-23",
+     "auto": true
     },
     {
      "level": "mid",
@@ -4786,10 +4837,16 @@ window.UNITS = {
     {
      "level": "high",
      "title": "도비 6.53억 감액 — 의결 전 사업 축소",
-     "detail": "폐막(9.16) 후 추경 의결(9.18). 개막식 축소, 다큐로드·다큐콘서트·비극장 상영 취소.",
+     "detail": "폐막(9.16) 후 추경 의결(9.18). 개막식 축소, 다큐로드·다큐콘서트·비극장 상영 취소. 도비 31억→24억4,700만원 감액안이 의회 의결 전 현장에 먼저 적용됐다는 지적(최규진 의원, 9.26) — 김민석 더불어민주당 대표 “계약 파기” 비판에 추미애 지사는 도비 비중·자체수입·인건비·관객 1인당 투입예산 등으로 반박. 도·영화제 측 관객 수 집계 기준에도 이견.",
      "src": "2026.9.7~14",
      "id": "a-dmz-1",
      "links": [
+      {
+       "title": "DMZ영화제 예산 논란…최규진 경기도의원, 숫자 대신 감액 절차부터 설명 요구",
+       "source": "전자신문",
+       "date": "2026-09-26",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BcEs0UlRwV2hWYjZtb1hxVU1SYlIzRjVHZGxyanZYUnBuRjR4WC1va1FBUGJQb19CMUtkQ2JsMG1VS19vdFZjQnNlY2N2UQ?oc=5"
+      },
       {
        "title": "이대한 경기도의원, DMZ영화제 예산 감액·예술인 기회소득 축소 문제 제기",
        "source": "전국매일신문",
@@ -4803,7 +4860,7 @@ window.UNITS = {
        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtZVByRkh2Y3c5c2I4VzE1ZjFhMTI2eGVSV20yOVo1OGJhUm9lcEJxVjhfdXRxdnc5TFBON2pidnhXQzl5YTY2UUQ2QTdnTUZ2b09mRS130gFbQVVfeXFMUG1zWk5TRFJjNW9yeHFjVnA1YmVpN2d0LTVjYjhiSk44eUlwZndJY3hNSVVCQmhKQ0dEWFdIbmJLOHB6dXV5T2xrWnd6cXQzbkxJX1NqNE5EcEdkcw?oc=5"
       }
      ],
-     "updated": "2026-09-18"
+     "updated": "2026-09-28"
     },
     {
      "level": "mid",
@@ -4995,10 +5052,16 @@ window.UNITS = {
     {
      "level": "mid",
      "title": "역사문화관 운영비 1.8억·옛길 예산 75% 감액",
-     "detail": "집행률 100%·관람 목표 53% 달성 중 삭감(최보라 의원, 경제노동위).",
+     "detail": "집행률 100%·관람 목표 53% 달성 중 삭감(최보라 의원, 경제노동위). 옛길 예산 75% 감액으로 가을 성수기 탐방객 증가 시 완주 배지 조기 소진·시설물 유지보수비 부족 우려(9.26 재확인).",
      "src": "2026.9.14",
      "id": "a-namhan-1",
      "links": [
+      {
+       "title": "경기도의회 최보라 의원, 단풍 성수기 앞두고 남한산성 옛길 예산 삭감 > 뉴스",
+       "source": "더코리아",
+       "date": "2026-09-26",
+       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBTSGlDN2pxYUxsemFLTmFzSXFPSzlQR2YwREdMZ1FteDhYQ21PdEFLVnZWR3NkcEJ6UnZvZG5Nc2xwTmM?oc=5"
+      },
       {
        "title": "최보라 경기도의원, “단풍 성수기 앞두고 남한산성 옛길 예산 75% 삭감… 현장 외면한 기계적 감액”",
        "source": "경기시사투데이",
@@ -5018,7 +5081,7 @@ window.UNITS = {
        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9OWVRtMlVrQm5rclgtdEFQd1B0Rk42SnIyd3lzQ3Q5TDZXZm1LdFc0cUZRNHk2cEhtZXY1bDd0U1pNc0xCOHc?oc=5"
       }
      ],
-     "updated": "2026-09-18"
+     "updated": "2026-09-28"
     },
     {
      "level": "mid",
