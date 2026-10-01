@@ -7,3 +7,6 @@ __pycache__/
 data/backup/
 data/_issue_patch.json
 *.lnk
+
+# 자동배포 실행 기록(내 PC에만 보관)
+data/_자동배포기록.txt
