@@ -25,10 +25,22 @@ window.UNITS = {
     {
      "level": "high",
      "title": "제2회 추경 536억 감액 — 문화·체육·관광 우선 삭감",
-     "detail": "예술인·체육인 기회소득, 장애인 생활체육, 컬처패스, 공공기관 출연금, 국제문화행사 등. 위원장 “사전 소통 부족”. 국은주 의원(예결특위)도 경기문화재단·한국도자재단 등 출연기관 예산 감액과 박물관 건립 도비매칭·고양 콘텐츠클러스터 조성사업 등 계속사업 영향을 점검, “재정난을 이유로 한 기계적 삭감이 타당한지 살펴야” 지적(9.26).",
+     "detail": "예술인·체육인 기회소득, 장애인 생활체육, 컬처패스, 공공기관 출연금, 국제문화행사 등. 위원장 “사전 소통 부족”. 국은주 의원(예결특위)도 경기문화재단·한국도자재단 등 출연기관 예산 감액과 박물관 건립 도비매칭·고양 콘텐츠클러스터 조성사업 등 계속사업 영향을 점검, “재정난을 이유로 한 기계적 삭감이 타당한지 살펴야” 지적(9.26). 경기민예총도 문화·체육·관광 분야 8.8% 감액의 기준과 형평성을 밝히고 거버넌스를 작동시키라고 촉구(9.28·10.1 보도).",
      "src": "2026.9.7 문체위",
      "id": "guk-1",
      "links": [
+      {
+       "title": "경기민예총, 경기도 문화예술 예산 감액 기준·형평성 검토 촉구",
+       "source": "kgdm.kr",
+       "date": "2026-10-01",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3TzZaeFA5MGo5c2pzZ1BJQVpNcVpwOE0yZVQwWUdRNHJHamx2dHZzNXBVS3RrWnVoNk5NdExKVUxDR0M3TldVQXRiN3k4V2I4dEdkdFJMVUo3VEJBUGJ0N2c5d3RiZw?oc=5"
+      },
+      {
+       "title": "경기민예총 “문화·체육·관광 분야 8.8% 감액, 기준과 형평성 밝히고 거버넌스 작동시켜야”",
+       "source": "incheonilbo.com",
+       "date": "2026-09-28",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54RDdIMXotRTlkTEl6S3BLMkx0Wm1WYlVYZVVUZVhGNHgyUHBnbU9mMjJFcElYclVuVFV0SGZBMUwzTGxZcl85Q0sxY011QkZ2Q1N1dXNMeDAyYk15LUxYeGFJVUI1QzFGS2FnUEhGbE0?oc=5"
+      },
       {
        "title": "경기도의회 국은주 의원 문화 예술 분야 예산 삭감 점검 > 뉴스",
        "source": "더코리아",
@@ -36,7 +48,7 @@ window.UNITS = {
        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15MjNoYU9qLWVnZkdNZ3NHcGhPVXN1OGdSSFpVNXpQSFhUdlpRMG5qM0FUempDNlZ4Q1VoUXdiSEFuMmt3WFJHb3hHaHRPR19yQ1B1WmhhNlhKLWxESlJCN0JRMGRtY0FqMEM2aWM1djA?oc=5"
       }
      ],
-     "updated": "2026-09-28"
+     "updated": "2026-10-01"
     },
     {
      "level": "high",
@@ -2619,6 +2631,24 @@ window.UNITS = {
    ],
    "issues": [
     {
+     "id": "a-ggcf-7",
+     "level": "low",
+     "title": "경기창작캠퍼스 레지던시 2027년 정규 운영 재개",
+     "detail": "경기문화재단이 경기창작캠퍼스 레지던시를 공간과 운영 방식을 새로 정비해 2027년 정규 레지던시로 재개한다고 발표. 예술인 창작 기반 회복이라는 성과이나, 재단 출연금 축소 속에서 운영 재원과 지속성 확인이 필요.",
+     "src": "2026.9.30 보도",
+     "links": [
+      {
+       "title": "경기문화재단, 2027년 경기창작캠퍼스 정규 레지던시 재개",
+       "source": "ftoday.co.kr",
+       "date": "2026-09-30",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxWFR1RFI3S05jRU50dlk3bk5TajZHWWtpU3VKaUJLSHg5NkoySWlxcDhlQ09hVEIyRFNiU1BnNlJBQnpXT0tXUjd5MjRXWkM1d2o3Sk8zUTNRQnB4Sk9fMHYxcEUxUE5hQUJMX3N30gFuQVVfeXFMUHFYVHVEUjdLTmNFTnR2WTduTlNqNkdZa2lTdUppQktIeDk2SjJJaXFwOGVDT2FUQjJEU2JTUGc2UkFCeldPS1dSN3kyNFdaQzV3ajdKTzNRM1FCcHhKT18wdjFwRTFQTmFBQkxfc3c?oc=5"
+      }
+     ],
+     "added": "2026-10-01",
+     "updated": "2026-10-01",
+     "auto": true
+    },
+    {
      "level": "mid",
      "title": "경기도박물관 안중근 전시에 원폭 투하 장면 — 논란 후 교체",
      "detail": "전시 콘텐츠 검수 체계 문제.",
@@ -2916,10 +2946,16 @@ window.UNITS = {
     {
      "level": "high",
      "title": "공연 티켓 ‘셀프 대량구매’ 의혹 — 도 감사·경찰 내사",
-     "detail": "4만원 공연 티켓을 1,000원에 임직원이 600장가량 구매해 유료관람 실적을 부풀렸다는 의혹(사장·무용단장 포함 보도). 7월 도 감사 착수, 8월 경찰 내사·배임 수사 보도, 노조 쇄신안 요구 및 ‘사조직’ 의혹 보도까지 이어짐.",
+     "detail": "4만원 공연 티켓을 1,000원에 임직원이 600장가량 구매해 유료관람 실적을 부풀렸다는 의혹(사장·무용단장 포함 보도). 7월 도 감사 착수, 8월 경찰 내사·배임 수사 보도, 노조 쇄신안 요구 및 ‘사조직’ 의혹 보도까지 이어짐. 지역 칼럼(9.28)은 티켓 문제를 ‘종합청렴도 5등급’ 등 조직 청렴 문제와 연결해 지적.",
      "src": "2026.7.22~9.6 보도",
      "id": "a-ggac-1",
      "links": [
+      {
+       "title": "[경기in] [오효석 칼럼] ③ 경기아트센터 티켓 600장이 문제가 아니다··· ‘종합청렴도’ 5등급의 민낯",
+       "source": "경기in",
+       "date": "2026-09-28",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UcVBRRWdyS2J3QjhnakU5Zjh5a2o5bWJPSWVjVzRkQXpEMzlSOWN6MGtWOHVvYURJMVQ4QzFOaksxdDBLV2lrVHpFQ2lHSEk?oc=5"
+      },
       {
        "title": "경기아트센터 셀프 구매 의혹 제보에…노조 \"이해관계 위한 악용 경계\"",
        "source": "뉴스1",
@@ -2969,7 +3005,7 @@ window.UNITS = {
        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LM216cTMyYWZPR0Ezb0NRaWI5THFnU1IzelNGTE9Rd2tySVVMSUpSWWNEWUl5M25yT2dPUlhBRGZVWldVN0hoOEFBRXFwSXhxeE5vTHhZWFdCRWM?oc=5"
       }
      ],
-     "updated": "2026-09-18"
+     "updated": "2026-10-01"
     },
     {
      "level": "mid",
