@@ -1,6 +1,10 @@
 {
-"updated": "2026-10-01 10:04",
+"updated": "2026-10-01 10:40",
 "runs": [
+{
+"at": "2026-10-01 10:40",
+"added": 12
+},
 {
 "at": "2026-10-01 10:04",
 "added": 212
@@ -88,6 +92,102 @@
 }
 ],
 "items": [
+{
+"title": "‘2026 경기도자비엔날레’, 국내외 작가와 ‘국제도자워크숍’ 운영",
+"source": "사회적경제뉴스",
+"url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE96U1hWVldlTmRjM09obHpqWHVFN1ZIRWhOV2VZajEyeDFNMTZoVHVpSUk5aDYyVUVTX0ptbW9UTQ?oc=5",
+"date": "2026-10-01",
+"time": "10:38",
+"first_seen": "2026-10-01",
+"units": [
+"a-kocef"
+],
+"tags": []
+},
+{
+"title": "네이버웹툰, 김용수·김규남 공동대표 선임…한국 경영체제 재편",
+"source": "v.daum.net",
+"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3NWUwNV9hbEZKRTNpZkJ0czlzMW9tSnkyNlR1cVRHRmhUV2UyZmNQT3YwSDVSSERxdzJBSHluSFRGa1hHX0tMRmE4N1ZnMEE?oc=5",
+"date": "2026-10-01",
+"time": "10:36",
+"first_seen": "2026-10-01",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "네이버웹툰, 김용수·김규남 공동대표 선임... 글로벌 성장 위한 경영 체계 강화",
+"source": "NAVERCorp.",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0SWd1Y2NrSk1IaU1uVWQwd0dOV2NReHlxQ2Fqdkk4UnNuOEdrTU1BRTkyeDd0OWhLRGQ2RjJHX0d0aTdLWEhvZzJHWDlkMTk2UDFXTjFmR2lDaXRKMHBndkhZbHpVNkFhZm5kN1FpMXFqUQ?oc=5",
+"date": "2026-10-01",
+"time": "10:33",
+"first_seen": "2026-10-01",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "실학박물관, 10월 10일 관객이 악기 연주에 참여하는 ‘훈민정음 축제’ 연다",
+"source": "경인매일",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sdlhiZy1WYnNob1NMeWV5M3N5UzV1MkhHX0plcW5QemwwRnUxc2gxXy1FYlN0MVhMWTBxSlJnLVlyMTVsbW9IbTdiUmxzcDlUeXZCVkNNMG1aWWpLN29UbHpiUkdvOTY4?oc=5",
+"date": "2026-10-01",
+"time": "10:31",
+"first_seen": "2026-10-01",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "심청가의 맥 잇는다…한양대 조주선 교수, 서울시무형유산 보유자로",
+"source": "뉴스H",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GTjBUUzRrd216NXF1Vm85RmQ0TExwYzlZRWtJcUlHcWR4cVhnQ3cxZWdQUkxsUFY2LS1wU1RhY05ZSDBwR0hkckFZV29tVWdaNDVmRXJWdVlVV3EzcTdVbG4wOXdveWxnTG5R?oc=5",
+"date": "2026-10-01",
+"time": "10:18",
+"first_seen": "2026-10-01",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "네이버웹툰, 김용수·김규남 공동대표로…모회사 김준구 글로벌 집중 - 머니투데이",
+"source": "머니투데이",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OV001MDA0Q2pqdjlsQkdRTEozdHJYeS14dExTdjM4NVZ0dXNNWFlIUWMxUTg1aFRGaklFaEppTTcyMUtqU0RkcGw1ZkdUUEwtSHlpLU56OU9rSFQ1NWE1eWZYM1ZzWEXSAWxBVV95cUxPbExGRmtnN0VyaU4xSkJkWVVZdFhENFJWT0ZtRkVTSE8tc1hrX3ZjQ1N0aEI3TVBPRVhpc0hNamJyN1d4VzNiaHpyWi1yVXJ3WTlROFdnMmtSSnFXZ2Nxcm5aYVVKY04wQURsbHA?oc=5",
+"date": "2026-10-01",
+"time": "10:11",
+"first_seen": "2026-10-01",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "네이버웹툰, 김용수·김규남 공동대표 선임⋯“김준구, 글로벌 경영 집중”",
+"source": "브릿지경제",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53RWtQeUs1dHpPS1p5X2dfdDBrbVdHdUNMZnpKUGVMNWN1RFlPbmpiRldKOW9JVzJ0QllaNUMxQXZFODYxWjgyVkE5bEdrTWl1MEljZi1RZG5Ndw?oc=5",
+"date": "2026-10-01",
+"time": "10:08",
+"first_seen": "2026-10-01",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "네이버웹툰, 김용수·김규남 공동대표 선임... 글로벌 성장 체계 강화",
+"source": "아이티비즈",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzVXVCNDZ0MW9lWnlpZHJJSUJyZk9BX0syUlN1UFJMMDM3NTRtVDVXdWhSX1o1VGw0MDRYVk40aVhkUjV6MEs2UjQ0STRZWUFaWGdKTGJqSjVicjNna2dWLXE1ejYwM1E?oc=5",
+"date": "2026-10-01",
+"time": "10:04",
+"first_seen": "2026-10-01",
+"units": [
+"f-contents"
+],
+"tags": []
+},
 {
 "title": "네이버웹툰, 김용수·김규남 공동대표 체제로…김준구 대표는 글로벌 집중",
 "source": "zdnet.co.kr",
@@ -434,6 +534,18 @@
 "tags": []
 },
 {
+"title": "경콘진, 월곶항서 해양쓰레기 수거…“환경보전 실천 이어간다”",
+"source": "뉴스아이이에스",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WMVMtcXUwa3VqaVEtcGY4cmdZdGp2TkRlc2FSdHJBQ2gxRXpmdVRDQXpaTWxUS2doSzl2MV9WRUhIaHlFc1ZuZ2hyMUdoZ1FKSlNyZTZWWjhiTHAxVlU2TkUxU2RiRW5GY25tUmh1QdIBckFVX3lxTE9saXl2Njc5dEFkeVVpR29MalVTalQ3YUotRG5VYWlKUjM2R3o5MGc1UDZJRUx2QmMzWU52RENWbTlrMG9WWWNMTjFmblhzQ3NjNElGZTFQcW9wQ2NXaFhEOXMxeS1WZUh5SkFDb1I2Q3hFUQ?oc=5",
+"date": "2026-10-01",
+"time": "08:01",
+"first_seen": "2026-10-01",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
 "title": "김선기 KTL 신임 원장 취임... “국정과제와 시험인증 역량 연계”",
 "source": "문화일보",
 "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96MWlyczhOQ3dpVmhYV0lZYWpibTFxMEZqWkdXcFVMaVF2OGozaktwdHpOS0NXNlBRRnNGVExqdGUzVzdPeGtWbWEyNUp3anFI?oc=5",
@@ -580,6 +692,18 @@
 "first_seen": "2026-10-01",
 "units": [
 "f-sports"
+],
+"tags": []
+},
+{
+"title": "\"한국영화의 힘, 한국 독립영화의 힘\" 부산국제영화제 KBS독립영화상 심사위원 공개",
+"source": "KBS연예",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUN0E5X2VFRnY5NkJ3NnFDZXVWd2VuR2ZLNENJNjdSYUFXWm10UjZpTlA5TGZ2djJPNmRaRkxpTnV4LTlyQWRFYi04NF9aZlAybnF4elNzZFRUQU1zcFE?oc=5",
+"date": "2026-10-01",
+"time": "00:00",
+"first_seen": "2026-10-01",
+"units": [
+"f-contents"
 ],
 "tags": []
 },
@@ -1446,6 +1570,18 @@
 "first_seen": "2026-10-01",
 "units": [
 "a-ggcf"
+],
+"tags": []
+},
+{
+"title": "포천 소흘생활체육공원 축구장 인조잔디 정비",
+"source": "LG헬로비전",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIaEZDMlBwZ0E1emVYMDBxQ0REZWlLTEVzajg1bzZ6NVROUm1EZFpBOWhlZjllN1JCRnoxREY1NjhFS3cxcUlIVnc0TDRibWZnVGNld1JxVGpBVWd1Snhqbmc0WDZsRjFvN1M0MjVuWWhKZ03SAXZBVV95cUxOcnhTV3RtQ0drR0JIZUNIUldjRGdoQ2w0Wm5GWGd6Nlk3VGhrSm1zdmhiQjNXS24xc3BKUEFJVXM3Zy1qeF9JQk5VWG9VNklkWTVKT3FoZmNtTmpqaFJ4TUFETlR5UXRITThXZkRwb1c2cUw5ZzRB?oc=5",
+"date": "2026-09-30",
+"time": "14:53",
+"first_seen": "2026-10-01",
+"units": [
+"f-sports"
 ],
 "tags": []
 },
@@ -6850,6 +6986,18 @@
 "first_seen": "2026-09-29",
 "units": [
 "a-gcon"
+],
+"tags": []
+},
+{
+"title": "국가무형유산 궁시장 유세현, ‘2026 살장이전’ 개최",
+"source": "AI경기방송",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2NFQyX183STI3WEdaOV91U2Y4UkVpS2MxTzF5cHdRRExnVkY3ak5aYmVRU1NNcUFEQzZaWlE1RWhHeC1FdzRmVU9ucnU1NUk0OFE?oc=5",
+"date": "2026-09-28",
+"time": "08:55",
+"first_seen": "2026-10-01",
+"units": [
+"d-heritage"
 ],
 "tags": []
 },
