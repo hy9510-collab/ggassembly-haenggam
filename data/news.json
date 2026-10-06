@@ -1,6 +1,10 @@
 {
-"updated": "2026-10-07 07:44",
+"updated": "2026-10-07 08:03",
 "runs": [
+{
+"at": "2026-10-07 08:03",
+"added": 11
+},
 {
 "at": "2026-10-07 07:44",
 "added": 199
@@ -104,6 +108,59 @@
 }
 ],
 "items": [
+{
+"title": "독일 프랑크푸르트도서전에서 ‘케이-북’ 수출 길 넓힌다",
+"source": "문화체육관광부",
+"url": "https://www.mcst.go.kr/kor/s_notice/press/pressView.jsp?pSeq=22759",
+"date": "2026-10-07",
+"time": "09:00",
+"first_seen": "2026-10-07",
+"units": [
+"f-policy"
+],
+"tags": [
+"보도자료"
+]
+},
+{
+"title": "문체부, 개정 「공연법」·「국민체육진흥법」 시행 이후 최초로 암표 거래 혐의자 170명 수사 의뢰",
+"source": "문화체육관광부",
+"url": "https://www.mcst.go.kr/kor/s_notice/press/pressView.jsp?pSeq=22758",
+"date": "2026-10-07",
+"time": "09:00",
+"first_seen": "2026-10-07",
+"units": [
+"f-policy"
+],
+"tags": [
+"보도자료"
+]
+},
+{
+"title": "‘경기도 무형유산 대축제’ 16일부터 가평문예회관서 개최",
+"source": "KBS 뉴스",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnc05hVUphb1ZzaElRZnROQ2dPRFIyMkdxWV9ITGkxU1hSNTZpOWx5ZGVXZktqNnN4VG91dXZFU1dRSmFKVnJfOEIzY0NONC1iUHNZRFhHRloyTFk?oc=5",
+"date": "2026-10-07",
+"time": "07:50",
+"first_seen": "2026-10-07",
+"units": [
+"d-heritage"
+],
+"tags": []
+},
+{
+"title": "경기도 무형유산 대축제, 16~18일 가평서 개최",
+"source": "군포시민신문",
+"url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE91N05icFAwRVU4WGJ3aTZkN1Y5R1JCRWJkOWFhdkdheDRVbjRXSmJDaHgtSGNQZFV3MVZ2bklpVU5HRTg?oc=5",
+"date": "2026-10-07",
+"time": "07:47",
+"first_seen": "2026-10-07",
+"units": [
+"d-heritage",
+"f-heritage"
+],
+"tags": []
+},
 {
 "title": "2026년 대한민국 AI 콘텐츠 어워즈 산업포럼, GV, 홍보 팝업스토어 오픈",
 "source": "부천포커스",
@@ -472,6 +529,32 @@
 "tags": []
 },
 {
+"title": "경기콘텐츠진흥원, 기업-지역 카페 잇는 상생 공간 제공",
+"source": "현대경제신문",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JN2J4VUpvaGM4eU00UERteFRodzBkM05XeGl2cnN4bVhuVUZkYURhWUt3SEtYVno1ZzVXWlM5T3dtbjNIY082NkJEUXdWVkNMdmpHMkszZDRvbktqbE9zaHdhcG02azTSAWtBVV95cUxNaDB2Q1RmY2pBd1NXbl9ndVpoWXd2VDE2ZjA2YjF6SUFqV2p1RGxBSjB0RUx2SS1EQlcwZUhDaHg2ZGtjQkQwM0VCd2pSNVJ2cEFQcTAxWWZSaXlWUXpyUGJYYmh1c2hhZlE1OA?oc=5",
+"date": "2026-10-06",
+"time": "17:47",
+"first_seen": "2026-10-07",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "경기도의회 채명신 의원, 공연예술 기술교육 지원체계 구축 논의",
+"source": "웹이코노미",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OMFhzN3BhSGh0dEphNWJnTnhKYnBoYW1OTFVQcEVYZkJYRXdtbFdjVnVUa1c1TF9LOWx1NU54WXU5dHh6aFZWZjFtanFhUm9nbk1ITFdjRVh6YkRzdkNvc3A5amg1WkNsb0x3bFVzd21NQQ?oc=5",
+"date": "2026-10-06",
+"time": "17:43",
+"first_seen": "2026-10-07",
+"units": [
+"guk"
+],
+"tags": [
+"의회"
+]
+},
+{
 "title": "'전승 단절' 경고등 켜진 제주도 무형유산...\"이러다 맥 끊길라\"",
 "source": "헤드라인제주",
 "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IUHdpVmpkcURkMkFmeGM1MTY0eUtQcnhSOEl4ZDlyb2t2bDdHbW1sb25JckJHdzNpbXY0VXM4cFVlOHFqemEtTV9HUTdxRDhLLXRRQkl6Qm14c21KOWl5eVczUktvYWJzMHBLYml4NTY4VmM?oc=5",
@@ -505,6 +588,18 @@
 "first_seen": "2026-10-07",
 "units": [
 "a-ggsports"
+],
+"tags": []
+},
+{
+"title": "네이버, 부산국제영화제 공식 후원…치지직·지도·Npay 서비스 연계",
+"source": "핀포인트뉴스",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kUEtSQ2dVd0t5VDVTM3pnNV9ETjBVQk5EMmZhaXRidExqX3JxbGZNeFlOWVp1MmRUWUFLdjlCWTdCaTBRd0JiOHJWWmdsYUJMYklKWEFlQWwySnBDZ2lwcllfOHYyb01QYk41TDFSLUpmbmfSAXdBVV95cUxOZnRYdnNWVnNJRmJCTE9RR0RXa2ptMnJIMXdiXzQ0eC1MYjFjSld1OTB1cndvNjdEcXhXTFlCb0ZWQVEtcm83X0Y5NlRjVDRyQXlkdEdhbGNLM2VmeF9sbTg3dGFhNVVjQ2RXdW5NSUM0aUtiVzFaTQ?oc=5",
+"date": "2026-10-06",
+"time": "17:13",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
 ],
 "tags": []
 },
@@ -658,6 +753,20 @@
 "f-heritage"
 ],
 "tags": []
+},
+{
+"title": "경기도의회 채명신 의원, 경기도 공연예술 기술교육 및 지원 연구 논의",
+"source": "모닝투데이",
+"url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE01QndKQVhSVGF6ZkltZkRONTQ3MlFtbHZ3cUpGbUVvOEpzR2hCbnpYMThFUkNjS1otc2ZvNFVNRzNTWXRrZXg5S3g3TmNuQQ?oc=5",
+"date": "2026-10-06",
+"time": "16:40",
+"first_seen": "2026-10-07",
+"units": [
+"guk"
+],
+"tags": [
+"의회"
+]
 },
 {
 "title": "남원읍, 우리동네가 건강해진다! 생활체육 활성화로 읍민 건강과 화합 동시 견인",
@@ -1079,6 +1188,18 @@
 "tags": []
 },
 {
+"title": "2025년 예술활동증명 신청 10건 중 7건 ‘보완’ 요청 이재정·민주당, 보완요청 비율 2022년 45.7%서 2025년 73.2%",
+"source": "오토투데이",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nZkRoWWZ1OFpsVEFUeVFSQkVsaXFEcnJPend0NlhEVjJkUVh4bnlUS2xhWkJzN3NZbnFkSDB6ekFFYzFoWFVNRldXSkYtQ1lDdVhVNGVvcUtQTElFT3BCeUstUThfS1ZUR0MwdUlkNA?oc=5",
+"date": "2026-10-06",
+"time": "13:57",
+"first_seen": "2026-10-07",
+"units": [
+"f-arts"
+],
+"tags": []
+},
+{
 "title": "청년 예술인의 꿈, 무대가 되다…경기아트센터 ‘2026 청년예술 기회무대’",
 "source": "경기일보",
 "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yc3U5WE1WZXEwQW52VHBFRHdHMlVqVEVDZmpsMjlaLWRwZ0wxaWJoMUNwdC1PSkZQQmFiY2JyOXI5d0x1Y1gtU0hIbEp1LVdOTWlYdGJUODdseHM?oc=5",
@@ -1475,7 +1596,8 @@
 "time": "11:32",
 "first_seen": "2026-10-07",
 "units": [
-"d-heritage"
+"d-heritage",
+"f-heritage"
 ],
 "tags": []
 },
@@ -1737,6 +1859,18 @@
 "first_seen": "2026-10-07",
 "units": [
 "a-gcon"
+],
+"tags": []
+},
+{
+"title": "우리동네가 건강해진다! 생활체육 활성화로 읍민 건강과 화합 동시 견인",
+"source": "뉴스N제주",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TU2h3aWdUSGk5YkRvc0FtZ25nMTNsTkV6RmlaNEthZ3cyaWNXclo3NjYwZllCWEdXS01nbF9OMG9RbnJOV2JQWlloVjM3NGZOUmFUSl9wU2N1QU9uNDFiY0Vmekhtdmc?oc=5",
+"date": "2026-10-06",
+"time": "10:23",
+"first_seen": "2026-10-07",
+"units": [
+"f-sports"
 ],
 "tags": []
 },
@@ -8579,6 +8713,18 @@
 "first_seen": "2026-10-01",
 "units": [
 "f-sports"
+],
+"tags": []
+},
+{
+"title": "항소법원, 톰슨 로이터의 AI 학습 저작권 승리를 ROSS 사건에서 유지",
+"source": "Cryptopolitan",
+"url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWZBQTBrbTFRcXAxWDhyLXVLaWlnNG85VG5UbDNzMWdaMVZrYU1TRHU1dEZNbDZQZk1sQ0ZFWFBDcWVIYXhpeVZMZlROaVdlMVVvU2dFc1FvVGtyNHkwWVAyZGtaVVlZYnE0M1dOWndLcEVBWHpxeWpDeFZvTW5SdU11dTI0eGhIUk5XcVlZeGpma3VBbGhNR0FkRWpWZGowUWZkdVJJZElob2s?oc=5",
+"date": "2026-09-30",
+"time": "11:39",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
 ],
 "tags": []
 },
