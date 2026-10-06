@@ -7,10 +7,13 @@ echo.
 git add -A
 git diff --cached --quiet
 if %errorlevel%==0 (
-  echo 바뀐 내용이 없어 올리지 않았습니다.
+  echo 바뀐 내용이 없습니다. 인터넷에 올라온 최신 내용만 받아옵니다.
+  git pull --rebase
   goto end
 )
 git commit -m "chore: 행감 자료 자동 갱신 %D%"
+if errorlevel 1 goto fail
+git pull --rebase
 if errorlevel 1 goto fail
 git push
 if errorlevel 1 goto fail
