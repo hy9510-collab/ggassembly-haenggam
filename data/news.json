@@ -1,6 +1,10 @@
 {
-"updated": "2026-10-07 08:03",
+"updated": "2026-10-07 09:00",
 "runs": [
+{
+"at": "2026-10-07 09:00",
+"added": 15
+},
 {
 "at": "2026-10-07 08:03",
 "added": 11
@@ -133,8 +137,165 @@
 "f-policy"
 ],
 "tags": [
-"보도자료"
+"보도자료",
+"쟁점"
 ]
+},
+{
+"title": "제네시스, 부산국제영화제 10년 연속 후원…GV90 등 의전차량 운영",
+"source": "아시아경제",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNTHNJUHdCcEJoMmc4b0ZJUjFkUUVXY3VEc3NJdGZfM1B0YTFUUWhFdGRBN2JiMEMxNHVpYUtaeHNIdTh5YWZUUEdkR2RJcmo2ckEydk5XRmE2ckZrUUNuWV85SjRCTXZFRV9OUHVUMA?oc=5",
+"date": "2026-10-07",
+"time": "09:00",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "제네시스, 부산국제영화제 10년 연속 후원…GV90 의전차량 운영",
+"source": "이투데이",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CMjJvRi1EMUIwdHZkUldEUzlfRWtYUzFjQVRxMEVoajdVZGxJVVd0OG1iR0FTTXRFb3ZNQXpWUnpCRTkyOXJCdHBCUEQwQzU0Rld3cFY2QWZYVkdwaktyU2xXRFZGZE1ZQXVVTGdB?oc=5",
+"date": "2026-10-07",
+"time": "08:58",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "제네시스, 부산국제영화제 10년 후원…GV90 네오룬 레드카펫 의전",
+"source": "PRESS9",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxSDNaeDVPT0VYcjFoTGE2WERDS3BTeExHdDd3TVBzdnlLYmlEVmIxRDR1OHNDU0plR1V0TkVvWGk0V2pwRDU1eDVYelNxWnVxbUQtNVBiU01vSFl2YTN0blk4dnU?oc=5",
+"date": "2026-10-07",
+"time": "08:57",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "제네시스, 부산국제영화제 10년째 후원…의전차량 100여대·GV90 네오룬 전시",
+"source": "Daum",
+"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MYTh6VFJIdG1HNElRYUl4aUNIaXZPUHRZTlVyaEsxT3pVeF9QNmVnRmQwLUxyT3lOeE5ReVhnNVUyMUw5b3dFOGlPQTJoN2M?oc=5",
+"date": "2026-10-07",
+"time": "08:51",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "\"레드카펫에 GV90 뜬다\"…제네시스, 부산국제영화제 10년 연속 후원",
+"source": "Daum",
+"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uNU5xNmg2elhvZW9RSjlwYTg4ank3YlFaNHlfY3F3V0RPVkc4V252TlJXV1BfY2tUUzBxWmRiNFZOdVZpMUtZRGI4VnkxdU0?oc=5",
+"date": "2026-10-07",
+"time": "08:48",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "예술인이 직접 정책 제안한다…경기문화재단 정책참여단 모집",
+"source": "뉴스1",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oRGhPS0VseWM2MHRzd2xMcGdiQzJpaTRrTnFmVXZQeU5Jdmprci1OOVNna3BVaGJHSXpfNDVyeVJfaHE0TjZ4akJ0ajYxYWMwWHNUSi1BRGVwWm9KbGhYVlFXQW5vZ2x6TEHSAW9BVV95cUxPSFFNNng2LWl3dTlwVkwwc1JzZ2hWMndZWGtLQnZTTHdtU0w1Z25IbGo2OFZ2UzFTdEtSYlNxLVROUkpfNG91aWZTX1ZiVXc2Nl9oTHZvR3Q3cmdDQmVtU2EwMW1xcElDdEM4Szd5WDA?oc=5",
+"date": "2026-10-07",
+"time": "08:41",
+"first_seen": "2026-10-07",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "AI로 만든 영화·숏폼 공모전 잇따라, 대한민국 AI 콘텐츠 어워즈 시상식·브루 챌린지 수상작 발표",
+"source": "플래텀(Platum)",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52YkRvYnB1LW85b0RSTWZEdHRweGtYbm9WZnduMC1aNW92ZUNJcmFnbGIxV2RYTmNPLTVzUFRqbDhla1k5TEFGdw?oc=5",
+"date": "2026-10-07",
+"time": "08:37",
+"first_seen": "2026-10-07",
+"units": [
+"d-contents"
+],
+"tags": []
+},
+{
+"title": "경기아트센터, 조용필 음악과 함께하는 뮤지컬 공연",
+"source": "수원화성신문",
+"url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBnT2JGYy1DVTN3SE1LcWs2Zkx1OGZYeHp6RG1YdGl0eHhNbHVCdUt6aWV5UDhJbmJ0YU5OdXhwTGxyQkE?oc=5",
+"date": "2026-10-07",
+"time": "08:34",
+"first_seen": "2026-10-07",
+"units": [
+"a-ggac"
+],
+"tags": []
+},
+{
+"title": "‘K-BOOK’ 영토 확장나서...문학부터 웹툰까지 세계로",
+"source": "마켓뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wUlZtWDZvNHdHYi1xNUpCZEJtNkJjTXF0bVQyV18wY3pYYmJRb2JpSktPSFktS2VzMDNFa0ZMMnhPNThBcGp1bFBvWjRvMlZ3YWxDdVZ1cUZsdGpYeVVYSVBMQV9XMGMyWGJEaWpR?oc=5",
+"date": "2026-10-07",
+"time": "08:33",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "제네시스, 부산국제영화제 10년 연속 후원 | 뉴스 | 현대자동차그룹",
+"source": "Hyundai Motor Group",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb1dGRFQ4V2dLQkRFblpYYUNtR0FjMWFpUjlNMDNaQ21qOE9MdndveDc5VHRvU3dNdGROLWR1TUM5UHpWNm4wWGJUOFFncGpnYWdfQjhlNHliZ3FSMFVkR0tiT2NhcDFUYlNKMXFaS2YweS1wQXBsRWE4UjZoelQtREM5clNMR08zRGhCSThEOEluR1lmUFBFM3lXV2lWQk01MFFOa0Jn?oc=5",
+"date": "2026-10-07",
+"time": "08:30",
+"first_seen": "2026-10-07",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "1,900여 점 미술작품 안산에 모인다…‘산업도시’에서 ‘문화도시’로 확장 시험대",
+"source": "경기연합신문",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qanl4a0RrWlpNSExBYU85N24xVHY1Y2xRejEwV0tFMWFxcHc1OVhES1pTNWxBRXNQQzVhWXhhdWI5TjJfWVJmZUVSQ1FHcldWTkJYZ1JRUDY1MzBHSWZlajJKalJlZw?oc=5",
+"date": "2026-10-07",
+"time": "08:26",
+"first_seen": "2026-10-07",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "[AI서머리] AI 콘텐츠 어워즈, 산업포럼·GV·팝업스토어로 개막‧SBA, 日 이토요카도서 팝업스토어",
+"source": "스타트업레시피",
+"url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5QX1VneVBKVmxFMzlrbTRLalEyNWdkc0xBMVBnWi1KNjNGSjJDZ3I1Q01xWTNNNnQ3WFctQUR0Y1VMeWJRWGN1LWhpczhCS0ZOdVpsYk5NMA?oc=5",
+"date": "2026-10-07",
+"time": "08:22",
+"first_seen": "2026-10-07",
+"units": [
+"d-contents"
+],
+"tags": []
+},
+{
+"title": "서울의 모든 경험, 한 패스에… 외래 관광객 서울 여행 필수템 '디스커버 서울패스'의 10년",
+"source": "서울시티",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rY2JFcC1uVk9lTjVMeTVRaTJXRDZVUWxxSHlaMTlNY20wdVRvQ0tacW9kTWdNczNHWThkQlQyQ1Z2MGliTkxXX25rRjE3N1UzWVNKTUpSbkxRSzZidDlUZ2NHTW1wRXR5NG5ERlRkYw?oc=5",
+"date": "2026-10-07",
+"time": "08:21",
+"first_seen": "2026-10-07",
+"units": [
+"f-tour"
+],
+"tags": []
 },
 {
 "title": "‘경기도 무형유산 대축제’ 16일부터 가평문예회관서 개최",
@@ -144,7 +305,8 @@
 "time": "07:50",
 "first_seen": "2026-10-07",
 "units": [
-"d-heritage"
+"d-heritage",
+"d-munhwa"
 ],
 "tags": []
 },
@@ -477,6 +639,18 @@
 "first_seen": "2026-10-07",
 "units": [
 "f-policy"
+],
+"tags": []
+},
+{
+"title": "경기도체육회, 도내 스포츠취약계층 유소년 대상 ‘스포츠박스 BOXTIVAL’ 개최",
+"source": "이코노믹포스트",
+"url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4NTNZVjhDOTV2MkdHZFBPWk5vSDhNd1hzcTFmVFYtUmpFWnF6Q1k3NUg0X0gyemNRVkFIcjRQbmIzSHVDWjhhOTBTbk4?oc=5",
+"date": "2026-10-06",
+"time": "18:08",
+"first_seen": "2026-10-07",
+"units": [
+"a-ggsports"
 ],
 "tags": []
 },
@@ -6119,6 +6293,18 @@
 "first_seen": "2026-10-07",
 "units": [
 "f-contents"
+],
+"tags": []
+},
+{
+"title": "원주시의회 문화도시위, 금대리 똬리굴·역사박물관 현장 점검",
+"source": "강원일보",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55TVVONkZZR1J1UkZfdWdzNGd6Rks1aWtoOVU3bkI5SHNvLW9HZkRfYkpzclA0TF9VV2JwSjhLdlV4Q1Z2YURrUjJTUzlPcVdmcXVKakZFc29iUU0?oc=5",
+"date": "2026-10-01",
+"time": "15:30",
+"first_seen": "2026-10-07",
+"units": [
+"f-policy"
 ],
 "tags": []
 },
