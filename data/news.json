@@ -1,6 +1,10 @@
 {
-"updated": "2026-10-08 08:22",
+"updated": "2026-10-08 09:00",
 "runs": [
+{
+"at": "2026-10-08 09:00",
+"added": 3
+},
 {
 "at": "2026-10-08 08:22",
 "added": 188
@@ -129,6 +133,18 @@
 "tags": [
 "보도자료"
 ]
+},
+{
+"title": "[문화도시 영종①] 세계의 관문에서 문화의 도시로…영종, 품격을 더하다",
+"source": "인천뉴스",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBcUxubXc3Tjg3QWNPMEtWZ1BlRkpXRnpRVXNOdzRFektEYXNLb2cybmxKUEZnUUlBMU9waTJYVEt4WHgyS0w1Mm0xeVROeU03eHd4Y0pMS2NIYnhnZGZPR2VxRTdPUkloS0pPQm5hUQ?oc=5",
+"date": "2026-10-08",
+"time": "08:33",
+"first_seen": "2026-10-08",
+"units": [
+"f-policy"
+],
+"tags": []
 },
 {
 "title": "국가유산청, 인간문화재 46명 생전 구술 기록 기회 놓쳐 진선미·민주당, 사망자 중 7명 보유자 기록화·구술채록 미참여",
@@ -961,6 +977,18 @@
 "tags": [
 "의회"
 ]
+},
+{
+"title": "경기도 무형유산 한자리에…16∼18일 가평서 대축제",
+"source": "동아일보",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VckVvWDFlZ05pb2w5bG5iaGU0V2xjUF9ndWJIYUx4ek9jR2gwWU9TcGF6cG9XNzlsdlhTVFhfcm55VThwZ2lDQk5zd0RQRUpsbUNEdFlsYUVTekFBcVhRU1JEVjk3QdIBZkFVX3lxTE5VckVvWDFlZ05pb2w5bG5iaGU0V2xjUF9ndWJIYUx4ek9jR2gwWU9TcGF6cG9XNzlsdlhTVFhfcm55VThwZ2lDQk5zd0RQRUpsbUNEdFlsYUVTekFBcVhRU1JEVjk3QQ?oc=5",
+"date": "2026-10-07",
+"time": "15:58",
+"first_seen": "2026-10-08",
+"units": [
+"d-heritage"
+],
+"tags": []
 },
 {
 "title": "전재수 시장 \"사직야구장, 야구 중심 생활체육 메카로 키울 것\"",
@@ -6997,6 +7025,18 @@
 "tags": [
 "의회"
 ]
+},
+{
+"title": "문화누리카드로 즐기는 충남 축제, 가을 나들이 제격",
+"source": "충청탑뉴스",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2RHlmQVIwUlNPWEsxSjFJSHBXaVFLRE5SZTRMRjNlSlR1UGI0ZDlDOExueWtwOUtTMlptaElsWWJrWEZnOTV1ZE10R1ZTMEFJR28tQkI2d1FrNnZzMVVuYjVhNE4?oc=5",
+"date": "2026-10-02",
+"time": "18:33",
+"first_seen": "2026-10-08",
+"units": [
+"f-policy"
+],
+"tags": []
 },
 {
 "title": "김성제 의왕시장, 제20회 경기도장애인생활체육회 의왕시 선수단 해단식 참석…선수들의 힘찬 도전 격려",
