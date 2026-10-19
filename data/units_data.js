@@ -25,10 +25,16 @@ window.UNITS = {
     {
      "level": "high",
      "title": "제2회 추경 536억 감액 — 문화·체육·관광 우선 삭감",
-     "detail": "예술인·체육인 기회소득, 장애인 생활체육, 컬처패스, 공공기관 출연금, 국제문화행사 등. 위원장 “사전 소통 부족”. 국은주 의원(예결특위)도 경기문화재단·한국도자재단 등 출연기관 예산 감액과 박물관 건립 도비매칭·고양 콘텐츠클러스터 조성사업 등 계속사업 영향을 점검, “재정난을 이유로 한 기계적 삭감이 타당한지 살펴야” 지적(9.26). 경기민예총도 문화·체육·관광 분야 8.8% 감액의 기준과 형평성을 밝히고 거버넌스를 작동시키라고 촉구(9.28·10.1 보도).",
+     "detail": "예술인·체육인 기회소득, 장애인 생활체육, 컬처패스, 공공기관 출연금, 국제문화행사 등이 감액됐다. 경기민예총은 9월에 이어 10월에도 문화예술 예산 보장을 촉구하며 추경 감액에 유감을 표했다.",
      "src": "2026.9.7 문체위",
      "id": "guk-1",
      "links": [
+      {
+       "title": "문화예술 예산 보장 촉구하는 경기민예총, 추경 감액 유감",
+       "source": "경기신문",
+       "date": "2026-10-14",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xYUJRNmNZcXFFZlhPcU5HWGhLanlwYWhBQjAzMkQzemhuUU9wR29QdFdGTzVfdGEwa2twZXQzYkJZYkpxMWpPdmdSd0JoT1J5eTZscW9Valp6T29LUndrNVhR?oc=5"
+      },
       {
        "title": "경기민예총, 경기도 문화예술 예산 감액 기준·형평성 검토 촉구",
        "source": "kgdm.kr",
@@ -48,7 +54,7 @@ window.UNITS = {
        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15MjNoYU9qLWVnZkdNZ3NHcGhPVXN1OGdSSFpVNXpQSFhUdlpRMG5qM0FUempDNlZ4Q1VoUXdiSEFuMmt3WFJHb3hHaHRPR19yQ1B1WmhhNlhKLWxESlJCN0JRMGRtY0FqMEM2aWM1djA?oc=5"
       }
      ],
-     "updated": "2026-10-01"
+     "updated": "2026-10-19"
     },
     {
      "level": "high",
@@ -1128,10 +1134,16 @@ window.UNITS = {
     {
      "level": "high",
      "title": "예술인 기회소득 2차분(75만원) 중단",
-     "detail": "연 150만원 약속 → 2026년 75만원만 지급, 도·시군비 28.59억 감액. 도는 '현금지원과 창작활동 상관성 미검증'을 이유로 폐지 방침. 경기민예총 648명 서명·기자회견.",
+     "detail": "연 150만원 안내 후 75만원만 지급하고 2차분을 중단했다(도·시군비 28.59억 감액). 10월에는 집행액이 전년 대비 반토막 났다는 보도가 이어졌고, 예술계는 감액 책임을 묻고 있다.",
      "src": "2026.8.12~9.14",
      "id": "d-arts-1",
      "links": [
+      {
+       "title": "경기도 예술인 기회소득 반토막…추미애 책임론 불거져",
+       "source": "https://www.kgdm.kr/",
+       "date": "2026-10-17",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11U3BiSWNaSV9Hb0g5ODJaU3ZVN1oySlZNREZlVkNEai00dXZfV2ExZlQwVFZVdG82MFRHNFNOZFEwelFqQ2YxLXlENkZtSWppNnA5ZmlPOWRnaEh4ZGxmbWJ6UUV6Zw?oc=5"
+      },
       {
        "title": "150만원→75만원 '반토막'…\"예술인 기회소득 축소 철회하라\"",
        "source": "뉴스1",
@@ -1181,7 +1193,7 @@ window.UNITS = {
        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QVWczdnlQa3ptaW14MUFTaVN5RWpmR29yeXdMbWVqRThyNHlhUHNIOHk5OEdyaEtPV2w2YUIzMEw1eENkVkhnOW0xTXBxWTRubWZBSWdocURQd1nSAWBBVV95cUxONnRzdjAwYUhIN3FXWWhHM1VQYXNqLUJtT1FuM3FtX1lqYVRfNHRiZDFYZkw4dXJBNWEtZVh0bjhDZlRiZVdKNHUwMnJSeEdsRDg5WjZqcVZGdTNPR1lXNWE?oc=5"
       }
      ],
-     "updated": "2026-09-18"
+     "updated": "2026-10-19"
     },
     {
      "level": "high",
@@ -3792,6 +3804,24 @@ window.UNITS = {
    ],
    "issues": [
     {
+     "id": "a-kocef-5",
+     "level": "high",
+     "title": "직원 비위 '솜방망이 처분' 지적 — 행감 제기",
+     "detail": "행정사무감사에서 최만식 의원이 한국도자재단의 직원 비위 처분이 '제 식구 감싸기'라고 지적했다. 징계 양정 기준과 실제 처분 수위, 재심 과정의 적정성이 확인 대상이다.",
+     "src": "2026.10.17 보도",
+     "links": [
+      {
+       "title": "[경기도 행감] 최만식 경기도의원, '한국도자재단 제식구 감싸기 솜방망이 처분' 지적",
+       "source": "중부일보",
+       "date": "2026-10-17",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tb1hOUXhvMGtQNTBpMDJsY3RaazByUFk1VEtzUXNKcHN3eW5RdGU4WjJTNFlFdVNDc2E0d0FieXRma1dKNjFnem1hSHJRdW0yc2JLcXBJY0pTeXk0NkdWb2lqRElYWjlqNGFDWnF4dw?oc=5"
+      }
+     ],
+     "added": "2026-10-19",
+     "updated": "2026-10-19",
+     "auto": true
+    },
+    {
      "level": "high",
      "title": "2차 추경 인건비 12억 감액(산하기관 중 최대)",
      "detail": "",
@@ -3847,7 +3877,8 @@ window.UNITS = {
     "인건비 12억 감액 사유(과다편성 vs 결원)",
     "비엔날레 관람객 목표·유료 수입·경제효과 산출 방식",
     "이사장 선임 지연 사유",
-    "경기 북부 도자·공예 복합문화센터 설치 계획(업무보고 기타 보고사항)"
+    "경기 북부 도자·공예 복합문화센터 설치 계획(업무보고 기타 보고사항)",
+    "징계 양정 기준 대비 실제 처분 수위, 감경 사유와 재심 결과"
    ],
    "findings": [
     {
@@ -4238,6 +4269,54 @@ window.UNITS = {
    ],
    "issues": [
     {
+     "id": "a-ggsports-8",
+     "level": "high",
+     "title": "용인 태권도장 불법촬영·아동학대 — 민간 도장 관리 사각지대",
+     "detail": "용인의 태권도장 관장이 여자 탈의실에 초소형 카메라를 설치해 6,300여 회 불법촬영한 사건으로 1심 징역 7년(5.28)을 선고받았고, 미성년 관원 대상 성착취물 제작 혐의로 추가 송치(6.2)된 뒤 2심에서도 검찰이 징역 10년을 구형했다(9.17). 피해자에 5세 아동이 포함되고 일부 영상은 해외로 유출됐다. 8월에는 용인의 다른 태권도장에서 아동에게 '다리 찢기'를 시켜 전치 8주 상해를 입힌 학대 혐의 피소도 보도됐다. 민간 체육도장은 체육회 가맹단체 관리 밖이어서 지도자 결격·취업제한 확인과 인권교육이 닿지 않는다.",
+     "src": "2026.5~9 보도",
+     "links": [
+      {
+       "title": "태권도장 탈의실에 몰카 설치해 불법 촬영한 관장…2심 징역 10년 구형",
+       "source": "경기신문",
+       "date": "2026-09-17",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uMi04bWExMjJzcWtlY0lWZUNKWTdhVDlXVXQtdzhJTEZTRnVuVzRiUjRwb1dZaWYxX0tscF90V1gyaU5PbHQ2Vm0yOW12WXFiWGViMHBNd3lWaV90QlFTNUhR?oc=5"
+      },
+      {
+       "title": "검찰, ‘탈의실 불법촬영’ 태권도 관장 2심 재판서 징역 10년 구형",
+       "source": "경기일보",
+       "date": "2026-09-17",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WZHl6UDN3U3BrbXIxSzVERm1zN0V0UUFSODhVS3lfcldBSlVabGlXV2p1Y0VaQ1J1eWNtWG11Y3h2V3QzQlQtXzdwSUlaVEZSSXFZVzh6U0haTjA?oc=5"
+      },
+      {
+       "title": "’불법촬영’ 태권도 관장, 제자 성범죄 추가 송치",
+       "source": "연합뉴스TV",
+       "date": "2026-06-03",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNT3pLXzVpWGpKTGprZG1iWlpCemljcjkwVTg5TGt3LUd1ZklJNXBBNGJQV2s5aHJFbnl0WHFiYmctYWxZWDhkV2VfcG03ME01OXlYcl9NTWQ5ckJJZE9WdDhOQW9nVDA?oc=5"
+      },
+      {
+       "title": "6천회 불법촬영 태권도 관장, 미성년 관원 성범죄로 추가 송치",
+       "source": "연합뉴스",
+       "date": "2026-06-02",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90WXdZeWpkR3dZeThnd1ZHRDd2RElpVTV4NkhiTVhIZTVnMFNEMjBjM3RGOUhGMXQ2bExvMWstNm1fMWJaTmpPYmhlT1ozbl81bmV0SHRuUEhJZHfSAWBBVV95cUxPYnhzRUN3YUpfa2VCVjQ5WnpxdjhfX2Z1NlZmN09WRm5pNnQwRXR6R2FQamJGSklLYWozOXZscU95aUw5Zk81anFST2V2RmJMcnpQckxOMVdvdUpDUUZQSHI?oc=5"
+      },
+      {
+       "title": "제자 등 옷 입는 모습 6300회 몰카 촬영한 태권도 관장 징역 7년",
+       "source": "세계일보",
+       "date": "2026-05-29",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3by1kZDlXcEoxZ0hBMVpjbG92VEFXVHN0RnJWT253SEpTaldCRGp6U3hRcWIyaFJHaE8tSkZWTk9mMHh4U202aEdiMkRpbXc1WV9pWUpTSDDSAVRBVV95cUxON0x2a2Y3ajBiV3FtME1qbjRiWjFyMGxTeDIzakdsdTBkTDBFZDY3RnVpVkhzd2ZFeDNaUmsyaDBXeGM0b0MzNVM3ZlRGbXFMVnFEREI?oc=5"
+      },
+      {
+       "title": "아동 '다리 찢기'로 전치 8주…용인 태권도장 관장 '학대' 피소",
+       "source": "뉴스1",
+       "date": "2026-08-25",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yUFc5Njg4ZkRySVBNS1FMMF9JSDdIT1ZtWUJwb2hTTVRMTjV1NmE2SDhCOGpZTGxuVTlLSnlfTlg3b2Y2MnVhbUR0M3lmVnJCbnA3VTh3?oc=5"
+      }
+     ],
+     "added": "2026-10-19",
+     "updated": "2026-10-19",
+     "auto": true
+    },
+    {
      "level": "high",
      "title": "격투대회 관리 부실 — 중상자 발생에도 기록은 ‘사고 없음’",
      "detail": "도체육회 주관 격투대회 안전관리·사고보고 부실 의혹(단독 보도).",
@@ -4339,7 +4418,8 @@ window.UNITS = {
     "직장운동경기부 종목별 성과 대비 인건비, 선수 계약·재계약 기준",
     "종목단체 보조금 정산·관리단체 현황",
     "전국체전 2027 개최 준비(체전추진단 한시기구) 인력·예산",
-    "인권·폭력 신고(공정감사실) 처리 실적"
+    "인권·폭력 신고(공정감사실) 처리 실적",
+    "민간 체육도장 지도자 결격·취업제한 확인 체계와 인권교육 의무가 비어 있다"
    ],
    "findings": [
     {
