@@ -183,6 +183,31 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
   .brand .upd{margin-left:0}
 }
 @media print{.top,.side,.subtabs,.filters,.no-print{display:none!important}.ax{display:block}}
+.fback{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--muted)}
+.fback .chipu{margin-left:4px}
+
+/* 2025 지적사항 연결 */
+.fd.hit{border-color:#e8a33d !important;box-shadow:0 0 0 2px #fdf0d5}
+.fd.hit>summary{background:#fff7e6}
+.chipu.fchip{border-color:#dcc08a;background:#fdf6e9}
+
+/* 예산 3단 흐름 */
+.bg-card{padding:14px 16px}
+.bg-line{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;margin-bottom:8px}
+.bg-line:last-of-type{margin-bottom:0}
+.bg-k{align-self:center;font-size:12.5px;font-weight:700;color:#fff;background:var(--navy);
+      border-radius:6px;padding:3px 9px;white-space:nowrap}
+.bg-c{flex:1 1 140px;min-width:0;background:#f6f8fc;border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+.bg-c small{display:block;font-size:11.5px;color:var(--muted);margin-bottom:2px}
+.bg-c b{font-size:19px;color:var(--navy);letter-spacing:-.3px}
+.bg-c.on{background:#fff7e6;border-color:#f0d9a8}
+.bg-c.on b{color:#9a6a12}
+.bg-d{display:inline-block;margin-left:6px;font-size:12px;font-weight:700}
+.bg-d.up{color:#166534}.bg-d.dn{color:#b91c1c}
+.bg-line>i{align-self:center;color:var(--muted);font-style:normal;font-size:14px}
+.bg-src{margin-top:10px;font-size:11.5px;color:var(--muted)}
+@media(max-width:640px){.bg-line>i{display:none}.bg-c{flex:1 1 100%}}
+
 /* 행감 일정 */
 .sched{margin:14px 0 4px;padding:0;overflow:hidden}
 .sched-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:12px 16px;background:var(--navy);color:#fff}
@@ -309,9 +334,9 @@ function newsList(list, opt={}){
 let V = {v:'home', id:'guk', sub:'info'};
 function go(v,id,sub){ location.hash = [v, id||'', sub||''].join('/'); }
 function route(){
-  const [v,id,sub] = location.hash.slice(1).split('/');
+  const [v,id,sub,key] = location.hash.slice(1).split('/');
   const prevUnit = U[V.id] ? V.id : 'guk';
-  V = {v: v||'home', id: id||'', sub: sub||'info'};
+  V = {v: v||'home', id: id||'', sub: sub||'info', key: key?decodeURIComponent(key):''};
   if(V.v==='unit' && !U[V.id]) V.id = prevUnit;
   if(V.v==='qa' && V.id!=='common' && !U[V.id]) V.id = prevUnit;
   document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on', b.dataset.v===V.v));
@@ -355,6 +380,22 @@ function schedPanel(){
       </div>`;}).join('')}</div>
     ${next?`<div class="sched-next">다음 감사일 <b>${next.date.slice(5).replace('-','.')}(${next.dow})</b> — ${esc(next.title)} · 질의 준비 바로가기 ${(next.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</div>`:''}
   </div>`;
+}
+
+/* ───────── 예산 3단(본예산 → 1회 추경 → 2회 추경) ───────── */
+function budSteps(u){
+  const b = u.bud3; if(!b) return '';
+  const n = v => v==null ? '-' : fmt(v);
+  const gap = (a,z) => (a==null||z==null) ? '' :
+    `<span class="bg-d ${z-a>=0?'up':'dn'}">${z-a>=0?'+':'△'}${fmt(Math.abs(+(z-a).toFixed(1)))}억</span>`;
+  const line = (lb, r) => `<div class="bg-line">${lb?`<span class="bg-k">${lb}</span>`:''}
+      <span class="bg-c"><small>본예산</small><b>${n(r.bon)}</b></span><i>→</i>
+      <span class="bg-c"><small>1회 추경</small><b>${n(r.chu1)}</b>${gap(r.bon,r.chu1)}</span><i>→</i>
+      <span class="bg-c on"><small>2회 추경</small><b>${n(r.chu2)}</b>${gap(r.chu1,r.chu2)}</span>
+      ${r.final!=null?`<i>→</i><span class="bg-c"><small>계수조정 후</small><b>${n(r.final)}</b></span>`:''}</div>`;
+  const body = b.rows ? b.rows.map(r=>line(r.kind, r)).join('') : line('', b);
+  return `<h2 class="sec">예산 흐름 <small>단위 ${esc(b.unit)} · ${esc(b.note)}</small></h2>
+    <div class="card bg-card">${body}<div class="bg-src">출처 : ${esc(b.src)}</div></div>`;
 }
 
 function viewSched(){
@@ -469,6 +510,7 @@ function unitInfo(u){
       {k:'정원 / 현원',v:'159 / 146',d:'국 144/135 · 센터 15/11'}, nStat(u)]);
     h += `<h2 class="sec">기본현황</h2>` + kvTable(Object.fromEntries(Object.entries(u.basic).map(([k,v])=>[k,esc(v)])));
     const dp = UL.filter(x=>x.kind==='dept'), m=Math.max(...dp.map(d=>d.bud[0]));
+    h += budSteps(u);
     h += `<h2 class="sec">부서별 세출예산 <small>’26 1회 추경(억원), 괄호는 ’25 최종 대비</small></h2><div class="card"><div class="bars">` +
       dp.map(d=>`<div class="bar-row" onclick="go('unit','${d.id}')"><div class="lb">${d.name}</div><div class="bar-track"><div class="bar-fill" style="width:${(d.bud[0]/m*100).toFixed(1)}%"></div></div>
         <div class="vl">${fmt(d.bud[0])}</div></div>`).join('') + `</div></div>`;
@@ -479,6 +521,7 @@ function unitInfo(u){
     h += `<h2 class="sec">기본현황</h2>` + kvTable({'부서장':esc(u.head),'팀 구성':esc(u.teams.map(t=>t+'팀').join(' · ')),'주요 업무':esc(u.role.join(' / ')),
       '2026 본예산':`${eokS(u.bud_bon[0])}억 · 세출사업 ${u.bud_bon[2]}개`,
       '소관 산하기관': u.agencies.length? u.agencies.map(a=>{const x=UL.find(y=>y.name.includes(a)); return x?`<a href="#unit/${x.id}">${esc(a)}</a>`:esc(a);}).join(' · ') : '없음'});
+    h += budSteps(u);
     h += `<h2 class="sec">주요사업 <small>2026.7 업무보고</small></h2>` + projTable(u.projects);
   } else {
     const [jw,hw] = u.basic['정원/현원'].split(' (')[0].split(' / ').map(Number);
@@ -488,6 +531,7 @@ function unitInfo(u){
     h += `<h2 class="sec">예산 <small>${esc(u.budget.base)}</small></h2><div class="tbl-wrap"><table class="tbl"><thead><tr><th>구분</th><th class="n">금액</th><th>비고</th></tr></thead><tbody>
       <tr class="total"><td>총계</td><td class="n">${esc(u.budget.total)}</td><td></td></tr>` +
       u.budget.rows.map(r=>`<tr><td>${esc(r.k)}</td><td class="n">${esc(r.v)}</td><td class="muted">${esc(r.note)}</td></tr>`).join('') + `</tbody></table></div>`;
+    h += budSteps(u);
     h += `<h2 class="sec">주요사업</h2>` + projTable(u.projects);
   }
   h += `<h2 class="sec">주요 이슈 <small>업무보고·언론·추경심사에서 추출</small></h2>` + issues(u);
@@ -540,13 +584,25 @@ const qaOf = id => QA.units[id] || {summary:'', questions:[], requests:[], prefi
 const findReq = no => QA.common.find(r=>r.no===no) || Object.values(QA.units).flatMap(u=>u.requests).find(r=>r.no===no);
 const reqUnit = no => Object.entries(QA.units).find(([k,u])=>u.requests.some(r=>r.no===no))?.[0];
 
+function goFind(uid, key){ location.hash = `#unit/${uid}/find/${encodeURIComponent(key)}`; }
+function jumpFind(){
+  if(!V.key) return;
+  setTimeout(()=>{
+    const el = document.querySelector(`[id$="-${CSS.escape(V.key)}"]`);
+    if(!el) return;
+    el.open = true;
+    el.classList.add('hit');
+    el.scrollIntoView({block:'center', behavior:'smooth'});
+  }, 60);
+}
+
 function qCard(uid, q, opt={}){
   const u = U[uid];
   const iss = (q.issues||[]).map(id=>u.issues.find(i=>i.id===id)).filter(Boolean);
   const fds = (q.findings||[]).map(k=>u.findings.find(f=>`${f.type}-${f.no}`===k)).filter(Boolean);
   const chips = [
     ...iss.map(i=>`<span class="chipu" title="${esc(i.detail)}" onclick="go('unit','${uid}','info')">이슈: ${esc(i.title.slice(0,24))}${(i.links||[]).length?` · 보도 ${i.links.length}`:''}</span>`),
-    ...fds.map(f=>`<span class="chipu" title="${esc(f.title)}" onclick="go('unit','${uid}','find')">’25 ${f.type}-${f.no} <b class="${f.status==='완료'?'up-t':'dn-t'}">${f.status==='완료'?'완료':'추진중'}</b></span>`),
+    ...fds.map(f=>`<span class="chipu fchip" title="${esc(f.title)} — 누르면 2025 지적사항 원문으로 이동" onclick="goFind('${uid}','${f.type}-${f.no}')">’25 ${f.type}-${f.no} <b class="${f.status==='완료'?'up-t':'dn-t'}">${f.status==='완료'?'완료':'추진중'}</b></span>`),
     ...(q.bench||[]).map(b=>`<span class="chipu" onclick="go('bench','${b}')">비교 ${b}: ${esc(BENCH[b]?.topic.slice(0,18)||'')}</span>`),
     ...(q.reqs||[]).map(r=>`<span class="chipu" onclick="go('qa','${reqUnit(r)||'common'}','req')">자료 ${esc(r)}</span>`),
   ].join(' ');
@@ -753,14 +809,27 @@ function toCSV(head, rows, fn){
 }
 
 /* ───────── 2025 지적사항 ───────── */
+function findRefs(uid, key){
+  const q = (QA.units[uid]||{}).questions||[], r = (QA.units[uid]||{}).requests||[];
+  const qs = q.filter(x=>(x.findings||[]).includes(key));
+  const rs = r.filter(x=>(x.why||'').includes(key.replace('-','ㅡ')) || (x.findings||[]).includes(key));
+  if(!qs.length && !rs.length) return '';
+  return `<div class="fback">이 지적과 연결된 것 : `
+    + qs.map(x=>`<span class="chipu" onclick="go('qa','${uid}')">질의 ${x.no}. ${esc((x.topic||'').slice(0,22))}</span>`).join(' ')
+    + rs.map(x=>`<span class="chipu" onclick="go('qa','${uid}','req')">자료 ${esc(x.no)}</span>`).join(' ')
+    + `</div>`;
+}
+
 function fItems(list, showDept){
-  return list.map(f=>`<details class="fd"><summary><span class="ty ${f.type}">${f.type}-${f.no}</span>
+  return list.map(f=>{ const k=`${f.type}-${f.no}`, on = V.key===k;
+    return `<details class="fd${on?' hit':''}" id="fd-${f._u||''}-${k}"${on?' open':''}><summary><span class="ty ${f.type}">${f.type}-${f.no}</span>
     <span class="t">${esc(f.title)}${showDept&&f.dept?` <span class="muted">【${esc(f.dept)}】</span>`:''}</span>
     <span class="st ${f.status==='완료'?'ok':'ing'}">${f.status==='완료'?'완료':'추진 중'}</span></summary>
-    <div class="body"><h5>지적 내용</h5>${esc(f.content)}<h5>처리결과</h5>${esc(f.result)}</div></details>`).join('') || '<p class="muted">해당 없음</p>';
+    <div class="body"><h5>지적 내용</h5>${esc(f.content)}<h5>처리결과</h5>${esc(f.result)}${f._u?findRefs(f._u,k):''}</div></details>`;
+  }).join('') || '<p class="muted">해당 없음</p>';
 }
 function unitFind(u){
-  after = () => bindFind(()=>u.findings.map(f=>({...f,_u:u.id})), u.kind!=='agency');
+  after = () => { bindFind(()=>u.findings.map(f=>({...f,_u:u.id})), u.kind!=='agency'); jumpFind(); };
   return `<h2 class="sec">${u.kind==='guk'?'국 공통 지적사항':'2025 행감 지적사항 및 처리결과'} <small>${u.findings.length}건 · 추진 중 ${ingCnt(u)}건</small></h2>` + findFilters() + `<div id="fres"></div>`;
 }
 function viewFind(){
