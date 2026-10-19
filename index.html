@@ -183,6 +183,30 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
   .brand .upd{margin-left:0}
 }
 @media print{.top,.side,.subtabs,.filters,.no-print{display:none!important}.ax{display:block}}
+/* 행감 일정 */
+.sched{margin:14px 0 4px;padding:0;overflow:hidden}
+.sched-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:12px 16px;background:var(--navy);color:#fff}
+.sched-head b{font-size:14.5px}
+.sched-head span{font-size:12px;color:#cfdcf2}
+.sched-dday{margin-left:auto;background:#fff;color:var(--navy);border-radius:999px;padding:3px 12px;font-size:12.5px;font-weight:700}
+.sched-dday b{font-size:13.5px}
+.sched-rows{padding:4px 0}
+.sr{display:grid;grid-template-columns:86px minmax(0,1fr) minmax(0,230px);gap:10px;align-items:baseline;
+    padding:7px 16px;border-bottom:1px solid #f1f3f8;font-size:13px}
+.sr:last-child{border-bottom:0}
+.sr .sd{font-weight:700;color:var(--navy);white-space:nowrap}
+.sr .sd small{font-weight:400;color:var(--muted)}
+.sr .st em{font-style:normal;color:var(--muted);font-size:12px}
+.sr .st small{color:var(--muted)}
+.sr .su{text-align:right;font-size:11.5px}
+.sr .su a{color:var(--navy);text-decoration:none;border-bottom:1px dotted #b9c6dd;margin-left:6px}
+.sr.rest{color:var(--muted);background:#fafbfd}
+.sr.rest .sd{color:var(--muted)}
+.sr.past{opacity:.5}
+.sr.on{background:#fff7e6;box-shadow:inset 3px 0 0 #e8a33d}
+.sched-next{padding:9px 16px;background:#f6f8fc;border-top:1px solid var(--line);font-size:12.5px}
+.sched-next a{color:var(--navy);margin-left:6px}
+@media(max-width:760px){.sr{grid-template-columns:72px minmax(0,1fr);}.sr .su{grid-column:1/-1;text-align:left}}
 </style>
 </head>
 <body>
@@ -215,6 +239,7 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
 <script src="data/news_data.js"></script>
 <script src="data/issue_log.js"></script>
 <script src="data/qa_data.js"></script>
+<script src="data/schedule_data.js"></script>
 <script>
 /* ───────── 공통 ───────── */
 const esc = s => String(s??'').replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
@@ -290,6 +315,37 @@ window.addEventListener('hashchange', route);
 let after = ()=>{};
 
 /* ───────── 대시보드 ───────── */
+/* ───────── 행감 일정 ───────── */
+const SCH = window.SCHEDULE || {rows:[]};
+const ymd = d => d.toISOString().slice(0,10);
+const todayReal = ymd(new Date());
+const dday = (a,b) => Math.round((new Date(a) - new Date(b)) / 864e5);
+const schedOf = uid => SCH.rows.filter(r=>!r.rest && (r.units||[]).includes(uid))[0];
+function schedBadge(uid){
+  const r = schedOf(uid); if(!r) return '';
+  const d = dday(r.date, todayReal);
+  const lb = d>0 ? `D-${d}` : d===0 ? '오늘' : '종료';
+  return `<span class="tag ${d===0?'r':'b'}" title="${esc(r.title)}">📅 감사 ${r.date.slice(5).replace('-','.')}(${r.dow}) ${lb}</span>`;
+}
+function schedPanel(){
+  if(!SCH.rows.length) return '';
+  const d = dday(SCH.start, todayReal);
+  const state = d>0 ? `시작까지 <b>D-${d}</b>` : (todayReal<=SCH.end ? '<b>진행 중</b>' : '종료');
+  const next = SCH.rows.filter(r=>!r.rest && r.date>=todayReal)[0];
+  return `<div class="card sched">
+    <div class="sched-head"><b>2026년도 행정사무감사</b> <span>${esc(SCH.period)} · ${SCH.days}일간 · ${esc(SCH.place)}</span>
+      <span class="sched-dday">${state}</span></div>
+    <div class="sched-rows">${SCH.rows.map(r=>{
+      const on = r.date===todayReal, past = r.date<todayReal;
+      return `<div class="sr ${r.rest?'rest':''} ${on?'on':''} ${past?'past':''}">
+        <span class="sd">${r.date.slice(5).replace('-','.')}<small>(${r.dow})</small></span>
+        <span class="st">${r.time?`<em>${r.time}</em> `:''}${esc(r.title)}${r.note?`<small> — ${esc(r.note)}</small>`:''}</span>
+        <span class="su">${(r.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</span>
+      </div>`;}).join('')}</div>
+    ${next?`<div class="sched-next">다음 감사일 <b>${next.date.slice(5).replace('-','.')}(${next.dow})</b> — ${esc(next.title)} · 질의 준비 바로가기 ${(next.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</div>`:''}
+  </div>`;
+}
+
 function viewHome(){
   const w7 = dAgo(7), w14 = dAgo(14);
   const recent = NEWS.items.filter(i=>i.date>=w7);
@@ -301,6 +357,7 @@ function viewHome(){
     <div class="stat"><div class="k">최근 7일 보도</div><div class="v">${fmt(recent.length)}<small>건</small></div><div class="d">쟁점 ${recent.filter(i=>i.tags.includes('쟁점')).length} · 의회 ${recent.filter(i=>i.tags.includes('의회')).length}</div></div>
     <div class="stat dn"><div class="k">2025 행감 지적 (위원회)</div><div class="v">167<small>건</small></div><div class="d">추진 중 111 · 완료 56</div></div>
   </div>`;
+  h += schedPanel();
 
   // 기관별 7일 기사 수
   const cnt = UL.map(u=>({u, n:recent.filter(i=>i.units.includes(u.id)).length, hot:recent.filter(i=>i.units.includes(u.id)&&i.tags.includes('쟁점')).length}))
@@ -349,7 +406,7 @@ function viewUnit(){
   let h = `<div class="ax"><nav class="side"><h4>총괄</h4>${g('guk').map(btn).join('')}<h4>문화체육관광국 부서</h4>${g('dept').map(btn).join('')}
     <h4>산하기관</h4>${g('agency').map(btn).join('')}</nav><main>`;
   const tags = u.kind==='agency' ? `<span class="tag g">${esc(u.cat)}</span> <span class="tag i">소관 ${esc(u.dept)}</span>` : u.kind==='dept'?`<span class="tag b">문화체육관광국</span>`:'';
-  h += `<div class="uhead"><h2>${esc(u.name)}</h2>${tags}<span class="who">${esc(u.head||u.basic?.['기관장']||'')}</span>
+  h += `<div class="uhead"><h2>${esc(u.name)}</h2>${tags}${schedBadge(u.id)}<span class="who">${esc(u.head||u.basic?.['기관장']||'')}</span>
     ${u.home?`<a class="btn" style="margin-left:auto" href="${u.home}" target="_blank" rel="noopener">🌐 ${esc(u.home_lb)}</a>`:''}</div>
     <div class="subtabs">${subs.map(([k,t,c])=>`<button class="${V.sub===k?'on':''}" onclick="go('unit','${u.id}','${k}')">${t}${c!==''?`<span class="c">${c}</span>`:''}</button>`).join('')}</div>`;
   h += ({info:unitInfo, qa:unitQA, news:unitNews, find:unitFind, files:unitFiles}[V.sub]||unitInfo)(u);
