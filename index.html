@@ -219,6 +219,7 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
     </div>
     <nav class="tabs" id="tabs">
       <button data-v="home">📊 대시보드</button>
+      <button data-v="sched">📅 감사일정</button>
       <button data-v="agenda">🎯 행감 의제</button>
       <button data-v="unit">🏢 기관·부서별</button>
       <button data-v="qa">📝 질의·자료요구</button>
@@ -306,7 +307,7 @@ function route(){
   document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on', b.dataset.v===V.v));
   const app = document.getElementById('app');
   after = ()=>{};
-  app.innerHTML = ({home:viewHome, agenda:viewAgenda, qa:viewQA, bench:viewBench, field:viewFieldTab, unit:viewUnit, issue:viewIssue, news:viewNews, find:viewFind, files:viewFiles}[V.v]||viewHome)();
+  app.innerHTML = ({home:viewHome, sched:viewSched, agenda:viewAgenda, qa:viewQA, bench:viewBench, field:viewFieldTab, unit:viewUnit, issue:viewIssue, news:viewNews, find:viewFind, files:viewFiles}[V.v]||viewHome)();
   after();
   window.scrollTo({top:0});
 }
@@ -344,6 +345,37 @@ function schedPanel(){
       </div>`;}).join('')}</div>
     ${next?`<div class="sched-next">다음 감사일 <b>${next.date.slice(5).replace('-','.')}(${next.dow})</b> — ${esc(next.title)} · 질의 준비 바로가기 ${(next.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</div>`:''}
   </div>`;
+}
+
+function viewSched(){
+  const rows = SCH.rows.filter(r=>!r.rest && (r.units||[]).length);
+  let h = `<h2 class="sec" style="margin-top:0">2026년도 행정사무감사 일정 <small>감사계획서(의안 제198호) 기준 · 감사장소 ${esc(SCH.place)}</small></h2>`;
+  h += schedPanel();
+  h += `<h2 class="sec">감사일별 준비 상태 <small>감사 받는 순서대로 · 숫자를 누르면 해당 탭으로 이동</small></h2>
+    <div class="card" style="padding:0;overflow:auto">
+    <table class="tb"><thead><tr><th>감사일</th><th>기관·부서</th><th>남은 날</th><th>이슈</th><th>질의</th><th>자료요구</th><th>최근 7일 기사</th><th>2025 지적</th></tr></thead><tbody>`;
+  const w7 = dAgo(7);
+  rows.forEach(r=>{
+    (r.units||[]).forEach((uid,idx)=>{
+      const u = U[uid]; if(!u) return;
+      const q = qaOf(uid), d = dday(r.date, todayReal);
+      const n7 = newsOf(uid).filter(i=>i.date>=w7).length;
+      const undone = (u.findings||[]).filter(f=>!/완료/.test(f.state||f.result||'')).length;
+      h += `<tr${d===0?' style="background:#fff7e6"':''}>
+        <td>${idx===0?`<b>${r.date.slice(5).replace('-','.')}</b><small>(${r.dow})</small>`:''}</td>
+        <td><a href="#unit/${uid}/info">${esc(u.name)}</a></td>
+        <td>${d>0?`D-${d}`:(d===0?'<b>오늘</b>':'종료')}</td>
+        <td><a href="#unit/${uid}/info">${(u.issues||[]).length}</a></td>
+        <td><a href="#qa/${uid}">${(q.questions||[]).length}</a></td>
+        <td><a href="#qa/${uid}">${(q.requests||[]).length}</a></td>
+        <td><a href="#unit/${uid}/news">${n7}</a></td>
+        <td><a href="#unit/${uid}/find">${(u.findings||[]).length}<small> (미완료 ${undone})</small></a></td></tr>`;
+    });
+  });
+  h += `</tbody></table></div>
+    <div class="note" style="margin-top:12px">감사 하루 전에는 해당 기관의 <b>질의·자료요구</b>와 <b>최근 기사</b>를 함께 확인하세요.
+      공통 자료요구 ${QA.common.length}건은 모든 기관에 공통으로 요구한 자료입니다.</div>`;
+  return h;
 }
 
 function viewHome(){
