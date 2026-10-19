@@ -186,27 +186,37 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
 /* 행감 일정 */
 .sched{margin:14px 0 4px;padding:0;overflow:hidden}
 .sched-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:12px 16px;background:var(--navy);color:#fff}
-.sched-head b{font-size:14.5px}
-.sched-head span{font-size:12px;color:#cfdcf2}
-.sched-dday{margin-left:auto;background:#fff;color:var(--navy);border-radius:999px;padding:3px 12px;font-size:12.5px;font-weight:700}
-.sched-dday b{font-size:13.5px}
+.sched-head b{font-size:16.5px}
+.sched-head span{font-size:13.5px;color:#cfdcf2}
+.sched-dday{margin-left:auto;background:#fff;color:var(--navy);border-radius:999px;padding:4px 14px;font-size:14px;font-weight:700}
+.sched-dday b{font-size:15.5px}
 .sched-rows{padding:4px 0}
-.sr{display:grid;grid-template-columns:86px minmax(0,1fr) minmax(0,230px);gap:10px;align-items:baseline;
-    padding:7px 16px;border-bottom:1px solid #f1f3f8;font-size:13px}
+.sr{display:grid;grid-template-columns:98px minmax(0,1fr) minmax(0,280px);gap:10px;align-items:start;
+    padding:10px 16px;border-bottom:1px solid #f1f3f8;font-size:15px;line-height:1.55}
 .sr:last-child{border-bottom:0}
-.sr .sd{font-weight:700;color:var(--navy);white-space:nowrap}
-.sr .sd small{font-weight:400;color:var(--muted)}
-.sr .st em{font-style:normal;color:var(--muted);font-size:12px}
-.sr .st small{color:var(--muted)}
-.sr .su{text-align:right;font-size:11.5px}
-.sr .su a{color:var(--navy);text-decoration:none;border-bottom:1px dotted #b9c6dd;margin-left:6px}
+.sr .s-date{font-weight:700;color:var(--navy);white-space:nowrap;font-size:15px}
+.sr .s-date small{font-weight:400;color:var(--muted);font-size:13px}
+.sr .s-title{font-weight:600}
+.sr .s-title em{font-style:normal;color:var(--muted);font-weight:400;font-size:14px}
+.sr .s-title small{color:var(--muted);font-weight:400;font-size:13.5px}
+.sr .s-units{display:flex;flex-wrap:wrap;gap:5px 6px;justify-content:flex-end;font-size:13px}
+.sr .s-units a{display:inline-block;white-space:nowrap;color:var(--navy);text-decoration:none;font-weight:600;
+          background:#eef2f9;border:1px solid #dde4ef;border-radius:999px;padding:2px 10px;line-height:1.7}
+.sr .s-units a:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
 .sr.rest{color:var(--muted);background:#fafbfd}
 .sr.rest .sd{color:var(--muted)}
 .sr.past{opacity:.5}
 .sr.on{background:#fff7e6;box-shadow:inset 3px 0 0 #e8a33d}
-.sched-next{padding:9px 16px;background:#f6f8fc;border-top:1px solid var(--line);font-size:12.5px}
-.sched-next a{color:var(--navy);margin-left:6px}
-@media(max-width:760px){.sr{grid-template-columns:72px minmax(0,1fr);}.sr .su{grid-column:1/-1;text-align:left}}
+.sched-next{padding:11px 16px;background:#f6f8fc;border-top:1px solid var(--line);font-size:14px;line-height:2.1}
+.sched-next a{display:inline-block;white-space:nowrap;color:var(--navy);text-decoration:none;font-weight:600;
+              background:#fff;border:1px solid #dde4ef;border-radius:999px;padding:2px 10px;margin-left:4px}
+.sr>span{min-width:0}
+.sr .s-title{word-break:keep-all;overflow-wrap:anywhere}
+.sched-head span{word-break:keep-all}
+@media(max-width:760px){
+  .sr{grid-template-columns:70px minmax(0,1fr);gap:4px 8px}
+  .sr .s-units{grid-column:2/-1;justify-content:flex-start}
+}
 </style>
 </head>
 <body>
@@ -339,9 +349,9 @@ function schedPanel(){
     <div class="sched-rows">${SCH.rows.map(r=>{
       const on = r.date===todayReal, past = r.date<todayReal;
       return `<div class="sr ${r.rest?'rest':''} ${on?'on':''} ${past?'past':''}">
-        <span class="sd">${r.date.slice(5).replace('-','.')}<small>(${r.dow})</small></span>
-        <span class="st">${r.time?`<em>${r.time}</em> `:''}${esc(r.title)}${r.note?`<small> — ${esc(r.note)}</small>`:''}</span>
-        <span class="su">${(r.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</span>
+        <span class="s-date">${r.date.slice(5).replace('-','.')}<small>(${r.dow})</small></span>
+        <span class="s-title">${r.time?`<em>${r.time}</em> `:''}${esc(r.title)}${r.note?`<small> — ${esc(r.note)}</small>`:''}</span>
+        <span class="s-units">${(r.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</span>
       </div>`;}).join('')}</div>
     ${next?`<div class="sched-next">다음 감사일 <b>${next.date.slice(5).replace('-','.')}(${next.dow})</b> — ${esc(next.title)} · 질의 준비 바로가기 ${(next.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</div>`:''}
   </div>`;
