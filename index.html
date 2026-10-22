@@ -186,6 +186,17 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
 .fback{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--muted)}
 .fback .chipu{margin-left:4px}
 
+/* 요구자료 목록 */
+.rq-h{font-size:15px;color:var(--navy);margin:20px 0 8px}
+.rq-h a{color:var(--navy)}
+.tbl.rq td{vertical-align:top;font-size:13.5px;line-height:1.6}
+.tbl.rq td:first-child{white-space:nowrap}
+.rq-w{min-width:150px}
+.chipw{display:inline-block;margin:1px 3px 1px 0;padding:1px 7px;border-radius:999px;font-size:11.5px;
+       background:#eef2f9;border:1px solid #dde4ef;color:#45526b;white-space:nowrap}
+.chipw.mine{background:var(--navy);border-color:var(--navy);color:#fff;font-weight:700}
+.filters label.ck{display:inline-flex;align-items:center;gap:4px;font-size:13px;color:var(--muted)}
+
 /* 2025 지적사항 연결 */
 .fd.hit{border-color:#e8a33d !important;box-shadow:0 0 0 2px #fdf0d5}
 .fd.hit>summary{background:#fff7e6}
@@ -258,6 +269,7 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
       <button data-v="agenda">🎯 행감 의제</button>
       <button data-v="unit">🏢 기관·부서별</button>
       <button data-v="qa">📝 질의·자료요구</button>
+      <button data-v="reqlist">📄 요구자료 목록</button>
       <button data-v="bench">⚖ 정부·타 시도</button>
       <button data-v="field">🏛 분야 정책·보도자료</button>
       <button data-v="issue">🔥 쟁점 보도</button>
@@ -276,6 +288,7 @@ footer{text-align:center;color:var(--mut);font-size:11.5px;padding:24px 16px 40p
 <script src="data/issue_log.js"></script>
 <script src="data/qa_data.js"></script>
 <script src="data/schedule_data.js"></script>
+<script src="data/requests_data.js"></script>
 <script>
 /* ───────── 공통 ───────── */
 const esc = s => String(s??'').replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
@@ -342,7 +355,7 @@ function route(){
   document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on', b.dataset.v===V.v));
   const app = document.getElementById('app');
   after = ()=>{};
-  app.innerHTML = ({home:viewHome, sched:viewSched, agenda:viewAgenda, qa:viewQA, bench:viewBench, field:viewFieldTab, unit:viewUnit, issue:viewIssue, news:viewNews, find:viewFind, files:viewFiles}[V.v]||viewHome)();
+  app.innerHTML = ({home:viewHome, sched:viewSched, agenda:viewAgenda, qa:viewQA, reqlist:viewReqList, bench:viewBench, field:viewFieldTab, unit:viewUnit, issue:viewIssue, news:viewNews, find:viewFind, files:viewFiles}[V.v]||viewHome)();
   after();
   window.scrollTo({top:0});
 }
@@ -380,6 +393,77 @@ function schedPanel(){
       </div>`;}).join('')}</div>
     ${next?`<div class="sched-next">다음 감사일 <b>${next.date.slice(5).replace('-','.')}(${next.dow})</b> — ${esc(next.title)} · 질의 준비 바로가기 ${(next.units||[]).map(x=>`<a href="#unit/${x}/qa">${esc(SHORT(x))}</a>`).join(' ')}</div>`:''}
   </div>`;
+}
+
+
+/* ───────── 제출한 요구자료 목록(1차·2차) ───────── */
+const RQ = window.REQLIST || {rounds:[]};
+function reqAll(){ return RQ.rounds.flatMap(r=>r.items.map(i=>({...i, _r:r.key, _rl:r.label}))); }
+function viewReqList(){
+  const all = reqAll();
+  if(!all.length) return `<h2 class="sec" style="margin-top:0">요구자료 목록</h2><p class="muted">자료가 없습니다.</p>`;
+  const orgs = [...new Set(all.map(i=>i.org))];
+  const whos = [...new Set(all.flatMap(i=>i.who))].sort();
+  const r1 = RQ.rounds.find(r=>r.key==='1')||{items:[]}, r2 = RQ.rounds.find(r=>r.key==='2')||{items:[]};
+  let h = `<h2 class="sec" style="margin-top:0">위원회에 제출한 요구자료 목록 <small>행감 요구자료 취합본 · 질의·자료요구 탭(우리 초안)과 별개로 실제 제출본입니다</small></h2>`;
+  h += statRow([
+    {k:'1차 취합본', v:`${fmt(r1.items.length)}<small>건</small>`, d:`${esc(r1.date||'')} · 제출기한 ${esc(r1.due||'-')}`},
+    {k:'2차 추가', v:`${fmt(r2.items.length)}<small>건</small>`, d:esc(r2.label||'')},
+    {k:'대상기관', v:`${orgs.length}<small>곳</small>`, d:'공통 + 국 + 산하기관'},
+    {k:'요구의원', v:`${whos.length}<small>명</small>`, d:'1·2차 합계'}]);
+  const opt = (v,t)=>`<option value="${esc(v)}">${esc(t)}</option>`;
+  h += `<div class="filters">
+      <div class="seg" id="rqr"><button data-r="" class="on">전체</button><button data-r="1">1차</button><button data-r="2">2차</button></div>
+      <select id="rqo"><option value="">기관 전체</option>${orgs.map(o=>opt(o,`${o} (${all.filter(i=>i.org===o).length})`)).join('')}</select>
+      <select id="rqw"><option value="">의원 전체</option>${whos.map(w=>opt(w,`${w} (${all.filter(i=>i.who.includes(w)).length})`)).join('')}</select>
+      <input type="search" id="rqq" placeholder="자료명 검색">
+      <label class="ck"><input type="checkbox" id="rqn"> 신규만</label>
+      <span class="muted" id="rqc"></span>
+      <button class="btn" id="rqcsv">CSV 내려받기</button></div>
+    <div id="rqres"></div>`;
+  after = () => bindReq(all);
+  return h;
+}
+function bindReq(all){
+  const st = {r:'', o:'', w:'', q:'', n:false};
+  const run = () => {
+    let l = all;
+    if(st.r) l = l.filter(i=>i._r===st.r);
+    if(st.o) l = l.filter(i=>i.org===st.o);
+    if(st.w) l = l.filter(i=>i.who.includes(st.w));
+    if(st.n) l = l.filter(i=>/신규/.test(i.note) || /신규/.test(String(i.no)));
+    if(st.q) l = l.filter(i=>(i.title+i.note+i.who.join('')).includes(st.q));
+    document.getElementById('rqc').textContent = `${l.length}건`;
+    const by = {};
+    l.forEach(i=>(by[i.org] = by[i.org]||[]).push(i));
+    document.getElementById('rqres').innerHTML = Object.entries(by).map(([org, items])=>{
+      const uid = items[0].uid;
+      return `<h3 class="rq-h">${uid&&U[uid]?`<a href="#unit/${uid}/qa">${esc(org)}</a>`:esc(org)}
+          <span class="muted">${items.length}건</span></h3>
+        <div class="tbl-wrap"><table class="tbl rq"><thead><tr><th class="c">연번</th><th>자료명</th><th>요구의원</th><th class="c">비고</th></tr></thead><tbody>` +
+        items.map(i=>`<tr><td class="c">${esc(String(i.no))}${i._r==='2'?' <span class="tag new">2차</span>':''}</td>
+          <td>${esc(i.title)}</td>
+          <td class="rq-w">${i.who.map(w=>`<span class="chipw${/전예슬|한규찬/.test(w)?' mine':''}">${esc(w)}</span>`).join('')}</td>
+          <td class="c muted">${esc(i.note)}</td></tr>`).join('') + `</tbody></table></div>`;
+    }).join('') || '<p class="muted">해당 없음</p>';
+  };
+  document.querySelectorAll('#rqr button').forEach(b=>b.onclick=()=>{st.r=b.dataset.r;
+    document.querySelectorAll('#rqr button').forEach(x=>x.classList.toggle('on',x===b)); run();});
+  document.getElementById('rqo').onchange = e=>{st.o=e.target.value; run();};
+  document.getElementById('rqw').onchange = e=>{st.w=e.target.value; run();};
+  document.getElementById('rqq').oninput  = e=>{st.q=e.target.value.trim(); run();};
+  document.getElementById('rqn').onchange = e=>{st.n=e.target.checked; run();};
+  document.getElementById('rqcsv').onclick = ()=>{
+    let l = all;
+    if(st.r) l=l.filter(i=>i._r===st.r);
+    if(st.o) l=l.filter(i=>i.org===st.o);
+    if(st.w) l=l.filter(i=>i.who.includes(st.w));
+    if(st.n) l=l.filter(i=>/신규/.test(i.note)||/신규/.test(String(i.no)));
+    if(st.q) l=l.filter(i=>(i.title+i.note+i.who.join('')).includes(st.q));
+    toCSV(['차수','기관','연번','자료명','요구의원','비고'],
+      l.map(i=>[i._rl, i.org, i.no, i.title, i.who.join(' '), i.note]), `행감_요구자료목록_${today}.csv`);
+  };
+  run();
 }
 
 /* ───────── 예산 3단(본예산 → 1회 추경 → 2회 추경) ───────── */
