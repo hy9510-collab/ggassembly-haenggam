@@ -1,6 +1,10 @@
 {
-"updated": "2026-11-07 10:38",
+"updated": "2026-11-08 10:06",
 "runs": [
+{
+"at": "2026-11-08 10:06",
+"added": 45
+},
 {
 "at": "2026-11-07 10:38",
 "added": 128
@@ -244,14 +248,294 @@
 "at": "2026-09-18 18:03",
 "added": 1309,
 "note": "소급 수집 2026-01-01 ~ 2026-09-19"
-},
-{
-"at": "2026-09-18 17:54",
-"added": 779,
-"note": "최초 수집(최근 60일 소급)"
 }
 ],
 "items": [
+{
+"title": "경기도의회 문화체육관광위, 행감서 문화체육관광국 문제점 조명",
+"source": "일간경기",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LV1k3SUlrRHBjdlB4YkNyN2twb3VqWW5HSG5LMVdGTDBYR0x3WTBxYzJYRVRVOXdGVnJjVXdDelZod2Q4bEN2UmhZSjFSWTR1SFUtMW4xdlhWRDY5X0FFbTdiS0xaSEJQ?oc=5",
+"date": "2026-11-08",
+"time": "09:51",
+"first_seen": "2026-11-08",
+"units": [
+"guk"
+],
+"tags": [
+"의회"
+]
+},
+{
+"title": "경콘진, 경기 마을 미디어 공모전 175편이 기록한 우리 동네",
+"source": "산경일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5UjktME9PbUExWDFHZW1QbnN0ZnlWM05LZUFvM04wLVRfNk9QbmltR1p1S3AyQWVNY0FoNGRJb2JIMTNYdHFqMnVENTJZNXJITUZWc2dyZFAtYkF6dWtNUVhETVFaZXczVnJaTzczR1A?oc=5",
+"date": "2026-11-08",
+"time": "09:47",
+"first_seen": "2026-11-08",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "이계철 화성시의회 의장, 생활체육·반려문화 현장 찾아 시민과 소통",
+"source": "비욘드포스트",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83VjhhX1I4ZGRkMmxXYkVpdmNzR2Y4dzN3azI1aWZubE4zRnNKTXNVNnd6cWQwRS1VOF9fQjBOdkJtS1VWQkdIUFV5eHotREFJVmo2OUtyNDA0VnI5ck02T1NJd0w1X2ZSNTVHeHRVU2VBMlVRa3F5UEQwNWg?oc=5",
+"date": "2026-11-08",
+"time": "09:43",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "최규진 경기도의원, “DMZ영화제 의회 의결 전 예산 삭감·상금 변경, 다시는 없어야”",
+"source": "신아일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yZXliN2RzNW5CMnhKSXp0MUVHZWJnZmNUS0hoS01Gb1JaTHRHNTQtOVFGSVRsX2JhZTd1ZTJfM3cxU0VudEZaejRqVjg1THYyRXJZWTEzYlM4cEJTekptUEdOV1duZHN3eENCYU1DU1E?oc=5",
+"date": "2026-11-08",
+"time": "09:34",
+"first_seen": "2026-11-08",
+"units": [
+"guk",
+"a-dmz"
+],
+"tags": [
+"의회",
+"쟁점",
+"예산"
+]
+},
+{
+"title": "경기아트센터 '무급 1만2894시간'…’휴무 보상' 서면합의서는 어디에",
+"source": "이투데이",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJZDlLeG5zXzMxZnVOak5URk1qTzJfZklUYzdidE5nUFczSFZJa1pxaHVTdDY3ZjNDQXkxWC1fSXozTWdWb1N6eDRvTlF6bXF0SmV6VQ?oc=5",
+"date": "2026-11-08",
+"time": "09:23",
+"first_seen": "2026-11-08",
+"units": [
+"a-ggac"
+],
+"tags": []
+},
+{
+"title": "전남·광주 체육, 2027년 전국체전 분리 출전 '유지'",
+"source": "진일보 | 전남일보",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrTkI1U29qSFZGMWhEWVRJV3hGS2h3YmY4V1YtQjRxWjQ4UEswR3B0emlwbTNBeVlUODlqQ3E3RjVRUHQ2V2t6eEdINFdMbHNSZVBtbHFtakNJeW44cEJ2ZkQta0NaM0x6d1h3Wkc1OA?oc=5",
+"date": "2026-11-08",
+"time": "08:50",
+"first_seen": "2026-11-08",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "[국가무형유산] 궁시장",
+"source": "인천투데이",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMUWxUNEhUbmt2WUstMG51dXFuTVRQY3N5ZGt1YUxXNUpSNjhOZUNwOGh2U2JqcGo2SEhwNnFadXYwQnlUamhFdU1DRHp3V0hJdWd6akIzME1WTE5pcXVQcGRCcE44bll0djF5WFdGNEs?oc=5",
+"date": "2026-11-08",
+"time": "08:00",
+"first_seen": "2026-11-08",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "화순군, 무형유산 ‘내평리 길쌈노래 전승 행사’ 성황리 개최 > 뉴스",
+"source": "더코리아",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEV0ZuVnVNWWgzOUtIdUFHLU1LcjdCN2ZGTGpWSU01RVcyQUNWSWFPWXlJSlNzaGNTY2tLNXRjRTBhcjVYcDhteHQzNjd3SG1ySENSekNMNWpUbTZqR3pBaGFDVzlBY1VMbnlTWVlqYTdNdw?oc=5",
+"date": "2026-11-07",
+"time": "21:43",
+"first_seen": "2026-11-08",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "강혜순 울산시의원, 학교 예술교육·예술인 복지 조례 개정 추진",
+"source": "중도일보",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xaF9iOTNfQUFOTHFSamZBNDdUeTBXUUl3ckJ3cy10ZlY4OHdtTWZZbExnTm5idjQ5NFVfYTNhU3RwZTJKeGY2MmJCWUlmMV81QWFUcW1rQlNWdXlmUTIxeTZDNDZsdmx0aHlfVQ?oc=5",
+"date": "2026-11-07",
+"time": "21:16",
+"first_seen": "2026-11-08",
+"units": [
+"f-arts"
+],
+"tags": [
+"의회"
+]
+},
+{
+"title": "문화체육관광부와 법무부, 모든 유형의 저작물에 대해 0 루피아의 저작권 등록을 시행",
+"source": "VOI.ID",
+"url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5MZm1KeVRJdDNCZ29MeEFHVF9xdzZST2dnS1NEeTRkVlhzM0YzbkJHZ2RNQm5ydzRHN1JsQkpDRTV5Z9IBQkFVX3lxTE5MZm1KeVRJdDNCZ29MeEFHVF9xdzZST2dnS1NEeTRkVlhzM0YzbkJHZ2RNQm5ydzRHN1JsQkpDRTV5Zw?oc=5",
+"date": "2026-11-07",
+"time": "20:23",
+"first_seen": "2026-11-08",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "문화체육관광부 장관: 관광 경제의 병목 현상을 해소하고 획기적인 발전을 이루어내겠습니다.",
+"source": "Vietnam.vn",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU2hNT2x2TGRNVl95UzBTWXlXT2tKX3dMOWNONHpZdy1rM0taQjVSd3FqOVpOdnZOVG40Mjc4dU43OHlDN2RPSXJGblFsMTlaOVZPcTVTNmd1N1NWckwxZHd0TUI4bnBWdU9uNFI1SUN2aFduMFp0MVFSdDBXRUdOQVFRODNqV1hUR2ctNkppdmRTNWdYT2c?oc=5",
+"date": "2026-11-07",
+"time": "18:09",
+"first_seen": "2026-11-08",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "‘플레이엑스포’ 후속 게임 축제… ‘경기게임커넥트 2026’ 성황리 개최",
+"source": "경기신문",
+"url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56bkdzOXNkQTNnQnhoVm5HanNyekVxakR6Y1JZOE1PTHhxLXB4TWxuMl8zT1B3bkRYb0dKdUZoNU9DdFRLT0g1bVUxeTE1a0R5TjJVVFUxNEFENk1pMWlXRk9B?oc=5",
+"date": "2026-11-07",
+"time": "17:44",
+"first_seen": "2026-11-08",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "경기도의회 문체위, 2026년도 행정사무감사 착수",
+"source": "환경일보",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MbGVRQmVJam11WnVtSGVxWWhac2NvQnB2dEE3V2FxUXN0bUg5RzI3SDdha1I2b1NfNE5IVzlZeEdrbVUyNlNKVTNXeFNkazZDZ1k5UDBmRlFOdmlTWlBwdms1Qll4RC1u?oc=5",
+"date": "2026-11-07",
+"time": "17:31",
+"first_seen": "2026-11-08",
+"units": [
+"guk"
+],
+"tags": [
+"의회"
+]
+},
+{
+"title": "전주국제영화제 출품작 공모…내년 4월 개막 : 연예",
+"source": "재경일보",
+"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1jV2t5NXlJcDg3YXh5bWR6ai1WZGFUSHk1bHlnYVo5dmthNWZhN3lWQUJSZHFRZjB1THNKZmc5Q2dBSW9jMTlZTjd5VQ?oc=5",
+"date": "2026-11-07",
+"time": "16:51",
+"first_seen": "2026-11-08",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "전주국제영화제 출품작 공모…내년 4월 28일 개막",
+"source": "연합뉴스",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGdEo0S19namVkaWlOSGFTZHhJN0dEazBYUkRKejZtblFhc2w1SHhfbi1hajI0b2pwTTV1YUZHa0VQdWFzRm5kZnRMeFVteGNlNU9JRllvZkVKOVHSAWBBVV95cUxOZ3liaVJ2bU1kcU41Z0VpcjdHMXRCQUNJa3lPQXBSZ2lvaUh1cWYtMWRLckhPY3lobmVkNVg4bHNZcWhPM3BDc3pGbkJObHd0dDRzQk1qSXg0RXAtcU5PVUQ?oc=5",
+"date": "2026-11-07",
+"time": "16:31",
+"first_seen": "2026-11-08",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "경기도의회 이오수 의원 “경기인디뮤직페스티벌, 같은 공연 봤는데 누구는 공짜”",
+"source": "뉴스로드",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zT3ZUclZublJRcGJuWG5XTVJjcnJaaTV0Sk9MWWc5dWF4MENzYVpKTmZWRHBrbTNhREhfbE1fTHlPQlRHalBFTFN4NE8waFJUTHoxS21hd05mY2JhMDVmVGM5elF2ZnA2OVlzOEswWdIBb0FVX3lxTE5zT3ZUclZublJRcGJuWG5XTVJjcnJaaTV0Sk9MWWc5dWF4MENzYVpKTmZWRHBrbTNhREhfbE1fTHlPQlRHalBFTFN4NE8waFJUTHoxS21hd05mY2JhMDVmVGM5elF2ZnA2OVlzOEswWQ?oc=5",
+"date": "2026-11-07",
+"time": "14:34",
+"first_seen": "2026-11-08",
+"units": [
+"guk",
+"d-contents"
+],
+"tags": [
+"의회"
+]
+},
+{
+"title": "경주시 황성동 체육회 ‘제37회 경주시민체육대회’ 출정 발대식 개최",
+"source": "CBN뉴스",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zN292Z1BwcFVScmtKbF93TGJKSHFJWkpIZUFMa0ZydXJwRkNCcTlzR0JuRU1JaFQ4cEZZdmxfU3hES3VuUUEtS3lwNXg5S3BBR0hV?oc=5",
+"date": "2026-11-07",
+"time": "14:32",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "민주 “국가유산의 가장 큰 적은 국가유산청이 아니라 오세훈 시장”",
+"source": "세계일보",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QR0hIZ0FDWlhOc3Z0S0dVQmJpVWVvbDNodEh0VWlSRGUwZFBfeGtKamJ6ZVlOdDBkNkd6WHJ3RGdUYW1pMFlXRkl1VEJMbXBZeWJ1MkprX3nSAVRBVV95cUxPY2kxbDZMUkVmcWNUVUROcWNTelc1eWZTdDFReGhxaXFSWnM2WW1xbmNLTm01akJDa3R0eEhZQXBibmd5U18teWw0aEdmSXpOYldlcmo?oc=5",
+"date": "2026-11-07",
+"time": "11:56",
+"first_seen": "2026-11-08",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "이오수 도의원 “같은 공연 봤는데 누구는 공짜”…인디뮤직페스티벌 환불 질타",
+"source": "이뉴스투데이",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fcl9fYjU0UHlNTnJ6RzFJSVktYUdyNzd1Z0VMOFdRdVdsQll0WGNwUzA2bFlMTGU5OXZqTGpTRlRRRE1WR2FHV2twRFdiN0t5N0FhbE53TlFtVndOUGo1WC00Sl9OTWR2V0hFY2dULWrSAXRBVV95cUxQNGtoZkl0TFRoS2o0SDVlNkxwUnQzV2NJWm16REJSN0xzTTUwR0tVQ2RoUGZVa3EwZjVMSlpQYmg5VUUyZ2lmeTlWMEdidXBmNXZiN212SkFFQ05ieWpBMzNEVTc4U29XVVIzY2F2Q2F2WUlzdg?oc=5",
+"date": "2026-11-07",
+"time": "10:41",
+"first_seen": "2026-11-08",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
+"title": "수원특례시의회, 제2회 수원특례시장배 전국 생활체육 체조대회 참석",
+"source": "수원뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wTjdaZXV1M1UxdDVyS2pGRXRScjUteVFMU21sMm5keUJzNy04NXlaYzVjQnlmYUpmOXZZQkh2MXZUcjU3dW1JSUEzMWl4UTJCZ2xkVGtqQzJFUmFPX3oySU81eHJrZmR4VXlQSUVR?oc=5",
+"date": "2026-11-07",
+"time": "10:33",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "경기인디뮤직페스티벌 사업비 95% 민간 용역… 계약·심사 관리 부실 지적",
+"source": "미디어와이",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qbnAtbjhCR2xHcTczQU1ReTVPVG1jaGl3WEt1azcya0dReG5rVkdWVzhiLTl6b214dWZqZjlsTVBpTFp2RHpQMHdYdXNUM09oWlVBWFZlYVQtWnA2alVmYlhYZ0dOZlZxZVE?oc=5",
+"date": "2026-11-07",
+"time": "10:18",
+"first_seen": "2026-11-08",
+"units": [
+"d-contents"
+],
+"tags": [
+"쟁점"
+]
+},
+{
+"title": "[경북도의정소식] 산불 피해 지원·학교 체육시설 개방 대책 촉구",
+"source": "영남이코노믹",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44dzJ6OHFEZlM5YVI4NnAyMTdiejU3NGpJYmlrQ19QcENpUWJBLWFfMENWdzFyUDhUMDV1aW9wSW1wVHAzTC1CRHplM0tJT3N2UmhnaWpmNVB2SnJKSXNIetIBZEFVX3lxTE5CV1dGZUh5WEZLLWF4U3I0MjlPaW5oUkdrZGxhdHdkeFhLbEd5UVd3Mmd2LVJEZ2pVYmk4QUtGTUN3cHNlYXl4Ym9vbk90TTN4UGotMTB1ZUtGTlNLb0pXTmNtWVM?oc=5",
+"date": "2026-11-07",
+"time": "10:04",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": [
+"쟁점"
+]
+},
 {
 "title": "'젊은 명인' 5인, 경기시나위오케스트라와 국악 앙상블",
 "source": "싱글리스트",
@@ -273,7 +557,8 @@
 "first_seen": "2026-11-07",
 "units": [
 "guk",
-"d-arts"
+"d-arts",
+"f-local"
 ],
 "tags": [
 "의회",
@@ -309,6 +594,19 @@
 ]
 },
 {
+"title": "경기관광공사, ‘로컬관광 콘텐츠 발굴·지원사업’ 6개 시군 프로그램 운영",
+"source": "서울신문",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kQ1lPUERLbE5hRmEwZktXd2JJQ0hhWE1TV2t3YlUzbERXaU5PTDhDZGhkYXdha2hFNlZQVnA0ZWowR3FTVXEyMnNoSUpxWVZaMFRISjBhZVdLQlo5RXg5amExdDk3WFFoR0xmc1Y2cHA?oc=5",
+"date": "2026-11-07",
+"time": "04:53",
+"first_seen": "2026-11-08",
+"units": [
+"d-tour",
+"a-gto"
+],
+"tags": []
+},
+{
 "title": "시안 생활체육 결선, 16개 지역 참가…광장운동·태극권 등 네 종목군",
 "source": "투데이타임즈",
 "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE12REVyd3Yyak1ORWViVnZCbElZVlpvdkJCR0k3OGxtOGtMNXhpTkVWcS1MdWsta1g3QUJ5aWFaMTZFcEE?oc=5",
@@ -317,6 +615,18 @@
 "first_seen": "2026-11-07",
 "units": [
 "f-sports"
+],
+"tags": []
+},
+{
+"title": "충칭 무형유산박람회 개막…전국 890여 종목·전승자 930여 명 한자리",
+"source": "얼리어답터뉴스",
+"url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9IdXlpSlBQR1hhbzRWRTl3LUpqSTNLc1dLVUpnVjJwV1B1a0FRZkZQcWpMS1E5bEE0NVNvVVMwVkZ4NUEzSFlENnpB?oc=5",
+"date": "2026-11-07",
+"time": "02:22",
+"first_seen": "2026-11-08",
+"units": [
+"f-heritage"
 ],
 "tags": []
 },
@@ -547,6 +857,21 @@
 ]
 },
 {
+"title": "경기도의회 이종춘 의원, 파주시 출판·박물관 지원 지속 촉구",
+"source": "웹이코노미",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mLS1vUmN4ak5LblFrTE1GLUd1OVczOG96SXJIbmYxYkZsR2NDWmN5RHRubTN1dksyenNnVS1uY294a1BrOVBuWFBzWmVlNmpOOTBvbnZTbE9MMTdjVGhNOXdWNHZPZDJaM19DN0RqdDVrdw?oc=5",
+"date": "2026-11-06",
+"time": "19:21",
+"first_seen": "2026-11-08",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
 "title": "이미정 경기도의원, 경기인디뮤직페스티벌 행정관리 및 지도·감독 강화 촉구",
 "source": "서울Pn",
 "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5cFFoU2puT012bUUxb1V3VFB2aEFUODVDNFREOWlybmtQSThuUGJmdzBpNXBKRlZWUVNnRXlUcDhrMWZIVm5aZjUzd0ZTVVV5SDZLSzE1Z2lQVlJDLW5adWswakt0M0thU0E?oc=5",
@@ -559,6 +884,20 @@
 "tags": [
 "의회",
 "쟁점"
+]
+},
+{
+"title": "이오수 경기도의원 “같은 공연 봤는데 누구는 5만 원, 누구는 공짜… 환불 형평성 어긋나”",
+"source": "서울신문",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKWTdvUjNFQjQtZzhOaVZUY2MxSWhBSEpMWmhNUEtnUTNKYnNmRm1hQUZYNVhqdHlJZ1dfMl84aGxUd1pwVm5iTjhTSnBtMFJaSWdz?oc=5",
+"date": "2026-11-06",
+"time": "18:43",
+"first_seen": "2026-11-08",
+"units": [
+"guk"
+],
+"tags": [
+"의회"
 ]
 },
 {
@@ -637,6 +976,21 @@
 ]
 },
 {
+"title": "경기도의회 이오수 의원, “같은 공연 봤는데 누구는 5만 원, 누구는 공짜...환불 형평성 질타”",
+"source": "성남신문",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qc2F2RkhmdU54NVJYa2VLcEMtWWVOcHhacTlodXFxcHAxaW45anJnWGlhZ2lUdHktcjZwZDI0RnktUXZEcUp5TGpMZ1RYSi1Vaml5cEE5LUdQMk1neFR1cGt2M3FpQVI1NWg4ZdIBcEFVX3lxTE9RcjRQa3Q4MFp1dHF6WElHb0NYLXloanoyc3ltUDEzXzZKZVVld2J5RWlETzBIaTFYY3Zpa3pEa3hNVkw4WlBKZjU1WEpURWdNYk00VDVpaE5nMThfTkg2R1I1QjdHLWRIV3Jhc1Uwemw?oc=5",
+"date": "2026-11-06",
+"time": "18:14",
+"first_seen": "2026-11-08",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
 "title": "한국예술인복지재단, 막 오르기 전 사고까지 챙긴다 [PS]",
 "source": "스포츠동아",
 "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5LVlWR3VMMlJlRWRVbWpiQ0Q4TU1FbGwxUnFaZlNjYkVmUUhCTXlUNTEzRzRMZTZsMG82UG9PVk1BMjVQNklEa2VSZm1VbkEyc3ZXNzNzaGRTYUMzWU5EVlZkVEFVQ0dVVGZPN1FVTQ?oc=5",
@@ -671,6 +1025,21 @@
 "date": "2026-11-06",
 "time": "17:51",
 "first_seen": "2026-11-07",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
+"title": "경기도의회 이오수 의원, 공연 환불 형평성 문제 제기",
+"source": "코리아투데이뉴스",
+"url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA2MklfWHh2X0dOYkp2T25ZMWdvSGVxRE5SUFROUjRKZ2t0SFIyTm9tQTA0X09NX012dDhTZS1lY0J0ZXlYV0k0?oc=5",
+"date": "2026-11-06",
+"time": "17:45",
+"first_seen": "2026-11-08",
 "units": [
 "guk"
 ],
@@ -1057,6 +1426,30 @@
 "의회",
 "쟁점"
 ]
+},
+{
+"title": "“이런 축제는 처음!”…울릉도 첫 생활체육 대축전 개막, 섬 주민들 ‘들썩’",
+"source": "영남일보",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03cG92blhKd2hZWjJGUkpiaThyblphNk5LTVJNcHNLeU9yQTB3bkszYXFTb25YaEtUazR4ZUhRM0llbUxHbmIzbkJFSm51ZnFEM2NkMjJhdi1NdlNib3FrWVZBTWlWSmExalow?oc=5",
+"date": "2026-11-06",
+"time": "14:47",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "국가유산 보존 강화하는 전북도",
+"source": "파이낸셜뉴스",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fS0RGRzY2X0dRS1RpQm9rSUlSZ0NjZlVYZ3NaakROTktKczBicG5jTEtoVFJrVkdpWjlESU5KLXRoMEZXSk1KYkdlNHN1QTJickNJVWxuX2NYdw?oc=5",
+"date": "2026-11-06",
+"time": "14:46",
+"first_seen": "2026-11-08",
+"units": [
+"f-heritage"
+],
+"tags": []
 },
 {
 "title": "경기도체육회, 회장 자녀 결혼식 초청장 명단 취합 논란...내부 감사 착수",
@@ -1447,6 +1840,18 @@
 ]
 },
 {
+"title": "대한배구협회, 진주체육회에 후원금 2000만 원 기탁",
+"source": "진주신문",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55b1R1RmVIMkwtY1NSTFRKX1k2UzhyRHVIdTFnQlFoLWQ4ZnAwLW9aMU5wNlRzR1pGMEEyUjIwUzVZYkJ5QldxU1dHZENkNUQ4Q2lvaG1FVmZjbFJQYXAwTmsxUXlkRVk4MHfSAWxBVV95cUxPTmdhZmFwN1poTkl2UlVfTGZ3ZWNGcTlsUTZwa3JVS2dRd0VUR3FWZmVLYWZQN3BZa0F6UE1aT3NUVElabktWT1FmZWpnTkNvdjgyVlYtVkFSZklNXzQ4bmVrTEh1aU5makNjcTA?oc=5",
+"date": "2026-11-06",
+"time": "11:49",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
 "title": "대전교육청, 학교운동부 건강관리·윤리 맞춤형 교육",
 "source": "뉴스핌",
 "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHWjloMEZyZk84Zjg5T3hXSUpyU0hVVW1HRDRBRjNnNmIxRldYOHo4YUpnb2JUcVJCTkpkWnd3RVhUc1h1R1hvM3dMRTc4UTR0VTYzQVM3aFJWcmRV?oc=5",
@@ -1790,6 +2195,18 @@
 "의회",
 "쟁점"
 ]
+},
+{
+"title": "경기아트센터, 밀란 쿤데라의 문학 세계를 클래식 선율로 만나는 ‘서가콘서트’ 개최:경인투데이뉴스",
+"source": "경인투데이뉴스",
+"url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1uSUNUcjhONEk5MkoxN210VkxkVDJ1MUk2NjJCRURTcFo4Tk5KaFNOSEtPUHk3YVBVS3h1N2k3dnpmUdIBX0FVX3lxTFBDVzRSVURBZEJURU5maV9kNUtiRzlBUGVSRlNFanVheEFqT1RwQ3dJcUpFN3plNmFfSWR0bEd6U00zVV9pNnh2c2dkeUN0ZE5Md01sME5zdlp4bHgwRkFz?oc=5",
+"date": "2026-11-06",
+"time": "09:24",
+"first_seen": "2026-11-08",
+"units": [
+"a-ggac"
+],
+"tags": []
 },
 {
 "title": "한국도자재단-명원문화재단, 도자문화와 차문화 활성화 업무협약",
@@ -2285,6 +2702,18 @@
 "tags": []
 },
 {
+"title": "문화체육관광부, 민관이 함께 '케이-콘텐츠' 해외 침해 대응 방안 모색",
+"source": "한국글로벌뉴스",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YRWZTRXVqUkJUR1BZTENPd1BFOU95TVRNY3d2V3NHUzBKVlFETDhXWUlnRk1CZHZhUTZhTFBZTFdxQWc4S2JyQ2U0bFhiU1EwRld1djZBal94Rmpnem5zUQ?oc=5",
+"date": "2026-11-05",
+"time": "18:50",
+"first_seen": "2026-11-08",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
 "title": "2026 경기시나위오케스트라 기획공연 ‘젊은 명인 : Young Virtuoso’ 창단 30주년, 경기시나위오케스트라와 젊은 명인 5인의 특별한 만남",
 "source": "뉴스피크",
 "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Yb2MzMC1naDhYN21IaF9wWmVfdVRNNHBEV1dvSHltRURPd3dhWGNFWmE2OWMxLVhZREtQRWU5d2RYRkFQYVNXQ3E5OFoxc3NfUmR1dHpMaDdQR3lHZktwUmJXWm55Ml9UcWc?oc=5",
@@ -2361,6 +2790,18 @@
 ]
 },
 {
+"title": "정선군체육회-우석대, 생활체육 활성화·전문인력 양성 맞손",
+"source": "강원도민일보",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kWkRra2VZQXFZVlJ1TWhXcEtjX3VDOUkwZDdHXzI4bUQtUUZ5Qm44SWNsV3JFU3VwSHdXQ01oYVlkcVFFNG0tZVpRVmlaa01hcmhBcFl1cm1DNUw3NWFnZUFYMHlCODQ?oc=5",
+"date": "2026-11-05",
+"time": "17:59",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
 "title": "국가유산청'한지 제작의 전통 지식과 기술 및 문화적 실천' 유네스코 무형유산위원회 평가에서 '등재 권고'",
 "source": "코리아안전뉴스",
 "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyNHNVUzJmNXdYekt4ci1Mb2lId2VhU3pDTDVzQVlyMDV6bnRoRXpuYVJsOG1XcmFHbTN5RlBJV1pDalVGUVhXRWNTNW5xTnp6XzFjQUxCSlpwQ1RxYk9tZHVwZnhRUlpMMTZuS2lMVEJqUnQ2?oc=5",
@@ -2409,6 +2850,20 @@
 "tags": []
 },
 {
+"title": "불송치·혐의없음·항고 기각…용인시, 체육회 '조정팀 의혹' 정면 반박",
+"source": "이투데이",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4Zkg4UW9iYy1FMGJ4V1hLd05iTDNraXVSaDVoTS0yc3JYR3JhcVRxa1lzMjk1Q2JvX2lkYi1kallCbVpTM3Y4cjFzRFcyQ09NYnk3cg?oc=5",
+"date": "2026-11-05",
+"time": "17:35",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": [
+"쟁점"
+]
+},
+{
 "title": "경기관광공사 아이·부모 함께 즐기는 가족 나들이 명소 6곳 소개",
 "source": "뉴스클레임",
 "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXQ1VNTTN6V2llWXpoUnZUZHF1OHFkVEk0dUJKTE45WVFkNlhsTHp2ZkdvRUZ6OTBDSkpOWGFXZEpJbFh3c05WYVlXLVdHVkRQVEt0QkJKQXYzc2J6UmJuLWF6VDM0VkRnS0d6RVZHTWjSAXRBVV95cUxPYjNjaFEzR0JfRzBhQ0h2bEJSRmJ1Z0lfRDdyeVB1d1RURHkzV3RhUmF2X2Y4YTZsVFNsU21JdEw1b3hMVVVTZlBMTWFQLWk0MUlVNjZGLWhOQVVHTHdseTUxNWlWS0tNZF94c3hFTmJSM1hkUQ?oc=5",
@@ -2418,6 +2873,18 @@
 "units": [
 "d-tour",
 "a-gto"
+],
+"tags": []
+},
+{
+"title": "도봉구, 11월 7일 중랑천변서 '2026 문화도시 도봉 도깨비 축제' 개최",
+"source": "서울동북신문",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HRHMyRE1aTnFzdGdPYXBSZlI2MWM3Ym9EUjRUSVVFUTZPZGdfLWFQT1hiQ1BuLWNSaFl5S1dWeTFocGxtLTBOT29fbWUteUlBbWRDWDc2OVMycjd3VUk3b0hManhOb0xfWDlZMA?oc=5",
+"date": "2026-11-05",
+"time": "17:33",
+"first_seen": "2026-11-08",
+"units": [
+"f-policy"
 ],
 "tags": []
 },
@@ -2670,6 +3137,30 @@
 ]
 },
 {
+"title": "숙박·교통·지역 관광까지…서울 WYD 준비 구체화",
+"source": "cpbc News",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wRFlZbkJUbVc4NHdINllqYkctbmxHNG4tMjFsbThoUmVVRzVabFh4Y1RBY1dPdkxWRXplakZMM1Zva0EwWmNkeVYya09lSXlJ?oc=5",
+"date": "2026-11-05",
+"time": "15:32",
+"first_seen": "2026-11-08",
+"units": [
+"f-tour"
+],
+"tags": []
+},
+{
+"title": "동아오츠카, 스포츠로 잇는 나눔…생활체육부터 환경까지",
+"source": "한스경제",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iM0ZEcUVHd01pakY2djIzOWl5R0tUalQxZVpTZWE3YUFfMlFnVE9MTDBWay1oMnotVy1aUEY3UFFvLURKNjFvTUhtNU9YZUg0cUxaeUF5ZEtvX3BUVkNxa01hbi1RTDJ0Y2840gFvQVVfeXFMUHJPaVNkVEJiSk83akZmWVZQQVZmNFkxcFBQU0t1Wk1lR1BtRFdxSDVHWE40d2g3UDNsdjdYMkd6eXlIcGJvNEhVRV9aMjFhNUJfR0t5dmxDWXVjRGotUUxFOG5YVktrRWsxZ2ZZUjFB?oc=5",
+"date": "2026-11-05",
+"time": "15:21",
+"first_seen": "2026-11-08",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
 "title": "문체위, 청년문화패스 공방…\"프리패스 증액\", \"생산 유발\"",
 "source": "연합뉴스",
 "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wSl9Obk9qZUF4Z09La2x0LW03ZDJNWUF0ODVnYjhkT21sZlFJNFZiVmxrZXo5SWI1U0tTSmptbUhVRHVCRUNCSkIzeUxKbkRQcmFmREZxWmJkMmvSAWBBVV95cUxOUUFUZGptdk5VTnJDcWRaa01md3ZuYXVBWk1PRXlGenVvRU8zWTBPMDB4TlVKOHp0NnhBdW9oUVN6bnRfaEVrSk5QSmdtaXRvVGVfS3hibFBEa1BjeE5XcHc?oc=5",
@@ -2894,6 +3385,18 @@
 "tags": []
 },
 {
+"title": "GICON 지원기업 스튜디오질풍, 인천 송도서 웹툰 ‘레벨업 닥터 최기석’ 반짝매장 운영",
+"source": "AI포스트",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LR1V5UDhCV3ZKd1RodExaU3QtX3M5Y3NVVlN0OHhPTzdHZVFwcjRNTUhDbm5IT3phRDVYV1lRMDJIeUoxNVVtS3VMQzE1TFU4cGdpV2l3anlSYXFHZ3JHWEVxbGh5NXRZa0pqb1VB0gFyQVVfeXFMT0dyYXE0UjJQaGxkeGhFN3V2djFEaGJZVnFkTjFxeUdTdFAyME1uYXpCSXR5WXk3MzYtdVYtYjlfNUF6RnZpRl9CZUdGMS11S0ZZNFVkNjJwQ0FpY0dMUVZpOTMyMmJwa3JDTlhteWJ2R0hB?oc=5",
+"date": "2026-11-05",
+"time": "13:45",
+"first_seen": "2026-11-08",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
 "title": "동양대, 웹툰·애니메이션 취·창업 특강 개최...산업 현장 노하우 전수",
 "source": "한국대학신문",
 "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlem8yZzY5NW1wU2RCMEh6VnVUZEhHUHNlbzVraURxSDhkeG5IeTdJY2xBdHpEUGtKYUJqc0U5NF9GWEdqeWdxRFJSRldXOFlCMWVCeFNERVc5dXhpZVA3c01GdWJ4QQ?oc=5",
@@ -3040,6 +3543,18 @@
 "tags": []
 },
 {
+"title": "오세훈, \"국가유산의 가장 큰 적은 국가유산청\"",
+"source": "아이뉴스24",
+"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYTGFiWHhrb0xyRDBxdzduQXB0YTQ4SGo5djRCZzRMLXFiMkdWTk9xY3RacGxXS3F6emNNSDg3c1NYMzd3TGZ5aXZSUQ?oc=5",
+"date": "2026-11-05",
+"time": "12:38",
+"first_seen": "2026-11-08",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
 "title": "김재원 국회의원, 문체위 2027년도 예산안 상정 '청년문화패스 22배 증액, 예술인 창작 기반은 외면'",
 "source": "이슈&전북",
 "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94eWUzaHBwQmxHaE5VUGlRYkxnbUhQR19KUDVLelZrMGh5NmhhQ2o0UzhyRS11MHhneThhNUJ4TnM5WWNCdmFaYjhfSTdhUGFXU210bmc4d1Q5enF5VTNrR01wTjhBZmZXOXk2U0FR?oc=5",
@@ -3075,6 +3590,18 @@
 "first_seen": "2026-11-06",
 "units": [
 "a-ggsports"
+],
+"tags": []
+},
+{
+"title": "오세훈 \"국가유산의 가장 큰 적은 국가유산청⋯세운4구역 심의 몽니 멈춰야\"",
+"source": "이투데이",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LYkp0NHR3bE1DSE52YmJUV2Fnb1lmYldEQmJFN2swRFMwdFVuRGd6WDlNb1VxTmpudE4zVHVadVRJM2FxbWMyaVRqa0ZfbllrVzloOEtpb2Y5SEp3UGhFT3V3Q2JDMnYxRUgzMDJmZ0RLY3lv?oc=5",
+"date": "2026-11-05",
+"time": "11:46",
+"first_seen": "2026-11-08",
+"units": [
+"f-heritage"
 ],
 "tags": []
 },
@@ -3136,6 +3663,18 @@
 "first_seen": "2026-11-06",
 "units": [
 "f-sports"
+],
+"tags": []
+},
+{
+"title": "K팝 위조상품부터 웹툰 불법유통까지…정부, 해외 K-콘텐츠 침해 대응 나선다",
+"source": "유스연합",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEb2JaZkU1aEVFYnhMVTdBM0Y2RXlXbXhVd0p4cWd0VWQ4eVBXWVJ5bUNyNl9lQmtnNjdTcndfTTJHRXZOaHMxMUpLQTFHekdPS3Jj?oc=5",
+"date": "2026-11-05",
+"time": "11:14",
+"first_seen": "2026-11-08",
+"units": [
+"f-contents"
 ],
 "tags": []
 },
@@ -3284,6 +3823,18 @@
 "first_seen": "2026-11-07",
 "units": [
 "f-tour"
+],
+"tags": []
+},
+{
+"title": "문체부, '제10차 해외지식재산보호협의체' 개최…K-콘텐츠 불법유통 민관 공동 대응",
+"source": "참수리소식",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JeGlYZmNuZXlYSXNQLTVKMWRTcmg0TExsTk5uOUZ3OVZ5VjB1SDZyRlNiZ1NyVF9TVmFqZkZsRjRBUk85LUpwUVh1eU4zTVdWWHFOT0k5elpqa1NsNUxiQV9uNlBqdw?oc=5",
+"date": "2026-11-05",
+"time": "10:35",
+"first_seen": "2026-11-08",
+"units": [
+"f-contents"
 ],
 "tags": []
 },
@@ -4228,6 +4779,18 @@
 "date": "2026-11-04",
 "time": "17:32",
 "first_seen": "2026-11-05",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "EU 최고법원 법무관 \"AI 기사 무단 요약은 저작권 침해\"...구글 제미나이 소송 주목",
+"source": "AI타임스",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83clYzUElkRkFCMDZ6MDNQNWp3RndhNzg0dmgtUXV0MkVZN01vRUxESUh3TEdsRWRvLThOZ1d1TVEzNUdVQ0dSQjYxbFkzN21pZ2xDcjZaMnI4alBxY3lPQ3JYX2tsaUJyVnc?oc=5",
+"date": "2026-11-04",
+"time": "17:24",
+"first_seen": "2026-11-08",
 "units": [
 "f-contents"
 ],
@@ -5206,6 +5769,18 @@
 "date": "2026-11-04",
 "time": "10:27",
 "first_seen": "2026-11-04",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "인천 송도·영종·청라 미래산업 육성…인천경제청, K-콘텐츠·바이오 투자유치 확대",
+"source": "경기일보",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TUGE4Y2ZfaVVPdk9OLVdnYnphQ3hHTnkwVDM0OUllQzV2NUhNZy1iZHgzTGxNZl9fM1B1RnQxTVFuX3BLYkVhU0pRajZvVkdyWUItRndJSWMwWE0?oc=5",
+"date": "2026-11-04",
+"time": "10:26",
+"first_seen": "2026-11-08",
 "units": [
 "f-contents"
 ],
