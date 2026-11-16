@@ -1,6 +1,10 @@
 {
-"updated": "2026-11-15 10:31",
+"updated": "2026-11-16 10:35",
 "runs": [
+{
+"at": "2026-11-16 10:35",
+"added": 113
+},
 {
 "at": "2026-11-15 10:31",
 "added": 71
@@ -236,14 +240,1096 @@
 {
 "at": "2026-09-21 09:39",
 "added": 117
-},
-{
-"at": "2026-09-18 18:36",
-"added": 14,
-"note": "소급 수집 2026-01-01 ~ 2026-09-19"
 }
 ],
 "items": [
+{
+"title": "경기도어린이박물관 제17기 어린이자문단 '생각하는 키즈' '모두를 위한 디자인' 워크숍 진행",
+"source": "광흥타임즈",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HeDJTM3R0TTZSeHFCNS04X1IwbHk3OFQxTlVqWnFWcjVMNWViQXBYelJ1QlhhcWxNdTA1WDJxRzJ2LXFMa0ljRVpfSlo5eWRuRlYxYVoxc1g5UDlEdDlN?oc=5",
+"date": "2026-11-16",
+"time": "10:30",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "임만균 서울시의회 의장, 잠실 마이스‧주경기장 리모델링 현장점검",
+"source": "뉴스인",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBla2ZMMnNLanVQNXplb1J2TVVMVkJvX1VZZklqUlJJNTNFSG5jVDdQUXJncFpPTnN0enJncWwyM1dhcmppZ1d0TmNsMzY1QzU3SFRrODdhdWNKN2RUSkdnRk1qZnVtczJQX3Uw?oc=5",
+"date": "2026-11-16",
+"time": "10:28",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour"
+],
+"tags": []
+},
+{
+"title": "경기도, 말레이시아 기업 임직원 1600명 포상관광 유치",
+"source": "신아일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xdEFMdW5EQmlUVUVVLURVZVY2cEpDSUhncW1MRUFmNDJ0UnRibUpuTVc5cFBHRE5DUmtxY0poN1U1REhaNUgxRzZuVW84ZDh5ZVZaa1JXU24yWU1qbmdTMVhDbXkyMDh2NkNGRktrY1E?oc=5",
+"date": "2026-11-16",
+"time": "10:17",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour"
+],
+"tags": []
+},
+{
+"title": "임만균·서울의회, 잠실 마이스·주경기장 리모델링 현장점검",
+"source": "오토투데이",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsbW1lMDdkeV9WeGQwVVFDZVFNOHVqY1M0OWJTVlNyR19HbzAyLVQ3Q1JOY2plRHBWTW5JR1JSS0Q2UFpLcTZ0aWstb3dDSFdkUE5PMGljX2JDd2NCZ2RwbVZDaG43OE11ODd5V2NMZw?oc=5",
+"date": "2026-11-16",
+"time": "10:12",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour"
+],
+"tags": []
+},
+{
+"title": "임만균 시의장, 2.7조원 잠실 마이스 사업·5432억원 주경기장 리모델링 상황 점검",
+"source": "뉴스핌",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wV25jQkpOY0R5N1luaXdZTklvLUFHTklBeW5La0JaVU1QaVJrU2t6bnpsVW9WV210YmdyUlFkaE04aW9jREgyYk9ib3JPeEtmT1hPQ2tzVHdxUm9E?oc=5",
+"date": "2026-11-16",
+"time": "10:09",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour"
+],
+"tags": [
+"예산"
+]
+},
+{
+"title": "강원문화재단, ‘2026년 문화누리카드 잔액소진 이벤트(4차)’ 진행",
+"source": "광역행정신문",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9xdFk5dmIzTzJCUzdSMUt5VTJna3ZPNEFSalBzUVdZSGJPeERZQ1M5WUpUaDJKM0V2dlJKaG9xSm9DTE5M?oc=5",
+"date": "2026-11-16",
+"time": "10:09",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "경기도=경기관광공사, 말레이시아 기업 1600명 포상관광 유치",
+"source": "비욘드포스트",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fQUFlRWdUNXcwTENTME84SUlVVE16SUhPMTNtemdHc3BvNzR0dHVtVW9UZUJnS2QtQkxheXZHNHRFeGtyWmZQSDU0UVdDYWgzSTByT3JiT2VJMklEZFBXY2hlajl3Wm42UGZMN2N0cGl0Q3J6VERJTmt6TjE?oc=5",
+"date": "2026-11-16",
+"time": "10:07",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour",
+"a-gto"
+],
+"tags": []
+},
+{
+"title": "임만균 서울시의회 의장, 잠실 마이스·주경기장 사업 현장 점검",
+"source": "뉴시스",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LYWtmTDJvd0owbXZ5YmZUQkNaOGtSMHZZM0JsTTJXXzEtSldKdU5pMERVQUZIM1NMS1NyS0gxT014LWdVUHpMOWY5dDlpRjM5N0tyM0NwNVp1VGJZcEpVQdIBeEFVX3lxTE1PNzhTWTlRSWZnYjM3S0VsOEhSakY4WGZtbDZURXMzQjlIQ1BEU2ROSFdfNHZ4WjlIZG54ZDFycmRwSDdwaEF0amNDVHdkQjAyUmR5a1VJTFZCNjhMay1WNWZBb1dkRVhCeUhaV3FqWHF2UjlUckVQMQ?oc=5",
+"date": "2026-11-16",
+"time": "10:06",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour"
+],
+"tags": []
+},
+{
+"title": "경기시나위오케스트라 창단 30주년…젊은 국악 연주자들과 협연",
+"source": "문화일보",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HV19jQmlzX0JfYUVoUkF0RVFNZFRXajlBYkRzTUd0TDZ2Z1JhOG1kc3dVSF8zdFl4bWpYbHpjYkdBRTdDSVNxdjNNSk9rVFdG?oc=5",
+"date": "2026-11-16",
+"time": "10:04",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggac"
+],
+"tags": []
+},
+{
+"title": "경기도의회 이진형 의원, 이산문화제 성공을 위한 협력 의지 밝혀",
+"source": "코리아투데이뉴스",
+"url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8wX0J3dnBKb1UwY3JsaExSWVR4V0phZlVOaUp1TWRWVmx5SHZXTkppSTNEV096RFk1U0JNelJqeTN4RGdFV1BR?oc=5",
+"date": "2026-11-16",
+"time": "09:57",
+"first_seen": "2026-11-16",
+"units": [
+"guk"
+],
+"tags": [
+"의회"
+]
+},
+{
+"title": "경콘진, 김포 조강·재두루미 소재 미디어아트 선보여…관람객 참여형 전시 개막",
+"source": "투어코리아",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yN29Fai1TVE5XNDZURGFmYjJhYlBMQ3VwUmtUdDY3S3IyS1I4WElJdnVBdW1ITldzRms1RjVta1NldVpQT0lGRnNOQ0NBMjFSalZ1dktPQnUwdkh1OVNiSk94QTlsb09mT1lCejhn?oc=5",
+"date": "2026-11-16",
+"time": "09:48",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "경콘진, 김포미디어아트센터서 체험형 미디어아트 전시",
+"source": "일간경기",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KX2swUjRrVUh2YVdsVjZzdWZkQVdIX3RxZnBheEVRSFFFWFpfVEU1TURGa2lFeDlTc0otUkRTWTh0a1dzSkVic2RIMzB4dmFodGUycXVRUkpJc3h6bGN1WGQxY1loMVJU?oc=5",
+"date": "2026-11-16",
+"time": "09:46",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon",
+"a-ggac"
+],
+"tags": []
+},
+{
+"title": "경기관광공사, 말련 '비 인터내셔널' 포상관광 1600명 유치",
+"source": "아시아경제",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE12SGRfOHU1MkhvSC1PMmxvN0prLUtJc01BUFVvLTEzWDJ2RWNzRUhXYVlsZzNOajEyUmVOekRFX3BEcnpVWnRMNTJnTjRSUXpnWDE3NmFRLU5EZl8zUUVQUQ?oc=5",
+"date": "2026-11-16",
+"time": "09:33",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour",
+"a-gto"
+],
+"tags": []
+},
+{
+"title": "경기관광공사 \"말레이시아 기업 임직원 1천600명 포상 관광 유치\"",
+"source": "www.gukjenews.com",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qLWpPWDVHQW1VVXJiWDhNLVIweXdYMmRnYVlHaDBrM3JsUHpnS05kZURXX09taVZWRjhDS21IczRvVjlBNTNQNjJaOTJHMDAzM3QwYXhxZlVodDZBREVQMnQ2QWRNeG0xZHVFNTBn?oc=5",
+"date": "2026-11-16",
+"time": "09:32",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour",
+"a-gto"
+],
+"tags": []
+},
+{
+"title": "임만균 서울시의회 의장, 잠실 마이스·주경기장 공사 현장 점검 실시",
+"source": "이뉴스투데이",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qTDNQVVRkZGpSa3hBSV80NW1nQ3VIVDA4Y3BzZ084V1Fld091R2hBcUQtWmw1YkFKSkktQ3UwWjBKc3hFUG5pOUpxWGsteTRJRW4zOWt2WUY4N0tzT0tvb2pZOV9yNkFUNC1iUGlFSUfSAXRBVV95cUxNSmxYTnFrUm9PTFMtV0FENHRzVGdWM2ZZLTB6b1pEZkNWTU1CS1czNkRXZFd3YVcyQUwtZWRvSFVhOUtKZTM1b1JEYkhtOGtiQWRGWElxemZoV2tFTWVTSUtVTURlUktJMkY1ZVYtU3ozdC1wSA?oc=5",
+"date": "2026-11-16",
+"time": "09:25",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour"
+],
+"tags": []
+},
+{
+"title": "경기콘텐츠진흥원, 김포 생태 자원 '재두루미'에 디지털 기술 입혔다 - 머니투데이",
+"source": "머니투데이",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45dnlrWk0tRmtMRkNobXJ5SUVnODQ0QWtqVDRIRE45RXY0ZURJeFFkTzN0MmJOczlOS1pMdmFSRzVyTElnVHUyeGJFYVBWaThNZlVzR2t1WTFSZG9BOTRWek5lZ2tCYi03REHSAW9BVV95cUxPRGREUzVtQjJxSVRqSGZPUURpOEkxQllQaXpYbmlHWFRzUkZCeWVNVjRES19HaHZJVkg4TmpoTTJkcVBDTk5Pc3JTVEUxRWJNWFhzY2Y4Tk5CNnlGRXBsc255cFl5My1xQXRHRVVaVkU?oc=5",
+"date": "2026-11-16",
+"time": "09:25",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "고속철도 통합한 국토교통부, 청소년 사이버도박 자진신고 독려한 경찰청, 국민이 정책 소통 혁신 사례로 뽑아",
+"source": "문화체육관광부",
+"url": "https://www.mcst.go.kr/kor/s_notice/press/pressView.jsp?pSeq=22851",
+"date": "2026-11-16",
+"time": "09:00",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": [
+"보도자료"
+]
+},
+{
+"title": "‘제4회 문화·체육·관광 디지털혁신 포럼’, 인공지능으로 새로운 문화 만나다",
+"source": "문화체육관광부",
+"url": "https://www.mcst.go.kr/kor/s_notice/press/pressView.jsp?pSeq=22850",
+"date": "2026-11-16",
+"time": "09:00",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": [
+"보도자료"
+]
+},
+{
+"title": "채명신 도의원, “경기관광공사 해외 인플루언서 홍보 성과 점검하고 문화클러스터 연계 강화해야”",
+"source": "서프라이즈뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmTENCYy1jYlZFM3UwRHhQcFBHQXVGMWNPLWlIdWdjU2tTUllkb1dGZUQ5VVBFNjFNa0gzVUZaeDVxZXlKOHhJd2U3a0RzNTAwaTJFbV9xT1J5YkM0bVRrYm5lc0ZaYmJCdmxqS0tB?oc=5",
+"date": "2026-11-16",
+"time": "08:56",
+"first_seen": "2026-11-16",
+"units": [
+"guk",
+"d-tour",
+"a-gto"
+],
+"tags": [
+"의회"
+]
+},
+{
+"title": "경기콘텐츠진흥원, '조강, 두루미를 띄우다' 체험형 콘텐츠 전시",
+"source": "메트로신문",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UbGQ5RXp2QWM3TkRmMkU3YzQwb3l2SHJqbDhiUFFsNHdTS0pNNHVLN05ucVMtOUszUW5BY2c5UHFpYjlHTnZMN3JwZ1g1WEUwdnZuMzBlNlFyRWVzTzVadg?oc=5",
+"date": "2026-11-16",
+"time": "08:56",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "이윤승 의원, “사라져가는 학교운동부…3년간 49팀 해단 예산 지원 대수술 필요”",
+"source": "서프라이즈뉴스",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Cc2hhWFVTVUdiZzQ1QkVWYkFHN2REYVJERnlaeU9zM2xETEhqRUNTOUdCZVN4UXNjejYxUEVjUjlQZVBUdkhGVlRkYUoyVVg2ZEF6TVlrSXpmdG5wNHR6VmI0cGNyZlRITHEySHNZdw?oc=5",
+"date": "2026-11-16",
+"time": "08:55",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": [
+"의회",
+"예산"
+]
+},
+{
+"title": "김영훈 의원, 학교운동부 비위행위 지도자 관리 허점",
+"source": "서프라이즈뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81VzJNdlhMcG8wdTBGMGFsLUVvNVFEdjlLYXU0djdySVRGQXZ2cnJSOVVXWm94LTRrOUY4TTNaVFBTM1FWTV9rbHl5dEpSSHoxQl9hM2NFTTBzMEF6c2ZNMFU0QkNzYWRsLWRWbUdR?oc=5",
+"date": "2026-11-16",
+"time": "08:55",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
+"title": "[11월 16일 고용24 채용정보] 양주도시공사·경기문화재단·경주시시설관리공단·밀양시시설관리공단·고양국제박람회재단",
+"source": "뉴스투데이",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FWFoxSWxxQy1nTVUwclFYQ29XM2wzVTliWjBRamZ0Y0tpTUt2ZDg0ekdTdUxjMzJpUG1WeGxxQUw4T2NRWGdIN3dJS3RpY21IQ1M1MUxYTVZ6cFBoSlE?oc=5",
+"date": "2026-11-16",
+"time": "08:46",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "원주형 마이스 모델 성공 가능성 확인",
+"source": "원주투데이",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92bTQ1SDg4Q0ExWFZPWUhsZkRGZjU5Z2xOSTdpR19FQUEzTm9vQmVRckVkby1mSjJhelNZSnFrZWFJWGMtOWVfOTZ2d21kdzFsM0NsNTczbEY3dHRpVV9uODdPVFhRbUE1V2RMVmRqc1c?oc=5",
+"date": "2026-11-16",
+"time": "08:31",
+"first_seen": "2026-11-16",
+"units": [
+"f-tour"
+],
+"tags": []
+},
+{
+"title": "문화도시 영월, 영월 창령사터 오백나한 초대기획전 및 영월역 팝업스토어 동시 개최",
+"source": "미디어투데이",
+"url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4yc1VxOXp3S200aWs3R1lEY3RscTg0QTA2QVhMNVFQNUd2aW5CQTdVRVhmdGx3bmRRZWF6NzhJQW5tQlFpdmFHc0xR?oc=5",
+"date": "2026-11-16",
+"time": "08:10",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "지원금 남기면 사라진다… 문화누리카드 이용자들에 깜짝 선물",
+"source": "http://www.reporternside.com/",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YUkp1M00tSng3dWotNkJQR3FVTGJyWWdBNDBDdjVwT0NVMVE2aU4wbU8yVVlHLVZ1dlRxb05ad05HQXJmbHRVSU1MeGltODJURldiRXlJVnRiWlZVVlh5aURmOVFhU2k3UTJEYWJLZEY0UQ?oc=5",
+"date": "2026-11-16",
+"time": "07:51",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "강원문화재단, 문화누리카드 4차 잔액소진 이벤트",
+"source": "스포츠서울",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96bGozbUVrb3VMTWVIUERxNmdSck5KSGJqcGxGNzBlYjNfWjZCSUNELXFQWW5KS0RxbFZId09SN09xNFJPVG5KS3FXZkNqMzZUYkw1UHRSVnY?oc=5",
+"date": "2026-11-16",
+"time": "07:39",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "경콘진, ‘조강, 두루미를 띄우다’ … 체험형 콘텐츠 전시",
+"source": "부천포커스",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CVnllZzltNWFJWHgyNzliSjVYSzBHSlNIVm9OZVUzXzVhX1pNQVl0dWtIQXM0QnhHanNJY2dWMHQySzd6Z2g2NHF2VnVlRjhLcllkZUFCaHNOeHdZcXJfMDFEcVloQ19kOGc?oc=5",
+"date": "2026-11-16",
+"time": "07:12",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "‘행정수도’ 받고 ‘문화도시’까지…세종시의 담대한 도전 [최수문의 문화수도에서]",
+"source": "서울경제",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaV0FuaEh5YjIwYk13VElwbnJQMTVZdVZQUW9tSFppZWN4SDRldXhIbm9UajV6a0hqaGQ2NTI2U2lhUlRmaWNMeUtnREprdW9tb3fSAVNBVV95cUxPQTFmMEhQTVlZQ0xHUjA1RXRQcE5JQnNUQnZIYjJJbUpIVENrWGVVM1UxNVBXdTUxQlpPUlBPR3dqeGpWNnFocHJlVk5PMVFfckFYUQ?oc=5",
+"date": "2026-11-16",
+"time": "07:01",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "[분석] K-콘텐츠 수출 149억 달러…제작사는 흥행 뒤에도 돈을 벌 수 있나",
+"source": "아웃소싱타임스",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PRXRWcG9YcjluR3ZBVk5lMWwwRUxOQS1hbGVCdUYzQTYyRkRLb3k1b254c3VobnVFN1NiWDkzNVhobXU5ZWtsdlJIMS0ySnd1ZjhLT0RCenllVFg4UlFaT2V2S0dROTY5MC1COFNiMFVWQQ?oc=5",
+"date": "2026-11-16",
+"time": "06:00",
+"first_seen": "2026-11-16",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
+"title": "충남, 지역문화 유산돌봄센터 평가에서 우수등급",
+"source": "동아일보",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Dbng1S2V0bmJ4OHQzWVNPTnlCWTE1UnczZzB4NDJ2bnc1UlhQWnk2MWM2ZW9RNEJsSGdxRnVSekgzeGtnRzV6UUU0VExEdzJvRzFoclhFazhYeGU2V3BxNUxrSmx2ejZsd0M2TFJIOUpqRDIyUnfSAWZBVV95cUxOaHNjZWtZR1pPWGtLZ29DZS1hMXRpdjVjOHZyNUJHY2xXUkRhVnN1Q0sweTlXU2wwTEo3dV80SFhhY2xpRjZMU2JsVmZxY0hDSXdZeXhibTdmQ2ZkeVZGTUtWMklEa1E?oc=5",
+"date": "2026-11-16",
+"time": "04:30",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "📢 청년문화예술패스 사용 마감 임박! 📢 : 네이버 블로그",
+"source": "Naver Blog",
+"url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWlA5NlIzYzd3LUJWMTFnYmxBbDlCdnhlbDhjT1hWRFphUHBDdFJPUmIyLUN0bXI3czU5MFFzRm9oUzl6MUZDSnk3R1RtdVRhdWRtcFdPY09BMmhEbkxmWWZ5akg2MjB6cEF6LXNCZzMzcFVkNzQ2M2c5RTJ5cktKMWtSSzVCRFljb3NkbklWRUY?oc=5",
+"date": "2026-11-16",
+"time": "01:10",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "[박근종 칼럼] 방한 관광객 2,000만 명 시대, 양적 팽창을 넘어 질적 혁신으로 도약할 계기 삼아야",
+"source": "더쎈뉴스",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5EdkdYQ2MyRnpRenVTNEdHQzJYWmZFT0N3dTNnenV2WUtOUzd6eG1OeVAyUThma1JpYTI0NGNuV2lURXdzYV9yOF9oSmYybWhKRDdjRjV6UjJDMzc3LVVzWGFuakFoSG8?oc=5",
+"date": "2026-11-16",
+"time": "01:10",
+"first_seen": "2026-11-16",
+"units": [
+"f-tour"
+],
+"tags": []
+},
+{
+"title": "\"사대부 가문의 헌신, 박물관 품에 안기다\"…실학박물관, 《전의이씨》 특별전",
+"source": "수원일보",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uUXE3bHVacU9wdWZjeGZNQjhzUjQ3Zk5qOV9CSWNrOThHRERMQXBkdmd4bFE3bUlER2FrdnB2engxVGpwZGdXRGUySzkyUDB1NjZkQVZQaE56eVhlRnd0MmNxaXpEZw?oc=5",
+"date": "2026-11-16",
+"time": "00:39",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "경기도, ‘경기국제웹툰페어’, 2,280만 달러 수출 상담. 역대 최대 성과 > 경제",
+"source": "뉴스와일드",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81OXRaQ2pfczZhRTVEQ09tMVRRZjN0Zms2SkZCMVN3MWRHQUw4bm8tbWFsMzAtTGVOQ2FWcjFfWWgwOUtFQ2tMMTZydzVOeGhWMXk0bHF2LV9GZU5LSHhWdHBfZmVhM05naFlCWjZuQQ?oc=5",
+"date": "2026-11-16",
+"time": "00:33",
+"first_seen": "2026-11-16",
+"units": [
+"d-contents"
+],
+"tags": []
+},
+{
+"title": "최성운 의원, “한국도자재단 온라인 쇼핑몰 개선대책 마련 해야”",
+"source": "부천포커스",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CT1RicVoyeEdoQ1JIaF83UHlQa1RXV1VuOUE3alNTaldnT09zTVU1Ti1GWVlZM0FOb0VrRUFhSW94ZHFSSDhGLTVMMktzSG1Pa1N4S1c0YUw5S0dndk1HR19NT2ZuV1dnTUE?oc=5",
+"date": "2026-11-16",
+"time": "00:10",
+"first_seen": "2026-11-16",
+"units": [
+"a-kocef"
+],
+"tags": [
+"의회"
+]
+},
+{
+"title": "국가적 단결의 힘을 활용하여 지역 관광과 연계된 문화 마을을 조성합니다.",
+"source": "Vietnam.vn",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUlYTF9mbEpiNHZoQW1fUWZxYWVsM1R3RmliUHg5TFJCOFJmaGVnRjZadVgtdXpqS0w5ZHJ6RVJDVkFVR1FZRnJ3RzdXZk9rOEtLa1ozU0hyYU5jOUN3ZWhhaFdHVndVcVhRNmxueEZJRWxiWmZITl9aMGdIby10MW9OWVdOWGY3WTNfMklzWTdsYkFtbVFMYjNYNzNDZ05oUXZ1OHlB?oc=5",
+"date": "2026-11-15",
+"time": "22:33",
+"first_seen": "2026-11-16",
+"units": [
+"f-tour"
+],
+"tags": []
+},
+{
+"title": "경기콘텐츠진흥원, AI 지원사업 성과집 12월 발간…조직 전반 AI 전환 추진",
+"source": "웹이코노미",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13ekFHWUZVU05OZ081cjZXdDdNZTB1RmZHS0RnUG5qVGRVNjNRbTFKd01INkpOaVc0ak02UlJVUnFmTzdpdGRVUGUwRUlkdTNkN2dPQm5CaDFncDJrSnY5dW9pa0lTT1ExYXhRZG11OThUUQ?oc=5",
+"date": "2026-11-15",
+"time": "21:55",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "충남동남 문화유산돌봄센터 3년 연속 최고 등급…충남도 두 센터 평가서 S·A등급",
+"source": "타파인",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MVl9ZazRSbjhtbEJkMUVNemRqMjV0MVJ4bXRyWkVSXy1KMHRyN2lvQVJjYjA1cll4OFQ2NzM2bEVKS3ZmMDVZREtSRW1xaFRaa0UtbE01cnc?oc=5",
+"date": "2026-11-15",
+"time": "21:35",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "경기문화재단 경기창작캠퍼스, 문화소외지역 예술교육…:사회공헌 실천\"",
+"source": "컨슈머타임스",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56UU5jMXlQcEJzYkJ2SjRQenhORjYzZDlBQ0hDc3pCcDFtNDAtcHBVeTdPT3RPR3dkRlpvS1RHMmtqRkxLQW5rbVYxTXpjLUZLdlU1RmVoMkNRRFdiN21tc3BRWUxTam1rM1E?oc=5",
+"date": "2026-11-15",
+"time": "21:21",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "화성특례시, 시민과 함께 걷는 ‘2027 전국체전’… 성공개최 결의",
+"source": "천지일보",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxN1FrcVlLa043RDRINDh5M0o2UjJHYWZBT0FWcHMwUEtKSUlKNHBJUE1CWHhlUUFGeW92TVFkTkt1eHo3ZU00VnF2enN3clFZTmRUUmxTR29kRjRNbGRwUG53b3lMSjNnd0E?oc=5",
+"date": "2026-11-15",
+"time": "21:07",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "경기도장애인체육회, 전국지체장애인파크골프대회 양평서 성황리 개최",
+"source": "모닝투데이",
+"url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5b3NUNWo0Ymd2UmVsNTN3RU5YLVB1SDB4dERRRkVKVXN3aG5ZVDF1Qzk3dm1tRUdXUUxfbE9Da0Q5U1J0QlYwZGhYbTA?oc=5",
+"date": "2026-11-15",
+"time": "21:04",
+"first_seen": "2026-11-16",
+"units": [
+"a-psg"
+],
+"tags": []
+},
+{
+"title": "전국 274곳 중 5곳만 뽑혔다…달성군, 달성테크노스포츠센터 최우수 공공체육시설 선정",
+"source": "아주경제",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IT2hiUGNtemFndENmLXU4MkxhUXViVl8yREJFRVI4QkFSTy10VzM4NHd1YlVVVXpHaG5tb0E1MHQ3Z3pvOWJHdHRVREZ2clhZRkVIOUM2c3bSAVhBVV95cUxNSE9oYlBjbXphZ3RDZi11ODJMYVF1YlZfMkRCRUVSOEJBUk8tdFczODR3dWJVVVV6R2hubW9BNTB0N2d6bzliR3R0VURGdnJYWUZFSDlDNnN2?oc=5",
+"date": "2026-11-15",
+"time": "21:00",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "[세계유산 3년, 가야왕도 김해] (6·끝) 남은 과제",
+"source": "경남신문",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wbi1sTnFxVnR3VUZRQzR6T1VjajJ2VUhCNXdSV3JpaGdHVU1sYUdCUlU0RmlyWExVcDBuWHFwWGFQOGlHYkcxTWdEQkg0NTVMYXJaUjdYbXdxUQ?oc=5",
+"date": "2026-11-15",
+"time": "20:19",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "화성시, 2027년 전국체전 성공개최 기원 걷기대회...시민 참여 확산",
+"source": "아주경제",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45UmdNNUo5YXhZR3ZHd3IzZEhfaUZtX2xTeGhncTF0M1h6ckp1MU5pTVMxVTMzQzFJY282ZXJibWZpaFFlNm9jcEdPZWJmaUxUbEwzVmJLSHfSAVhBVV95cUxOOVJnTTVKOWF4WUd2R3dyM2RIX2lGbV9sU3hoZ3ExdDNYenJKdTFOaU1TMVUzM0MxSWNvNmVyYm1maWhRZTZvY3BHT2ViZmlMVGxMM1ZiS0h3?oc=5",
+"date": "2026-11-15",
+"time": "19:53",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "경콘진, 콘텐츠산업 AI 전환 본격화…전략·윤리·성과관리 강화",
+"source": "중앙뉴스타임스",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11QlhFUVYxU3hCNU5xLXN0akJ2SHhTQkVYdGJkY2NCN19WbXBmXzlpX0UwMm5sdlFpejRrXzRUQUliZnY4ODUxZHA5YnFFNFpROTFnc1FUYnB6QWhIaUV3ekdIbkU?oc=5",
+"date": "2026-11-15",
+"time": "19:43",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "전남광주교육청, 학교체육 혁신 사례 공유…교원 전문성 강화",
+"source": "중앙이코노미뉴스",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PSktwTWdwWm9iUmtmQ1l5cjkyclNaZC1qSUFjaEtWemdZLXhSdy1KMkpnWC1KUDJUZEpSa19vUlR6Ri16NWIzc1RrWG52cjlVMThvLXdXMzJ5UURTM0JkMlZNczd5SzZnNC1oTVc5aUNBQQ?oc=5",
+"date": "2026-11-15",
+"time": "18:53",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "전주에코체육센터, 공공체육시설 ‘최우수’ 장관상 수상",
+"source": "전북중앙",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13QmFRYXdzOHlkRnE1dWdobEJJWHlmUVhkT3VNV1dnT1RsdmpsMS05YTYtd1IxNWZzX2R0dmJlNXN5NUhZeW0yVDMyUzN2TUJ2X0dVRlpXS2pqRzdQaTRNM2k3ZE01WEo3WVhR0gFrQVVfeXFMTXdCYVFhd3M4eWRGcTV1Z2hsQklYeWZRWGRPdU1XV2dPVGx2amwxLTlhNi13UjE1ZnNfZHR2YmU1c3k1SFl5bTJUMzJTM3ZNQnZfR1VGWldLampHN1BpNE0zaTdkTTVYSjdZWFE?oc=5",
+"date": "2026-11-15",
+"time": "18:44",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "화성특례시, 시민과 함께 '2027 전국체전' 준비 시동",
+"source": "뉴스웍스",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vblU5UlJka2Ywbl85LWdwdlNPRG42SEFSZ0ZtMGM0RWhXVnhyLVZ4d2RmdGJxRmZSU3ZQbFdUZmc4bE9iWlo3VTIxTmdySk9ZZy0zNlFPR0NYZWVxMlY1czdyQjdiMjdmOHhyRE1MSdIBc0FVX3lxTFBsZmFyemdaZ3BWZDZXaHE5V3A0cHlPMHFyTFlwT2JvVF9KWUw2ckpEWkVKMlBFZmJRbmFnWWpCa3VWM3UydmdiS3BXakJudlNXMVFJUWlRa3o5S2pJeC1ETnVBNnNydngzMTU1Sm5XSlZBWkE?oc=5",
+"date": "2026-11-15",
+"time": "18:14",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "경콘진, 콘텐츠 산업 ‘책임 있는 AX(AI 전환)’ 본격화",
+"source": "경인종합일보",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WZlFBWGhyTlNOeUhjTGlWZ1dta3VjSDktM2Q2Q0FEdDBCRXZqeXMtTGFtOE9yeVJCQzhxa3BDSlQ3V1JLVEk2aTFFeDJxcldJQWZrSEZsb2dvNnJWWDJTOWNWeEZRLUJMVVZKYjlwck5od9IBckFVX3lxTE1WZlFBWGhyTlNOeUhjTGlWZ1dta3VjSDktM2Q2Q0FEdDBCRXZqeXMtTGFtOE9yeVJCQzhxa3BDSlQ3V1JLVEk2aTFFeDJxcldJQWZrSEZsb2dvNnJWWDJTOWNWeEZRLUJMVVZKYjlwck5odw?oc=5",
+"date": "2026-11-15",
+"time": "18:10",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "울릉군, 배우 조재윤과 지역 관광자원 알려",
+"source": "경상투데이",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nNUQ0ZDZ4MnFTMmM0QjNuUTRzVzVyOXNsQlRWNUEzdk9haGtjb3NyU1pvRlJIZG9vVDhXVFRMZ3pYUWdKdEJFMk1iT0VsYnlPQXdUcjVmcHJ1eGVVZUpZUFNVbTZKNTQ?oc=5",
+"date": "2026-11-15",
+"time": "17:58",
+"first_seen": "2026-11-16",
+"units": [
+"f-tour"
+],
+"tags": []
+},
+{
+"title": "한국도자재단, 온라인 쇼핑몰 운영 `부실`…상품 품절과 경쟁력 `제로`",
+"source": "일간경인",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE91SEtESFFqd1FDTGlJZ3pEcHp0d2c3Q3hBWUF6d0N3SC1ydzMxTjZVVWU3TWRNR182MkpSSUd2dmRWQWYz?oc=5",
+"date": "2026-11-15",
+"time": "16:55",
+"first_seen": "2026-11-16",
+"units": [
+"a-kocef"
+],
+"tags": [
+"쟁점"
+]
+},
+{
+"title": "경기문화재단 경기창작캠퍼스, 문화소외지역 예술교육으로 사회공헌 실천",
+"source": "산경일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tLXVIRldTbm8wb19JMDNmZm1nLWtkZ0RWUVpBQlVXRFVncWE5Y1BMLWF0bndiRFBSQy13bHdPYTkwNFhwcmFkMVZJVTVZd29DVTFLaUVtVzRHa0VJQlh6N21Jd0p3Znl6QnJhV0I3bVU?oc=5",
+"date": "2026-11-15",
+"time": "16:49",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "[포토] 경기도 문화유산 제122호 ‘안양군 묘’ 시향 이어 정석공파 선영서 시제 거행",
+"source": "경기신문",
+"url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BR3paMXNNc2FiTHR1RjRYb3U5bVpzbllCTHFXRlZ3YUxDUG1PN0tJQllyRWNxQWVqNzV3TnJ0OWExZWFDLXItNS1XYzVObmFZZU16eFdxLXlGZHU0YXBIb19n?oc=5",
+"date": "2026-11-15",
+"time": "16:45",
+"first_seen": "2026-11-16",
+"units": [
+"d-heritage"
+],
+"tags": []
+},
+{
+"title": "문화예술후원매개단체에 경기문화재단 인증 영예",
+"source": "인천일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90dmhOa214ZlRQcFBRZU5pT3JBRmxIUFVZRFRoTDl6QmxtdGhPenlyeFd3VnE1X3pCS2dScDdpWmdmMEdVS0tfYkV0NDFOU2xydFQxdFFjVkxwNjN6NWU4Q0xheWlzNzY3bEpZRF9hdDc?oc=5",
+"date": "2026-11-15",
+"time": "16:44",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "전주 에코체육센터, 전국 공공체육시설 최우수",
+"source": "전라매일",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyRTJrZjB5cHVyekxoVTVCS190MlFqWTg0UFhPbzFZaTV4WnVzYXB2X1NrQm1CLTFpeWpIVmlJajZ1eWtkcFhwRWhYcE9qODZFZ3c?oc=5",
+"date": "2026-11-15",
+"time": "16:40",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "채신덕 경기도의회 문체위원장, 공공기관 협업 통한 성장전략 마련 촉구",
+"source": "산경일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zQ3VPd3pobjhtNjdLNlQ5TTZmOUE3YlpUTklSSUNxUTdfLW9kQXE4WTQwWGNJTE91S1JWNUxXRVZKU2NscTlMVVB1TWVBNWwyOEVxNGdlOGpFWTMtT0dPUkM4V1g2Q3VNSTF3cE1RM00?oc=5",
+"date": "2026-11-15",
+"time": "16:17",
+"first_seen": "2026-11-16",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
+"title": "경기도체육회, 민선 3기 회장 선거 공정성 확보 나서",
+"source": "경기신문",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5McENBcWtqWEpKa182WE1ZYkpzSWpiczUzSkRLUW1tT2pwZFlwbFIzQUgteW94TXpvRlZlLVlzR1ZaaFFqbTd6UlBkUndkSnBOTVpKa1QyTWNaeTFyRi1QM1BWZDY?oc=5",
+"date": "2026-11-15",
+"time": "15:56",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggsports"
+],
+"tags": []
+},
+{
+"title": "충주시국민체육센터, 우수 공공체육시설 선정",
+"source": "동양일보",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ub1RFbGN2X3l5TnNQcG1OWEY3UHZCdlZxV01ka0VpcXFTUm1MRThsRkVEd2NsTWhrMWxwR2pXc0thUVctVzE4MG05Z2Uwa05ZeWlrbE00WW5FS0c5dUl3eVdqUGdJaHpDVy1r?oc=5",
+"date": "2026-11-15",
+"time": "15:50",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "전통 장례행렬부터 민요까지…'횡성 무형유산 원형 공개 행사' 열려",
+"source": "뉴스1",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tWmZpNnFwWG1mT013VTNTQUhVbW1jSW4xZ3hfWjdZWllDdDVfWk5mSWVxT2lyUnRvbUE4Y3QyTHdfdFlDZXFZczdVcjFOaUxFOUZrVg?oc=5",
+"date": "2026-11-15",
+"time": "15:48",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "충남 문화유산돌봄센터, 전국 평가서 S·A등급 획득",
+"source": "아시아투데이",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qMzdUNURxQkh0VE91c0JtWU85aEQwZVNSclppdDlYMnhvcXljanQxM0JxZURaMEdNOFlHTDVadkR5c0lHa3NqNUszb3hBTjNrOEFXMTRyUGtEUHNReFM2Rnk2MnZrSC14TnU0MDFB?oc=5",
+"date": "2026-11-15",
+"time": "15:25",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "봉화국민체육센터, 우수 공공체육시설 선정…경북 유일",
+"source": "신아일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15T1VNanlXdmZ6aU1ESjJJTFRMZlNYTEdSOGt1M3d1bFM5RVd1RTNZVVNtTlhjSVR3OENoVU5VTDRXOVAwblp1ZDlSZ2s5OTJrTVdsdEYzMWhYdlVFcTB6dVZ1ajUza09KdDg5eDBvaXE?oc=5",
+"date": "2026-11-15",
+"time": "15:19",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "경기 시각예술 작가, 뉴욕서 전시…경기문화재단, 해외전시 기획지원 ‘Material Rhythmss’ 개최",
+"source": "경기일보",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FNnBxYkw2YVlNZUhWWjd3cG54RzhjT0hsLXBjN05qcUsxbVktSXhjQ2taWGNSYnVyR1dtVnhrelpGZmE3RzRpN01yS2wxaFU2WW9XTzJrbDNKVEk?oc=5",
+"date": "2026-11-15",
+"time": "15:10",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggcf"
+],
+"tags": []
+},
+{
+"title": "시흥시 최초 전문예술 공연장 ‘시흥아트센터’ 개관...문화도시 도약 발돋움",
+"source": "경기일보",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtUEozWFVOTE1rNFpLdzZodklfOFAwUWlKMUo5aXVlSmtpenJVa3dUWEVhYWV2YkQ1ZFBqZmIyeVNac1NYblpyTDVUYkNHMm9WbXdQdm5fdHNjT1k?oc=5",
+"date": "2026-11-15",
+"time": "14:59",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
+"title": "충남 문화유산 돌봄 2곳, 국가 평가서 상위 등급 달성",
+"source": "금강일보",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rVjR3UldYaUFNaVJpU3RRS1Mza0FoYzFPc3VkQ1FBd2ZqeV91UVBUZHFwa2RVNG9KaTVZMWlScXlOR3BvelVweHE1dkVFWTZkWG1rb1NiQjV2ZUpla3FDdkV4bEs1aEhyVkE?oc=5",
+"date": "2026-11-15",
+"time": "14:24",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "충남 문화유산돌봄센터 2곳, 국가유산청 평가서 상위 등급",
+"source": "놀뫼신문",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NSFpSbWZyYTNUMy1XbFFYSGUtdFBUSWZkMWx2dklTeG1qQU1IVlVtdkdic0FuTWNJZHVUS0xKVzVzbDRWdVdoYjlUTl9iVmtnWGEtc2R0TEtkN3hjckE?oc=5",
+"date": "2026-11-15",
+"time": "14:09",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "경기콘텐츠진흥원, 12월 'AI 성과 자료집' 발간…교육·제작·투자",
+"source": "전자신문",
+"url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12T2hYa3Z5UE53b0xPdVJRZy1ENjZRS2tmbjFMRXhJOURWaDZQWDQ0UDE3MVhiVUlGTVh2emhCZXdjOHB0MjZYUjhBNjkwdw?oc=5",
+"date": "2026-11-15",
+"time": "14:03",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "충남 문화유산돌봄센터 2곳, 국가유산청 평가 상위 등급",
+"source": "뉴스프리존",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92RnpfNFhxcDNHVFdwb0xvYkVJZmNqaW05TVNBbm5lRW8weVlKRjdkQktpcDV0ZmRQNFFEME9jVE5kejN4ZUpVX0pUWFJZZkVGR0ZLWndGekxaQ1BBZFM2dDc0YWd6M2xRa0hvRkl6Y0x2MWvSAXdBVV95cUxPY1hIb0E3U3k1YnZDeWJ1bEFYclJFclNGZm41VktFS0RLdFlBVDA1aEFZWjdTVmhSQ3ZEM0FwY25lb1VHZ2ROSnNld29ET3p5ZDNHeDY4UUt3c0lkT0ZaVzU3UWRhajBrV1BicHp0TFM0TlJaQjRKQQ?oc=5",
+"date": "2026-11-15",
+"time": "13:53",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "화성특례시, 2027년 전국체전 성공 개최 기원 걷기대회 개최",
+"source": "메트로신문",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tdkFmWWxacUNFMmhkMm1jQUFkOXhSU3dFVjdVdlRGTm5RTnRxVmJUbVF4UXF1NzItcHdxbk9WN2JGYnZQcHpYclJhX3RCQ3J0SzBubVRsbkpuVEVOSnVVdg?oc=5",
+"date": "2026-11-15",
+"time": "13:52",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "경기콘텐츠진흥원, AI 전환 전략 본격 추진",
+"source": "메트로신문",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wUUdxbWhHaVhCNFZqX0lZcE1FRW1SVmRvRUhlNkVfa09kLVJwNENJazl1cGI3Ukh1ejlLN2plNHA5NERDVHhzU0VZTVJjcEtoeW1YQ1V5bWVFLVhmN3ROQw?oc=5",
+"date": "2026-11-15",
+"time": "13:51",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "달성테크노스포츠센터 '전국 우수 공공체육시설' 최우수 시설 선정",
+"source": "www.hidomin.com",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoSFJpYlNOOWpadzdvbHJVU2dYbnQ1eVNYSUN1VkxTN2RibHlEWV91YWpKMThfY0J5c1pPd25SVGYxSGozcDNwYkp6RHloRXc1WlhiUU1pRXh2UlduaHhiRUF3dTJhRUVkOHc?oc=5",
+"date": "2026-11-15",
+"time": "13:45",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
+"title": "경기도의회 행감, 경기도체육회·장애인체육회 예산·회계·선수 안전관리 부실 논란",
+"source": "아주경제",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLZDJjeTdPZWRvZzFqUVdvdTByaUEwR2U2d1I2Q1BWbXNnamFGa1R0QVhrWFJRNDU5bWFJQ1VpdGcxMVBGNGFFRUd5NTE4S18zR1g5ZG9BbljSAVhBVV95cUxQS2QyY3k3T2Vkb2cxalFXb3UwcmlBMEdlNndSNkNQVm1zZ2phRmtUdEFYa1hSUTQ1OW1hSUNVaXRnMTFQRjRhRUVHeTUxOEtfM0dYOWRvQW5Y?oc=5",
+"date": "2026-11-15",
+"time": "13:38",
+"first_seen": "2026-11-16",
+"units": [
+"guk",
+"a-ggsports",
+"f-sports",
+"a-psg"
+],
+"tags": [
+"의회",
+"쟁점",
+"예산"
+]
+},
+{
+"title": "충남 문화유산돌봄센터 2곳 전국 상위권…동남센터 3년 연속 최고등급",
+"source": "뉴스아이이에스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fMlN4ckZQWFBQUmVCXy1LcUpxWS1JMFp1bW1yRGhDUkxQTkxVdVIzT1dqYk0tb2FSbTRMa0dBVFNmUHRRLVY3WXd0amh4Rm1nVjZCR0FMQk5VNURFenA2LVZmT0FRakJ4cUpJckRB0gFyQVVfeXFMT0xNNkxWWDZPbi1UNnBsa2RXWks0MW02b0pWRXRnQ3A0MlVMdjdLeE42cW82eVlZcDdZMDBJZFZPSGRWMDZiSFItdDl2RVRsRnBNNUVfVU83VWs5Rlk3RVRjbXcyblVtZkg0elFfT3RaYzNB?oc=5",
+"date": "2026-11-15",
+"time": "13:33",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "충남도, 문화유산돌봄센터 2곳 국가유산청 평가 상위 등급",
+"source": "전국매일신문",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VTERlTkZybWt4aVE5QWNZTVNRU1NqekVDejk5X2piM2RZQWZpMTBQa2pDMXBudmtFVGNLUGxFT1BtWXhGSTdIMjc3WW9Id2hrb2hBM2ZnREVBS3pIM08zX3dNdlRfcnRSdzdkclh3?oc=5",
+"date": "2026-11-15",
+"time": "13:27",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "경기관광공사, 11개월째 사장 공석…경영 공백 `심각한 우려`",
+"source": "일간경인",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA2blVmRFNlMms1bl9rQjNsVEplUkN0aVQxTTBaUWZYeHozSjh1cmI5aUlDeGVtM3VRN2FiUjFBYWY3R1Jq?oc=5",
+"date": "2026-11-15",
+"time": "13:26",
+"first_seen": "2026-11-16",
+"units": [
+"d-tour",
+"a-gto"
+],
+"tags": [
+"쟁점"
+]
+},
+{
+"title": "화성시, 2027 전국체전 성공개최 시민 참여 본격화…동탄호수공원 걷기대회",
+"source": "필드뉴스",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pTFU3QmhnS0ZhN2JxVU50SUU3eUlRUGFWN3RWa2ZDS0FCaGhZTXNFOTgtS2RQcm5JVjYwTXJ5NU0zZ2pjekZBR1Z6QzFuWmF6MXFlQlNSZ1Q2SDBxSXlwTW1jU0VFMm1k0gFsQVVfeXFMTWhCM1FKV2prVE1aem5ncnFjS1F2eFZfdE1IT09LVkdHWkpIcTBRdElocFNILTNfWW9iN1lfM3lUOHM0UnQzSUZLcWtiNndmaW4xNktMSEhGcXdEYmxxU0UyWHlUQmlYa2NsVDc0?oc=5",
+"date": "2026-11-15",
+"time": "13:24",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "경기도체육회, 민선 3기 회장 선거 운영위 9명 확정",
+"source": "경기일보",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4MGNvSnB1cUNuRmJSTXZzS2N1WXV0Q1Mza1ZtNThCN2FQVktXWlAwbVVJTWxPcHRVbEpRQUNTOUZQZ3dPVlJTUFQzczE1T0FRSENnMXpDSzlValU?oc=5",
+"date": "2026-11-15",
+"time": "13:19",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggsports"
+],
+"tags": []
+},
+{
+"title": "경기도체육회, 동계체육대회 개최",
+"source": "전국매일신문",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HSjRNcGpqY2tWeGtfdVNtVDRaSzlFaWhiMnhITnBmYUlPSlhVSWhrZUZkVjc5VEl3dlpvMElZcEFCdUQtcWJ6MjZHNVF4clRDWjNCQTdhU0psWnAxWm8xSTZzSzc5dzd0WmdDbVRn?oc=5",
+"date": "2026-11-15",
+"time": "13:13",
+"first_seen": "2026-11-16",
+"units": [
+"a-ggsports"
+],
+"tags": []
+},
+{
+"title": "갈 곳 잃은 한량·색시·승려…언제쯤 화합의 길 걸으려나 [경남 무형유산을 찾아서]",
+"source": "경남도민일보",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uT2ZQajVqQk83Z21ZbGtlMmNqamd3d1Znb0ltX2RpQmc5S2JhYzZOd2xXWmJ0VVpQeUUxdmRQNm84SlFURjhEUUx1dUJZekQ0djZDenFXSW1aaHdES21ycDEtb1JCRmdHZ2c?oc=5",
+"date": "2026-11-15",
+"time": "13:12",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "경기콘텐츠진흥원, 12월 ‘AI 성과 자료집’ 발간…전사적 AX 결실 공개",
+"source": "https://www.newscenterkorea.com/",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HX0FPUmFaY1JSMkF2QUoxNnZuTDFJQmZMNTlDQ3NkaTNxWDdna2hDMl9zT3VTX1lEcnhwMW1kQzU5ZjA0c1RIUDJhUkVNZnRKUjdzSzVZS0R4VTFtNHlJeGRBTUhKVFR2Ri1IdXB0ZnNaQQ?oc=5",
+"date": "2026-11-15",
+"time": "12:57",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
+"title": "화성시, 동탄호수공원 걸으며 2027 전국체전 성공 기원 '힘찬 발걸음'",
+"source": "아시아경제",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80a3QzRGo1ODgtY0tMckxfZ0dqSmk5SVJjOHpFMUhwcHowWVpjRjZ3cEhIV3FtdGd6dzR0eS1XYzhVcC1td2RNRDlOcGpVb0VJOTlmQnAwcVpab1JibG11Yw?oc=5",
+"date": "2026-11-15",
+"time": "12:51",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "박준모 경기도의원, 아동돌봄 기회소득 서비스 품질·예산 개선 촉구",
+"source": "신아일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCQ240QjZpTklSLTM3bmFZRGl4MlZ1R1p4UTVuUkwteEQyU29WcF8tajdHOGpwcXJoMjZ6aTNkYjg1bzg2MFppZDFrWGZjV0Y1MDhLTE1qZFd5VEFXTGlCeWU4bzQ5aE4xdzI2QUl2aG4?oc=5",
+"date": "2026-11-15",
+"time": "12:22",
+"first_seen": "2026-11-16",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점",
+"예산"
+]
+},
+{
+"title": "충남도, 문화유산돌봄센터 전국 평가서 S·A등급 획득",
+"source": "뉴스티앤티",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oMFB5MV83N3BENU1kTm5UbHhGeWRnV0JUVmp2bHF0eEZHSkluRjVWRmZwZnZEYTZjWEJnTS1MUkVMUnA2d0ZES0dQR1VYczhnS3lQYmU4ZDFHTHNMRG5HeTc2Rk02UmozZUE?oc=5",
+"date": "2026-11-15",
+"time": "12:11",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "화성시, 2027 전국체전 성공개최 기원 걷기대회 개최",
+"source": "뉴시스",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wUHVkdk1aaWx1TVJ2SWR6RlJDSXJoQUpaUnhzVmF1WWhqTl9NemNQMGZuZVlUWllTSVFtVTNuNG82QW1nbmpHR2t2SDJxQ19EMk1nSU82RkhJOXpwVjQzcGktVWI2MEZKVUprMmxzQUpLbDhmUGxJRtIBeEFVX3lxTE9wUHVkdk1aaWx1TVJ2SWR6RlJDSXJoQUpaUnhzVmF1WWhqTl9NemNQMGZuZVlUWllTSVFtVTNuNG82QW1nbmpHR2t2SDJxQ19EMk1nSU82RkhJOXpwVjQzcGktVWI2MEZKVUprMmxzQUpLbDhmUGxJRg?oc=5",
+"date": "2026-11-15",
+"time": "11:10",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
+"title": "경기도수원월드컵재단, 업무추진비 부적정 집행…무려 117건에 이르러",
+"source": "일간경인",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1kcVFPa0hjVENveWs5UXZhSHNsSUQ1U3JwNWxYU1ZMUGl3OTlRTmxDNjZSTk9MUkVyVm1TblRZRkgzNmNO?oc=5",
+"date": "2026-11-15",
+"time": "11:02",
+"first_seen": "2026-11-16",
+"units": [
+"a-swc"
+],
+"tags": []
+},
+{
+"title": "문체부, ‘관광진흥법 시행규칙’ 개정 공개토론회 개최… 방한 단체관광 쇼핑 수수료 상한 기준 논의",
+"source": "디스커버리뉴스(DISCOVERYNEWS)",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mdE5iLXR2SnlRcjhCRVhSdGI2TURqY01pR2FIWWFvblAtMGtEYlJuQjJnWE8waTFZRkNLWGg1ZTZLbWJsTWdtTFd4bG9SUFFSSjRveUdzbVNudW9RNTZzbmZ5dDVrRnVqeDRUZEZjeDNtZw?oc=5",
+"date": "2026-11-15",
+"time": "10:55",
+"first_seen": "2026-11-16",
+"units": [
+"f-tour"
+],
+"tags": []
+},
+{
+"title": "議政｜경기도조정협회, 공식 워크숍에 임원 골프…체육회는 “몰랐다”",
+"source": "OBC 뉴스",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2WEE4WmtIaWNUWXJ5elF1UUs0M3dnemVENmhHeVNSVlc1MWlxbHlET3pib1VmbThiS3pOMDlrZmFwVXJGSHFfRmdNVE5CUWdjQkZaT0JHb3dPbUJFVGpWZm14Vk5ja3BmbXc?oc=5",
+"date": "2026-11-15",
+"time": "10:44",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
 {
 "title": "경기도조정협회 공식 워크숍에 ‘골프대회’…경기도체육회 “몰랐다”",
 "source": "이투데이",
@@ -278,6 +1364,33 @@
 "first_seen": "2026-11-15",
 "units": [
 "a-gcon"
+],
+"tags": []
+},
+{
+"title": "이오수 경기도의원, “관광사업 줄줄이 일몰 전략 부재 질타”",
+"source": "환경일보",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KUlZYVjBqUjQyWWRVa0ZwRmxmSjNDWDJ2cEI0R0NpcDVja3dfRENsY1M3RE9TaHFTOU1zdnk5WlIxR3ZZZVpyZFprUDZvV1AyazFKdWdtdlZ1aDhJY1RGb2NqS3dZMnhn?oc=5",
+"date": "2026-11-15",
+"time": "10:03",
+"first_seen": "2026-11-16",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
+"title": "충남동남 문화유산돌봄센터 국가유산청 평가서 S등급",
+"source": "국민일보",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xZWdzT2xyMUZYN3lEcG5NVlB3MzJCTk9VbTBJQ3FwMWlhQ2syS05Ra3lZNDNPNjljaW5TNmd1UTh3WlZYN2JMbHRySHdadEpPQXYxeVo5ME4?oc=5",
+"date": "2026-11-15",
+"time": "09:56",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
 ],
 "tags": []
 },
@@ -332,6 +1445,18 @@
 ]
 },
 {
+"title": "화성특례시, 2027 전국체전 주개최지 시민들 동탄호수공원 걸으며 “우리가 주인공”",
+"source": "경기타임스 e",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NN1BVR2xxODRuOUNKbVh0cGY4UlhTYWpZUkZjNmN5cVBSdVFBaWZ4YzVhQUZVT29MYVo0Z1BtSEF0d0ZCdFN3UlRSUUp4NmRBUFBUUjlKa0Y4bFYydk92a1M5V2l3NlRnMnFVVw?oc=5",
+"date": "2026-11-15",
+"time": "08:46",
+"first_seen": "2026-11-16",
+"units": [
+"d-games"
+],
+"tags": []
+},
+{
 "title": "경콘진, 교육·기업 사업화·행정 자동화까지 AI 전환 범위 확대",
 "source": "중도일보",
 "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84b0ZtUUh0OU51UzlPVU1LM3VMN3NGVzlSVlFSNWU2MWtxZkMtZmtFQmp2N2NsMFg3MXJqODA0bG5OS0pEVGJkU1dvVXhncnRGTWl1Skk4b0E3a1B3UkkycTdqdXQ?oc=5",
@@ -340,6 +1465,18 @@
 "first_seen": "2026-11-15",
 "units": [
 "a-gcon"
+],
+"tags": []
+},
+{
+"title": "충남도, 문화유산 돌봄 성과 전국서 빛났다",
+"source": "www.mediatoday.asia",
+"url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBWYWlGbFR0Q3hWX28wbzBDOUJlQXlOeXF3TV93aTdFLXBZamxnR1NZbGhaTThLbFN5c2o3THJMYVNieF9FSmhxZm93?oc=5",
+"date": "2026-11-15",
+"time": "08:45",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
 ],
 "tags": []
 },
@@ -392,6 +1529,18 @@
 "tags": []
 },
 {
+"title": "경콘진, ‘조강, 두루미를 띄우다’ 체험형 콘텐츠 전시…관람객과 상호작용",
+"source": "쿠키뉴스",
+"url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfMThyOWp1ZGNtdGROWERXY3JzTUhZYVNSMk9ZM0dSNjFMZWdUeG9PcXM0TGlGUDFkTlBWVE5FS2tzTzl0b3UxS21kTGtsamljSTFUYUNWWkVSelFkZFJKTG81MA?oc=5",
+"date": "2026-11-15",
+"time": "07:33",
+"first_seen": "2026-11-16",
+"units": [
+"a-gcon"
+],
+"tags": []
+},
+{
 "title": "[Pocus 용인 전시 해설] 백남준아트센터 《NJP 라운지 3. 하지민》… 몸과 호르몬 기호를 영상으로 읽다",
 "source": "얼리어답터뉴스",
 "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE92blRWdndDNWhKdDRuR05MUElPdWJualM1eWpHbWdSbmoyOTZVS3NlcjN0RkdlNG1rcTZSZkwxRjRHQXFCUzVfMXBB?oc=5",
@@ -415,6 +1564,21 @@
 "a-ggsports"
 ],
 "tags": []
+},
+{
+"title": "윤철남 경북도의원 “문화누리카드 있어도 쓸 곳 없다”…지역 간 문화복지 격차 질타",
+"source": "다경뉴스",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBhYmpuUGEwWjZxQW0tVWVqTGk2aDJaM3JfWDVvNlo0ZUhJTi14aXdVRFZKM0J1cXA5OVQzOVZEMXRMeE02?oc=5",
+"date": "2026-11-15",
+"time": "05:01",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": [
+"의회",
+"쟁점"
+]
 },
 {
 "title": "의정부변전소부지 공동주택 신축사업(탑석 푸르지오파크7) 건축물 미술작품 선정결과 공고",
@@ -557,6 +1721,18 @@
 "tags": [
 "의회"
 ]
+},
+{
+"title": "제8회 하노이 국제 영화제에서는 12편의 장편 영화가 경쟁 부문에 출품되었습니다.",
+"source": "Vietnam.vn",
+"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTlBuNHJPaWw4Tk9ucURqTkprdVBxZm1MRG04Z040VjNNUzRyOVNGX1drQVIzcXZTYVVCazdWSnRIbUV3TTJnZTVKTk11cG9HYTBiTnVhUHFTMlhlZlZLRGVXZGZxclJHMUhNXzJZSW94UEhta1RvQnFiWVd1Uk1TdXBZTFlMYXFXN0ZnNEVGenRkMmlTdGxiU0U2RQ?oc=5",
+"date": "2026-11-14",
+"time": "17:08",
+"first_seen": "2026-11-16",
+"units": [
+"f-contents"
+],
+"tags": []
 },
 {
 "title": "수원월드컵재단, 다낭 세 번?…8일 만에 같은 곳 또 방문",
@@ -1202,7 +2378,8 @@
 "time": "18:26",
 "first_seen": "2026-11-15",
 "units": [
-"a-gto"
+"a-gto",
+"d-tour"
 ],
 "tags": [
 "쟁점"
@@ -1218,6 +2395,33 @@
 "units": [
 "d-tour",
 "a-gto"
+],
+"tags": []
+},
+{
+"title": "경기도의회 박준모 의원, “아동돌봄 기회소득, 이용자 만족도 높이고 돌봄 수요에 맞는 예산 확보해야”",
+"source": "뉴스Q",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tNUxfc0NNbUZYVEFFanp6WTlyT3RCdm1sTFNQdGtmVmJQLXJtU1Z1bng1ME9FUFpQRXJEVjItWUlZeEZCVjdtaVZfbXVqRUZFcHVvLVN1UzlBSUpfdmlxbVV1d1Y?oc=5",
+"date": "2026-11-13",
+"time": "18:17",
+"first_seen": "2026-11-16",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"예산"
+]
+},
+{
+"title": "장애물 없는 ‘시흥시 장곡동 생활체육시설’ 장애인 편의 점검",
+"source": "에이블뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPVW9iMzFORDhFaFVKcDU3UGNjdTBOR2M3bUd6ck1IRzR6ek5vLXhWQmdSOVJyREVEMDR5YlR4S1FGakdBU2ZDRXhfZ3ZEQ3BqNGN5a0dTY0lMckhIS3pQeGFDdlF6cVpicGNkaW930gFyQVVfeXFMUG5iMGI1MUNQQkpHRUM1bEhaR1c5VFYwSUNEYXlJRHl4S3BhbkFMa3dFQ0RiaGJEaTZTUDA1dEFubTBCUHJOOGV3eS1nMnNNa3ZJM0pPcnpvZzVrTmt0XzBCbHlSa2lDNzFNMkhtbVJGNjBB?oc=5",
+"date": "2026-11-13",
+"time": "18:14",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
 ],
 "tags": []
 },
@@ -1403,6 +2607,18 @@
 "first_seen": "2026-11-14",
 "units": [
 "f-sports"
+],
+"tags": []
+},
+{
+"title": "방한 관광객 2000만 시대⋯ 유통가, “외국인 잡아라”",
+"source": "브릿지경제",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MeXdnMml2ZWF0bmRibFVQT0dpS1N3UU5LTEpMbWZEV0x1MmlkN295alFOVHRNc2Y4V3RLWGEzWXFBbzROX0NKQmx5dnFrUDdWRUNlaElZTS0zUQ?oc=5",
+"date": "2026-11-13",
+"time": "17:00",
+"first_seen": "2026-11-16",
+"units": [
+"f-tour"
 ],
 "tags": []
 },
@@ -1886,6 +3102,18 @@
 ]
 },
 {
+"title": "전남광주특별시교육청, ‘학교체육 나눔 한마당’ 성료",
+"source": "전남광주교육통",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pUDRwLXdQdUMzTlVxQ0lxb01CMFdEclJOZzJ5T3pSQkpVSE0ydTFobmN2amQxYjZ1SmRreEdmZ0UxMlZ4dTN2Q3Z3bjBvdm9nZjB0RWNuUzBETDNCN0JGNEdYUmlfZ21a0gFsQVVfeXFMTmF1YmpvY1h3cDNPamlYS0hxMHVud0FTS3gxZ1EwTlBLMk52ZXFyM1oxLWo1eEdDT3BrRTRRU3QyaXlKUVJNWHhiLTFrSmRWZmxSdnpIR0xJcm5TZFh6ZTZLdUJwM0JXYW1ubXBO?oc=5",
+"date": "2026-11-13",
+"time": "14:44",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": []
+},
+{
 "title": "경기도의회 최성운 의원, 경기도체육회장 감사 이석 문제 및 장애인체육회 청렴도 개선 촉구",
 "source": "웹이코노미",
 "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52Q2MxMzlYbGhCZHRWaV9wY0NoY2RmTnZwSW9oZk03WTEtTFBraGdkVk1jVXozMDBwcTlSbXJFMDV1Z3UyVjE0WVZHVmIxeWFXZ2hxMjIwYlJ0MEg0WkpLLTR0RGE5UE5ldHEydmVHb2Zqdw?oc=5",
@@ -1898,6 +3126,20 @@
 "tags": [
 "의회",
 "쟁점"
+]
+},
+{
+"title": "정용한 의원, 학교체육 활성화·생활 속 응급의료 안전망 강화 위한 조례안 2건 대표발의",
+"source": "서프라이즈뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2S0xOMmVlbEhrVk95VlJZUldxOWZGMDlNZWRiejl6emptUnQ0bGh2Nm1qSVBXNHhleTVUd0x6MEVaRm9mMDQwR0FzM2ZGemU0UUM2TGxOZUxIalpHQ09BMm10Zk44bGJGX3gxOGRR?oc=5",
+"date": "2026-11-13",
+"time": "14:43",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
+],
+"tags": [
+"의회"
 ]
 },
 {
@@ -2010,6 +3252,18 @@
 "first_seen": "2026-11-15",
 "units": [
 "d-games"
+],
+"tags": []
+},
+{
+"title": "만추 in 문화도시 수영, 이번 주말은 수영구서 놀자",
+"source": "부산일보",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UWmN3akVuQWJwNkQ1OS1FRm91QWF3UWxMcE5WVnRlelF1cnN0ajBmWHlDYkdFQm9FdUhTLVJpTUFqTWpvNFlWMTM3ZmljX1VTNkF5RDdCWU5pWlAwbzVYcjdZVG1MOGhlekZjcDVETWxMUVZFWVhGUQ?oc=5",
+"date": "2026-11-13",
+"time": "14:00",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
 ],
 "tags": []
 },
@@ -2321,6 +3575,18 @@
 "date": "2026-11-13",
 "time": "11:23",
 "first_seen": "2026-11-15",
+"units": [
+"f-heritage"
+],
+"tags": []
+},
+{
+"title": "국가무형유산 전승자 암 치료비 지원 - 카드/한컷 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PeW4xNE5Ra2ExUHdHTlF6OHh6SDBGbWtTZE5Ld3ZxVU5faDRja3hTcURHeklramlQY0JBR3Y1ZXZyWVRic0xfbnZjRW9YWGRBWXd0aVVCblJldGNhLXk2bVlxSWNsYU54RkNYVW5n?oc=5",
+"date": "2026-11-13",
+"time": "11:23",
+"first_seen": "2026-11-16",
 "units": [
 "f-heritage"
 ],
@@ -3271,6 +4537,18 @@
 "쟁점",
 "예산"
 ]
+},
+{
+"title": "[국가유산청] 한국 현대사 기록 6건 예비문화유산 선정… 23일부터 사진전",
+"source": "커넥트이천",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BRU1pMVJtQUFDdGUyOTJXQUs0djNXSnkyMEtSX1U3ajFVdG5WNFBucVdlQVFEd1FCVkRWc0UzSnV2eDYtaUkwOU41ZWdlRWRWRUJqU3RhVVlBNDhtSVE?oc=5",
+"date": "2026-11-12",
+"time": "21:30",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
+],
+"tags": []
 },
 {
 "title": "[위기의 문화도시4]\"사라진 창작 공간\"...대구 떠나는 청년들",
@@ -4330,6 +5608,18 @@
 "tags": []
 },
 {
+"title": "MB 은행, 문화체육관광부와 협력 협약 체결.",
+"source": "Vietnam.vn",
+"url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNnRTcUpHUDJZYTFEUlJnYUZxTElFcnI5eG1QN2NETk5MeXY5WkpQMkFlRXFNNG91TE1mSERYS2dQMllGYmJNMlJDYXl5LVFYSUxmbUdQZldkMkoydXBGdWxPal95czV4SGd6ZDJtVGlTV3ppRXRHT1ZhV2czeXVLZXlaYU80RFlYYl9NU2dGN1hpQQ?oc=5",
+"date": "2026-11-12",
+"time": "14:57",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
 "title": "수원도시공사 광교웰빙국민체육센터, 전국 274곳 중 '최우수 공공체육시설'… 문체부 장관상",
 "source": "경기타임스 e",
 "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15OUlMWFlMQVlhMTV1WFlzTWxycy11Z2hYaVYtY1lpNVB5VmVYaFNiM3prOXh5a2Y5a0VCRDlaNWRPQVAxamwydjhpcFNpZUJZanlXcVUwcFdKQnBuSlBQTnk0NllUbVhPc05MQQ?oc=5",
@@ -4477,6 +5767,18 @@
 "first_seen": "2026-11-13",
 "units": [
 "a-gcon"
+],
+"tags": []
+},
+{
+"title": "백락광, 경북체육회장 출사표···체육인 복지·국제 경쟁력 강화 선언",
+"source": "프라임경제",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yUzRYOFdYNldndE5qT2pSMTl4dTB4cWRxVUVqYlFYczV5bU5TWXdkUVZKZWp3MXZGOE1sN1Q1QUI2eFJRLTZBSjY3ak5GSXF0OHJWSzRsN3JuRUNjTUYyd1hBczd3QTVlVzR0emhWNFpVY0JoQUZXaw?oc=5",
+"date": "2026-11-12",
+"time": "14:12",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
 ],
 "tags": []
 },
@@ -4649,6 +5951,18 @@
 "units": [
 "a-ggcf",
 "a-ggac"
+],
+"tags": []
+},
+{
+"title": "메타, 틱톡, 구글은 인도네시아의 AI 저작권 법안에 반대한다.",
+"source": "Vietnam.vn",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZlRZQlh0Rkl1dURFLTdWWFV6WHVkamNPU1NNMkMzRlNNdzRGX0hxdmhMSzdFa251R09UZFMwOXRTVEVWT0FScXFzNjVlR3VuMGQtNkdRbFgycG9jZ0dENDVILUc5LUdCNkZLNHlVOFpoVzBkZHRSRWRLb0NTbTNONDM2VThSOUJvVFB2YlcxbllRNk50dVE?oc=5",
+"date": "2026-11-12",
+"time": "12:48",
+"first_seen": "2026-11-16",
+"units": [
+"f-contents"
 ],
 "tags": []
 },
@@ -5779,6 +7093,18 @@
 "tags": []
 },
 {
+"title": "문화체육관광부는 MB와 협력 협정을 체결했습니다.",
+"source": "Vietnam.vn",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaG83d3UyVTBNNDIzN1k2Yk9ocFJjX2xLV3kzM1MwSWRFbTY3YWtMNnhmWGt4UzI2WDkzYTBpNnc3VXc4YW1zOVdhNEZ6NHIyaTJBNFdxVDVESDhYZW5yZ2ZuU3NhbDZuZXd5Q3VUcTJVZzFIam5CamhrY3ozeG4weWpTeEU?oc=5",
+"date": "2026-11-11",
+"time": "17:00",
+"first_seen": "2026-11-16",
+"units": [
+"f-policy"
+],
+"tags": []
+},
+{
 "title": "숲체원 개원 앞둔 김해시, 야영장·박물관까지 연계 살핀다",
 "source": "직썰",
 "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ydEwzSXRDVUVDVWlYcEdnQ29OOW9DcEpHZWZ3VDhQdVllazl6X2NESFBCMXhXOVFXeGJTWGZ1b1NlaEtnbmlYR3Q5aHV0TmlTbjU5WmdXX3lMclpwQlh6eW1zMGdRSFMz0gFsQVVfeXFMTmhOV3B0MHFReHowR2kyUUNEMVJPTlNESFJTNkpyNVJqU19rcnBiX29zSE9nWlJpUi1aOVBCNTg4ZGVBa3I2ZFlqLU1kZURRdWRVd3Y1MWJnNjdvWmFYd2xKbzIybk0xMkhJdmFX?oc=5",
@@ -6219,6 +7545,18 @@
 ]
 },
 {
+"title": "영진위·넷플릭스, 영화인 120명 교육…K-콘텐츠 차세대 인재 키운다",
+"source": "동아일보",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yNURkTTRtdG5SNmktU2FXcTNSZk56SC1oMG5Pd29qM251Z0RZb21meXp6d0JZalpQdzZPX3hLdTdaZnYtQjQ5a1ozeGN1RVJINXROOFBOYWlpTDh6UVlJeGNZMkQwUzRoWk1UVmI0dGRKVlZMUFHSAWZBVV95cUxQVGIxQnRPdnJWZE9fTXpRN0xsNllMaDdyUkdlcmI3eEFqSlpWaVNvMXpGM0NhMG02cjJENnNLWVdMbVRfY0RlRnBVYWIwUlR4MmdIZ3Z4LTVqOGZyd3ltcWppZkxOOFE?oc=5",
+"date": "2026-11-11",
+"time": "14:42",
+"first_seen": "2026-11-16",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
 "title": "경기아트센터 사업비 46% 줄이면서 인건비 235억… 공연 기능 위축 우려",
 "source": "이투데이",
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GaC14eFR2VGlxbHNlUnBYWnFlMExXRGNlQ2UyVTE2Y3J3TGUwVGhQUzd5RHl4dUdZWkJ1dm5hSmRJYUNDUnZqN2luODZMckplOXFSTw?oc=5",
@@ -6332,6 +7670,18 @@
 "first_seen": "2026-11-12",
 "units": [
 "f-tour"
+],
+"tags": []
+},
+{
+"title": "국가유산청, '영덕 장육사 대웅전' 국가지정문화유산 보물 지정 예고",
+"source": "매일일보",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80SFNrVG5rOEJ4YXlETWFiZ1lMZXMxak5iX1lDdHhXWFZxV21GenlTRzhTM1hpMW45YmUtSjd0U2ZacXRPVWI1TG1WS3lKVU8xbDhPRlJWNnJubGtkRWhhRXA4YWo?oc=5",
+"date": "2026-11-11",
+"time": "13:47",
+"first_seen": "2026-11-16",
+"units": [
+"f-heritage"
 ],
 "tags": []
 },
@@ -7857,6 +9207,18 @@
 "tags": []
 },
 {
+"title": "K-콘텐츠의 미래, IP가 이끈다 - 콘텐츠 IP 수출의 상품 수출 파급 효과",
+"source": "KDI 경제교육·정보센터",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vZ3ZXQkh1U1RFa2FDWUVrT2s0UFlvVVBQSmNxZlVKaEY3Um9hQWNieS13d3JFak94SWIwUm5jTVRoczhBd2dYSW05YkRMQm1ua2xXbXd6OFhZSmxZUlNUWUZsRVJkWDVoZktR?oc=5",
+"date": "2026-11-11",
+"time": "05:55",
+"first_seen": "2026-11-16",
+"units": [
+"f-contents"
+],
+"tags": []
+},
+{
 "title": "국립무형유산원, 경기민요 보유자 고(故) 안비취 (1926~1997) 명인 탄생 100주년 기념 공연 개최",
 "source": "씨원뉴스",
 "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fb0IySkVDRHZTMUlLRFU3UmdOby1TLXZwUVBDWm1tc3gzU3J0TTBITENlaEwzei1KcThjLW9qb0pPTm9zUktHU25KMjJkNlFaZ3dQYWtZSVd6SWRKaFpJeWRNV0FHU2c?oc=5",
@@ -9361,6 +10723,18 @@
 "first_seen": "2026-11-11",
 "units": [
 "f-policy"
+],
+"tags": []
+},
+{
+"title": "오산시, 생활체육 경계 허문다…유·청소년·장애인 스포츠강좌이용권 동시 모집",
+"source": "아이뉴스24",
+"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oMjRvVFRCTm8waUZxMlkzSFc3OUhJdG1mOXF2M19VdlJUZFMzQ2RoR3FxUmtQeXpoREhTRmEyb3ZCRVlPMEF4OXhjWQ?oc=5",
+"date": "2026-11-10",
+"time": "13:27",
+"first_seen": "2026-11-16",
+"units": [
+"f-sports"
 ],
 "tags": []
 },
@@ -11575,6 +12949,20 @@
 ]
 },
 {
+"title": "경기도의회 한규찬 의원, “전국체전 경기용기구, 종목별 특성 고려해 지원해야”",
+"source": "누리일보",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuRUNoaF9HWnRPSzF2Q2k0bFJ2bkFEU3F2bzlxNF9ZT2ZxX0FFNjJDRldsMjZQaldJVjhGUC1aaUl6TGVOU0xzaHowRVhxNEw1cFpPODNHTlJsMDlV?oc=5",
+"date": "2026-11-09",
+"time": "17:12",
+"first_seen": "2026-11-16",
+"units": [
+"guk"
+],
+"tags": [
+"의회"
+]
+},
+{
 "title": "경상남도의회 공재권 도의원, 문화체육국 행정사무감사서 청년문화예술패스 이용 실적·제승당 자체감사 후속조치 점검",
 "source": "경기뉴스원",
 "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VYVlid0lVV1I3RXFYQ2lxaDRkcHRsMDVPdVpNWVhaa3N0OUptSzF2RjZXX0hFTGRxamY3bVN1ZnRvV3JobUw4TTgzVzU5ZGU0ajBZOUVlN3hMWDh3S0FTZUpnYw?oc=5",
@@ -12356,6 +13744,21 @@
 ]
 },
 {
+"title": "이병숙 경기도의원, AI 확산에 따른 콘텐츠 종사자 보호 촉구",
+"source": "전국매일신문",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vTkM2UWs1RVY3ZEtlYzBxNkhpOGl4WDBlWWVValVsbU5FN1hudE92OFN6TXJUUVloS2NtckZGN29EWXd3MXdGVkpjaklDRGQtS01HNTFpSmg3YlhUQzdrTlJUWXY3VkVuMFlreWR3?oc=5",
+"date": "2026-11-09",
+"time": "13:26",
+"first_seen": "2026-11-16",
+"units": [
+"guk"
+],
+"tags": [
+"의회",
+"쟁점"
+]
+},
+{
 "title": "원주시, 국제 트레일 스포츠 콘퍼런스 성료…마이스(MICE) 도시 성장 가능성 확인",
 "source": "강원도민일보",
 "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02bGRVVDdRTzQtYUNUNlRDUkE3TEF1c00xVDRnQjlnR21oRmljR2FLX1JxX1pvVEJvN2N2TUh4N0w2NkhqUmw5aXhjWGNSeWNjYUViTUp6cWM5eTJ2a1lZRm1BT0JVVHhN?oc=5",
@@ -12519,6 +13922,21 @@
 "a-gcon"
 ],
 "tags": []
+},
+{
+"title": "경기도의회 최성운 의원, “경기사진센터 운영실적 부실 지적, 교육프로그램 내실화와 도민 참여 확대해야”",
+"source": "성남신문",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xYkxBLTNLdUNTbl9vVUxvdmhNUWRTeWk4RzV0Z0RKSWYwVVBNU0pvVlBlS3JCRnhwM1ZBb1ZDTFdQTmF0VFFPZUlEdXRrbUxxbUVfc2JyejdhV3BBSnV5NjhLa0NrQmVucGdFStIBcEFVX3lxTE1hSnpmd3JOOGR5WEktUlE1M2lzZUZpcjRiT0pPbE9oZjltclBGUjlmRjFxVFcwQVZPcGg3TzFTOVdpYzhVMjMtbUNnMVB3VjhHeTJTakRMWTI1T2ZUWFFySFVWNElIRV8tYW9QTjdKUl8?oc=5",
+"date": "2026-11-09",
+"time": "11:43",
+"first_seen": "2026-11-16",
+"units": [
+"d-munhwa"
+],
+"tags": [
+"의회",
+"쟁점"
+]
 },
 {
 "title": "대구교도소 터, 50년 단절 넘어 문화도시로",
